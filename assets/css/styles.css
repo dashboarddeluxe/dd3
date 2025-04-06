@@ -1,4 +1,4 @@
-@import "font-inter.css";
+@import "./font-inter.css";
 @import "tailwindcss";
 @theme {
     --color-avocado-100: oklch(0.99 0 0);
