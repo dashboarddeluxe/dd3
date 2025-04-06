@@ -30,8 +30,7 @@
                                         <span class="mx-1 text-gray-500 hidden sm:inline">|</span> {{ end }} {{ if .is_code }}
                                         <span class="text-xl sm:text-base">{{ .title }}</span> {{ else }} {{ if eq .url "" }}
                                         <span class="text-xl sm:text-base font-bold">{{ .title }}</span> {{ else }}
-                                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-xl sm:text-base hover:underline sm:min-h-fit sm:min-w-fit min-h-[44px] min-w-[44px] inline-flex items-center">{{ .title }}</a> {{ end }}
-                                        {{ end }}
+                                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-xl sm:text-base hover:underline inline-flex items-center">{{ .title }}</a> {{ end }} {{ end }}
                                     </div>
                                     {{ $isFirstLink = false }} {{ end }} {{ end }}
                                 </div>

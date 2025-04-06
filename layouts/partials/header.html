@@ -3,19 +3,19 @@
     <header class="flex items-center shadow bg-black py-2 z-50 h-16" role="banner">
         <div class="flex items-center justify-center w-full px-4">
             <div class="max-w-7xl w-full flex items-center justify-between">
-                <a href="/" title="{{ .header.title }} home" class="inline-flex items-center hover:underline">
+                <a href="/" title="{{ .header.title }} home" class="inline-flex items-center hover:underline px-2">
                     <h1 class="text-lg md:text-2xl font-bold text-white my-0">{{ .header.title }}</h1>
                 </a>
 
                 <div class="flex items-center">
                     <nav class="hidden lg:flex items-center justify-end text-lg">
                         {{ range .sections }}
-                        <a href="#{{ .name | urlize }}" class="ml-4 text-gray-100 font-semibold text-base hover:underline js-scroll-link">
+                        <a href="#{{ .name | urlize }}" class="ml-4 text-gray-100 font-semibold text-base hover:underline js-scroll-link flex items-center px-2">
                             {{ .link_name }}
                         </a> {{ end }}
                     </nav>
 
-                    <button class="flex justify-center items-center bg-blue-600 border border-blue-600 h-10 px-5 rounded-full lg:hidden focus:outline-none" onclick="navMenu.toggle()" title="Menu">
+                    <button class="flex justify-center items-center bg-blue-600 border border-blue-600 h-12 w-12 rounded-full lg:hidden focus:outline-none" onclick="navMenu.toggle()" title="Menu" aria-label="Toggle Navigation Menu">
                         <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg" class="fill-white h-9 w-4" viewBox="0 0 32 32">
                             <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"></path>
                         </svg>
@@ -34,7 +34,7 @@
             <div class="max-w-7xl w-full">
                 <div class="flex flex-wrap">
                     {{ range .sections }}
-                    <a href="#{{ .name | urlize }}" class="px-4 text-gray-800 font-semibold text-lg py-2 inline-block hover:text-blue-500 js-scroll-link" onclick="navMenu.toggle()">{{ .link_name }}</a> {{ end }}
+                    <a href="#{{ .name | urlize }}" class="px-4 text-gray-800 font-semibold text-lg py-3 inline-block hover:text-blue-500 js-scroll-link" onclick="navMenu.toggle()">{{ .link_name }}</a> {{ end }}
                 </div>
             </div>
         </div>
