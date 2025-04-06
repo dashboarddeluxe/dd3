@@ -454,7 +454,7 @@ sections:
       - links:
           - title: "Google PageSpeed Insights"
             url: "https://developers.google.com/speed/pagespeed/insights/"
-          - title: "DD2"
+          - title: "DD3"
             url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
       - links:
           - title: "GlobalStats Statcounter"
