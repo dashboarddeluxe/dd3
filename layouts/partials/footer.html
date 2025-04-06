@@ -1,0 +1,7 @@
+{{ with site.Data.dashboard }}
+<footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 text-center text-sm">
+        <p>© {{ now.Format "2006" }} {{ .header.title }}</p>
+    </div>
+</footer>
+{{ end }}

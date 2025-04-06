@@ -1,0 +1,25 @@
+{
+    "name": "dashboard-deluxe-3",
+    "description": "Dashboard Deluxe 3",
+    "version": "3.0.0",
+    "license": "MIT",
+    "author": "Dashboard Deluxe",
+    "keywords": [
+        "hugo",
+        "tailwindcss",
+        "tailwindcss-v4"
+    ],
+    "scripts": {
+        "dev": "hugo server",
+        "build": "hugo --gc --minify",
+        "watch": "hugo server --disableFastRender --navigateToChanged"
+    },
+    "dependencies": {
+        "@tailwindcss/postcss": "^4.0.1",
+        "postcss": "^8.5.1",
+        "postcss-cli": "^11.0.0",
+        "prettier": "^3.4.2",
+        "prettier-plugin-tailwindcss": "^0.6.11",
+        "tailwindcss": "^4.0.1"
+    }
+}

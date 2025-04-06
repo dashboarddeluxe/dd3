@@ -1,0 +1,46 @@
+<div class="flex flex-col justify-between min-h-screen bg-blue-100 text-gray-800 leading-normal antialiased">
+
+    <main role="main" class="flex-auto w-full px-4 pb-8 pt-20 flex justify-center">
+        <div class="max-w-7xl w-full">
+            {{ range .sections }}
+            <div class="grid grid-cols-1 gap-4 mb-4">
+                <div class="overflow-hidden shadow-lg">
+                    <div class="outline outline-gray-300 h-full">
+                        <span id="{{ .name | urlize }}" class="block"></span>
+                        <div class="py-2 px-4 bg-gray-800">
+                            <h2 class="font-bold text-xl text-white">
+                                {{ .name }}
+                            </h2>
+                        </div>
+                        <div class="px-4 pb-4 pt-2 bg-gray-50 text-gray-700 text-base">
+                            <div class="grid grid-cols-1 xl:grid-cols-2">
+                                {{ range .groups }} {{ if .title }}
+                                <div class="text-xl sm:text-base font-bold xl:col-span-2 border-b-2 border-gray-400 my-2">
+                                    {{ .title }}</div>
+                                {{ end }} {{ $hasHeader := false }} {{ range .links }} {{ if or .is_header .no_link }} {{ $hasHeader = true }} {{ end }} {{ end }} {{ if $hasHeader }} {{ range .links }} {{ if or .is_header .no_link }}
+                                <div class="py-2">
+                                    <span class="text-xl sm:text-base font-bold">{{ .title }}</span>
+                                </div>
+                                {{ end }} {{ end }} {{ end }}
+
+                                <div class="flex flex-col sm:flex-row sm:flex-wrap">
+                                    {{ $isFirstLink := true }} {{ range .links }} {{ if not (or .is_header .no_link) }}
+                                    <div class="flex items-center my-1 sm:my-0">
+                                        {{ if not $isFirstLink }}
+                                        <span class="mx-1 text-gray-500 hidden sm:inline">|</span> {{ end }} {{ if .is_code }}
+                                        <span class="text-xl sm:text-base">{{ .title }}</span> {{ else }} {{ if eq .url "" }}
+                                        <span class="text-xl sm:text-base font-bold">{{ .title }}</span> {{ else }}
+                                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-xl sm:text-base hover:underline">{{ .title }}</a> {{ end }} {{ end }}
+                                    </div>
+                                    {{ $isFirstLink = false }} {{ end }} {{ end }}
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </main>
+</div>
