@@ -455,7 +455,7 @@ sections:
           - title: "Google PageSpeed Insights"
             url: "https://developers.google.com/speed/pagespeed/insights/"
           - title: "DD2"
-            url: "https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fdd2.netlify.app%2F"
+            url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
       - links:
           - title: "GlobalStats Statcounter"
             url: "https://gs.statcounter.com/"
@@ -659,6 +659,8 @@ sections:
       - links:
           - title: "Netlify"
             url: "https://app.netlify.com"
+          - title: "Dashboard Deluxe 3"
+            url: "https://dd-3.netlify.app"
           - title: "Dashboard Deluxe 2"
             url: "https://dd2.netlify.app"
           - title: "Dashboard Deluxe"
