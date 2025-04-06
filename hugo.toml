@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://dd-3.netlify.app/'
 languageCode = 'en-us'
 title = 'Dashboard Deluxe 3'
 disableHugoGeneratorInject = true
