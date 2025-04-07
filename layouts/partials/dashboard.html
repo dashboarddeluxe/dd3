@@ -19,10 +19,10 @@
                         </div>
                         {{/* Section content */}}
                         <div class="px-4 pb-4 pt-2 bg-gray-50 text-gray-700 text-base">
-                            {{/* Grid layout, 1 column on small screens, 2 columns on xl screens */}}
-                            <div class="grid grid-cols-1 xl:grid-cols-2">
+                            {{/* Grid layout, 1 column on small screens, 2 columns on md+ screens */}}
+                            <div class="grid grid-cols-1 md:grid-cols-2">
                                 {{/* Loop through each group in the section */}} {{ range .groups }} {{/* Display group title if it exists */}} {{ if .title }}
-                                <div class="text-xl sm:text-base font-bold xl:col-span-2 border-b-2 border-gray-400 my-2">
+                                <div class="text-xl sm:text-base font-bold md:col-span-2 border-b-2 border-gray-400 my-2">
                                     {{ .title }}</div>
                                 {{ end }} {{/* Check if any headers exist in this group */}} {{ $hasHeader := false }} {{ range .links }} {{ if or .is_header .no_link }} {{ $hasHeader = true }} {{ end }} {{ end }} {{/* If headers exist, render them first */}} {{ if $hasHeader }} {{
                                 range .links }} {{ if or .is_header .no_link }}
