@@ -18,11 +18,11 @@
                             </h2>
                         </div>
                         {{/* Section content */}}
-                        <div class="px-4 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm">
+                        <div class="px-4 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm xl:text-xl">
                             {{/* Grid layout, 1 column on small/medium screens, 2 columns on lg+ screens */}}
                             <div class="grid grid-cols-1 lg:grid-cols-2">
                                 {{/* Loop through each group in the section */}} {{ range .groups }} {{/* Display group title if it exists */}} {{ if .title }}
-                                <div class="text-lg lg:text-base font-bold lg:col-span-2 border-b-2 border-gray-400 my-2">
+                                <div class="text-lg lg:text-base xl:text-xl font-bold lg:col-span-2 border-b-2 border-gray-400 my-2">
                                     {{ .title }}</div>
                                 {{ end }} {{/* Check if any headers exist in this group */}} {{ $hasHeader := false }} {{ range .links }} {{ if or .is_header .no_link }} {{ $hasHeader = true }} {{ end }} {{ end }} {{/* If headers exist, render them first */}} {{ if $hasHeader }} {{
                                 range .links }} {{ if or .is_header .no_link }}
@@ -35,9 +35,9 @@
                                     <div class="flex items-center my-1 sm:my-0">
                                         {{/* Add separator pipe between links (except first) on non-mobile */}} {{ if not $isFirstLink }}
                                         <span class="mx-[2px] text-gray-500 hidden sm:inline">|</span> {{ end }} {{/* Render appropriate link type */}} {{ if .is_code }} {{/* Code display (not clickable) */}}
-                                        <span class="text-lg lg:text-sm">{{ .title }}</span> {{ else }} {{ if eq .url "" }} {{/* Text without link */}}
-                                        <span class="text-lg lg:text-sm font-bold">{{ .title }}</span> {{ else }} {{/* Clickable link with special styling for first link */}}
-                                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm hover:underline inline-flex items-center {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a>                                        {{ end }} {{ end }}
+                                        <span class="text-lg lg:text-sm xl:text-xl">{{ .title }}</span> {{ else }} {{ if eq .url "" }} {{/* Text without link */}}
+                                        <span class="text-lg lg:text-sm xl:text-xl font-bold">{{ .title }}</span> {{ else }} {{/* Clickable link with special styling for first link */}}
+                                        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline inline-flex items-center {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a>                                        {{ end }} {{ end }}
                                     </div>
                                     {{/* Mark that we're no longer on first link */}} {{ $isFirstLink = false }} {{ end }} {{ end }}
                                 </div>
