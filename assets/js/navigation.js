@@ -13,6 +13,15 @@ const navMenu = {
 
 // Handle smooth scrolling with offset for fixed header
 document.addEventListener('DOMContentLoaded', function() {
+    // Set up mobile menu button click handler
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    if (mobileMenuButton) {
+        mobileMenuButton.addEventListener('click', function() {
+            navMenu.toggle();
+        });
+    }
+
+    // Set up smooth scrolling
     const scrollLinks = document.querySelectorAll('.js-scroll-link');
     const headerOffset = document.querySelector('header').offsetHeight + 5;
 
