@@ -472,10 +472,10 @@ sections:
             url: "https://iplocation.io/"
       - links:
           - title: "HTTP Headers Analyzer"
-            url: "https://dri.es/headers?url=https://dd2.netlify.app"
+            url: "https://dri.es/headers?url=https://dd-3.netlify.app"
       - links:
           - title: "Header Security Scan"
-            url: "https://securityheaders.com/?q=https%3A%2F%2Fdd2.netlify.app%2F"
+            url: "https://securityheaders.com/?q=https%3A%2F%2Fdd-3.netlify.app%2F"
       - links:
           - title: "FB Sharing Debugger"
             url: "https://developers.facebook.com/tools/debug/"
