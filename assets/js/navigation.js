@@ -8,6 +8,17 @@ const navMenu = {
         menu.classList.toggle('hidden');
         menuShow.classList.toggle('hidden');
         menuHide.classList.toggle('hidden');
+    },
+    hide: function() {
+        const menu = document.getElementById('js-nav-menu');
+        const menuShow = document.getElementById('js-nav-menu-show');
+        const menuHide = document.getElementById('js-nav-menu-hide');
+
+        if (!menu.classList.contains('hidden')) {
+            menu.classList.add('hidden');
+            menuShow.classList.remove('hidden');
+            menuHide.classList.add('hidden');
+        }
     }
 };
 
@@ -30,6 +41,9 @@ document.addEventListener('DOMContentLoaded', function() {
             e.preventDefault();
             const targetId = this.getAttribute('href').substring(1);
             const targetElement = document.getElementById(targetId);
+
+            // Close mobile menu when link is clicked
+            navMenu.hide();
 
             if (targetElement) {
                 const elementPosition = targetElement.getBoundingClientRect().top;
