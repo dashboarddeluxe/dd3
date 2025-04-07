@@ -2,1117 +2,1120 @@ header:
   title: "Dashboard Deluxe 3"
 
 sections:
-  - name: "Main"
-    link_name: "Main"
-    groups:
-      - links:
-          - title: "Netvibes Dashboard"
-            url: "https://www.netvibes.com/dashboard"
-          - title: "Mobile Netvibes"
-            url: "https://mobile.netvibes.com"
-          - title: "Feedly"
-            url: "https://feedly.com"
-          - title: "Inoreader"
-            url: "https://www.inoreader.com/"
-      - links:
-          - title: "Gmail"
-            url: "https://gmail.com"
-          - title: "Yahoo! Mail"
-            url: "https://mail.yahoo.com"
-      - links:
-          - title: "Google"
-            url: "https://google.com"
-          - title: "Image Search"
-            url: "https://images.google.com/"
-          - title: "Keep"
-            url: "https://keep.google.com"
-          - title: "Calendar"
-            url: "https://calendar.google.com"
-          - title: "Drive"
-            url: "https://drive.google.com"
-          - title: "Photos"
-            url: "https://photos.google.com"
-          - title: "Messages"
-            url: "https://messages.google.com/web"
-      - links:
-          - title: "Ecosia"
-            url: "https://www.ecosia.org/"
-          - title: "DuckDuckGo"
-            url: "https://duckduckgo.com/"
-          - title: "Yahoo!"
-            url: "https://yahoo.com"
-          - title: "Bing"
-            url: "https://bing.com"
-      - links:
-          - title: "Facebook"
-            url: "https://facebook.com/"
-          - title: "Messenger"
-            url: "https://facebook.com/messages"
-          - title: "Basic"
-            url: "https://mbasic.facebook.com"
-          - title: "Basic Messenger"
-            url: "https://mbasic.facebook.com/messages/?ref_component=mbasic_home_header&amp;ref_page=%2Fwap%2Fhome.php&amp;refid=8"
-      - links:
-          - title: "Twitter"
-            url: "https://twitter.com/home"
-          - title: "Trends"
-            url: "https://twitter.com/i/trends"
-      - links:
-          - title: "YouTube"
-            url: "https://youtube.com/"
-          - title: "Subscriptions"
-            url: "https://youtube.com/feed/subscriptions"
-          - title: "History"
-            url: "https://www.youtube.com/feed/history"
-          - title: "Studio"
-            url: "https://studio.youtube.com/"
-      - links:
-          - title: "WhatsApp"
-            url: "https://web.whatsapp.com/"
-          - title: "Telegram"
-            url: "https://web.telegram.org/"
-      - links:
-          - title: "World Time Buddy"
-            url: "https://www.worldtimebuddy.com/"
-          - title: "Preset"
-            url: "https://www.worldtimebuddy.com/?pl=1&lid=1701668,5192726,5308655&hf=0"
-      - links:
-          - title: "Speed Test"
-            url: "https://www.speedtest.net/"
-          - title: "Cloudflare"
-            url: "https://speed.cloudflare.com/"
-          - title: "ipFail Continuous"
-            url: "https://webtools.ipfail.org/internet-speed-test/"
-          - title: "Open Speed Test"
-            url: "https://openspeedtest.com/"
-          - title: "Fast.com"
-            url: "https://fast.com/"
-      - links:
-          - title: "Snapdrop"
-            url: "https://snapdrop.net/"
-      - title: "E-Commerce"
-        links:
-          - title: "Shopee"
-            url: "https://shopee.ph/"
-          - title: "My Purchases"
-            url: "https://shopee.ph/user/purchase"
-      - links:
-          - title: "Lazada"
-            url: "https://lazada.com.ph/"
-      - title: "Apparel"
-        links:
-          - title: "World Balance"
-            url: "https://www.worldbalance.com.ph/"
-          - title: "Men's Shoes"
-            url: "https://worldbalance.com.ph/collections/all-shoes-m?sort_by=created-descending"
-          - title: "Women's Shoes"
-            url: "https://worldbalance.com.ph/collections/all-shoes-l?sort_by=created-descending"
-          - title: "Trail Shoes"
-            url: "https://worldbalance.com.ph/collections/trail?sort_by=created-descending"
-      - links:
-          - title: "Cole Vintage"
-            url: "https://colevintage.com/"
-          - title: "XL"
-            url: "https://colevintage.com/collections/sale-xlarge"
-      - title: "Software"
-        links:
-          - title: "App Sales"
-            url: "https://www.app-sales.net/"
-          - title: "Now Free"
-            url: "https://www.app-sales.net/nowfree/"
-          - title: "Active Sales"
-            url: "https://www.app-sales.net/activesales/"
-      - links:
-          - title: "Glary Utilies"
-            url: "https://download.glarysoft.com/guportable.zip"
-      - links:
-          - title: "TronScript"
-            url: "https://www.reddit.com/r/TronScript/wiki/downloads"
-      - links:
-          - title: "Portapps"
-            url: "https://portapps.io/apps/"
-      - links:
-          - title: "TCP Optimizer"
-            url: "https://www.speedguide.net/downloads.php"
-      - links:
-          - title: "CDKOffers"
-            url: "https://www.cdkoffers.com/"
-      - links:
-          - title: "The House of Portable"
-            url: "https://thehouseofportable.com/?home=1"
-      - links:
-          - title: "CTT Windows Utility"
-            url: "https://github.com/ChrisTitusTech/winutil"
-          - title: "irm christitus.com/win | iex"
-            url: ""
-      - title: "News and Media"
-        links:
-          - title: "SmartTubeNext"
-            url: "https://github.com/yuliskov/SmartTubeNext"
-      - links:
-          - title: "Spotify"
-            url: "https://open.spotify.com/"
-      - links:
-          - title: "Google"
-            url: "https://news.google.com/?hl=en-PH&gl=PH&ceid=PH:en"
-      - links:
-          - title: "AllSides"
-            url: "https://www.allsides.com/unbiased-balanced-news"
-      - links:
-          - title: "Sky Cable"
-            url: "https://www.mysky.com.ph/metromanila"
-          - title: "Promos"
-            url: "https://www.mysky.com.ph/metromanila/promos"
-          - title: "Service Advisories"
-            url: "https://www.mysky.com.ph/help-service-advisories"
-          - title: "Advisory"
-            url: "https://skyadvisory.mysky.com.ph/"
-          - title: "Support"
-            url: "https://www.mysky.com.ph/metromanila/contact-us/inquiries"
-      - links:
-          - title: "Casa Daza"
-            url: "https://www.youtube.com/results?search_query=casa+daza+metro.style&sp=CAISAhAB"
-      - title: "Productivity"
-        links:
-          - title: "NapChart"
-            url: "https://napchart.com/app"
+- name: "Main"
+  link_name: "Main"
+  groups:
+  - links:
+    - title: "Netvibes Dashboard"
+      url: "https://www.netvibes.com/dashboard"
+    - title: "Mobile Netvibes"
+      url: "https://mobile.netvibes.com"
+    - title: "Feedly"
+      url: "https://feedly.com"
+    - title: "Inoreader"
+      url: "https://www.inoreader.com/"
+  - links:
+    - title: "Gmail"
+      url: "https://gmail.com"
+    - title: "Yahoo! Mail"
+      url: "https://mail.yahoo.com"
+  - links:
+    - title: "Google"
+      url: "https://google.com"
+    - title: "Image Search"
+      url: "https://images.google.com/"
+    - title: "Keep"
+      url: "https://keep.google.com"
+    - title: "Calendar"
+      url: "https://calendar.google.com"
+    - title: "Drive"
+      url: "https://drive.google.com"
+    - title: "Photos"
+      url: "https://photos.google.com"
+    - title: "Messages"
+      url: "https://messages.google.com/web"
+  - links:
+    - title: "Ecosia"
+      url: "https://www.ecosia.org/"
+    - title: "DuckDuckGo"
+      url: "https://duckduckgo.com/"
+    - title: "Yahoo!"
+      url: "https://yahoo.com"
+    - title: "Bing"
+      url: "https://bing.com"
+  - links:
+    - title: "Facebook"
+      url: "https://facebook.com/"
+    - title: "Messenger"
+      url: "https://facebook.com/messages"
+    - title: "Basic"
+      url: "https://mbasic.facebook.com"
+    - title: "Basic Messenger"
+      url: "https://mbasic.facebook.com/messages/?ref_component=mbasic_home_header&amp;ref_page=%2Fwap%2Fhome.php&amp;refid=8"
+  - links:
+    - title: "Twitter"
+      url: "https://twitter.com/home"
+    - title: "Trends"
+      url: "https://twitter.com/i/trends"
+  - links:
+    - title: "YouTube"
+      url: "https://youtube.com/"
+    - title: "Subscriptions"
+      url: "https://youtube.com/feed/subscriptions"
+    - title: "History"
+      url: "https://www.youtube.com/feed/history"
+    - title: "Studio"
+      url: "https://studio.youtube.com/"
+  - links:
+    - title: "WhatsApp"
+      url: "https://web.whatsapp.com/"
+    - title: "Telegram"
+      url: "https://web.telegram.org/"
+  - links:
+    - title: "World Time Buddy"
+      url: "https://www.worldtimebuddy.com/"
+    - title: "Preset"
+      url: "https://www.worldtimebuddy.com/?pl=1&lid=1701668,5192726,5308655&hf=0"
+  - links:
+    - title: "Speed Test"
+      url: "https://www.speedtest.net/"
+    - title: "Cloudflare"
+      url: "https://speed.cloudflare.com/"
+    - title: "Fast.com"
+      url: "https://fast.com/"
+  - links:
+    - title: "Open Speed Test"
+      url: "https://openspeedtest.com/"
+    - title: "ipFail Continuous"
+      url: "https://webtools.ipfail.org/internet-speed-test/"
+  - links:
+    - title: "Pairdrop"
+      url: "https://pairdrop.net/"
+    - title: "Snapdrop"
+      url: "https://snapdrop.net/"
+  - title: "E-Commerce"
+    links:
+    - title: "Shopee"
+      url: "https://shopee.ph/"
+    - title: "My Purchases"
+      url: "https://shopee.ph/user/purchase"
+  - links:
+    - title: "Lazada"
+      url: "https://lazada.com.ph/"
+  - title: "Apparel"
+    links:
+    - title: "World Balance"
+      url: "https://www.worldbalance.com.ph/"
+    - title: "Men's Shoes"
+      url: "https://worldbalance.com.ph/collections/all-shoes-m?sort_by=created-descending"
+    - title: "Women's Shoes"
+      url: "https://worldbalance.com.ph/collections/all-shoes-l?sort_by=created-descending"
+    - title: "Trail Shoes"
+      url: "https://worldbalance.com.ph/collections/trail?sort_by=created-descending"
+  - links:
+    - title: "Cole Vintage"
+      url: "https://colevintage.com/"
+    - title: "XL"
+      url: "https://colevintage.com/collections/sale-xlarge"
+  - title: "Software"
+    links:
+    - title: "App Sales"
+      url: "https://www.app-sales.net/"
+    - title: "Now Free"
+      url: "https://www.app-sales.net/nowfree/"
+    - title: "Active Sales"
+      url: "https://www.app-sales.net/activesales/"
+  - links:
+    - title: "Glary Utilies"
+      url: "https://download.glarysoft.com/guportable.zip"
+  - links:
+    - title: "TronScript"
+      url: "https://www.reddit.com/r/TronScript/wiki/downloads"
+  - links:
+    - title: "Portapps"
+      url: "https://portapps.io/apps/"
+  - links:
+    - title: "TCP Optimizer"
+      url: "https://www.speedguide.net/downloads.php"
+  - links:
+    - title: "CDKOffers"
+      url: "https://www.cdkoffers.com/"
+  - links:
+    - title: "The House of Portable"
+      url: "https://thehouseofportable.com/?home=1"
+  - links:
+    - title: "CTT Windows Utility"
+      url: "https://github.com/ChrisTitusTech/winutil"
+    - title: "irm christitus.com/win | iex"
+      url: ""
+  - title: "News and Media"
+    links:
+    - title: "SmartTubeNext"
+      url: "https://github.com/yuliskov/SmartTubeNext"
+  - links:
+    - title: "Spotify"
+      url: "https://open.spotify.com/"
+  - links:
+    - title: "Google"
+      url: "https://news.google.com/?hl=en-PH&gl=PH&ceid=PH:en"
+  - links:
+    - title: "AllSides"
+      url: "https://www.allsides.com/unbiased-balanced-news"
+  - links:
+    - title: "Sky Cable"
+      url: "https://www.mysky.com.ph/metromanila"
+    - title: "Promos"
+      url: "https://www.mysky.com.ph/metromanila/promos"
+    - title: "Service Advisories"
+      url: "https://www.mysky.com.ph/help-service-advisories"
+    - title: "Advisory"
+      url: "https://skyadvisory.mysky.com.ph/"
+    - title: "Support"
+      url: "https://www.mysky.com.ph/metromanila/contact-us/inquiries"
+  - links:
+    - title: "Casa Daza"
+      url: "https://www.youtube.com/results?search_query=casa+daza+metro.style&sp=CAISAhAB"
+  - title: "Productivity"
+    links:
+    - title: "NapChart"
+      url: "https://napchart.com/app"
 
-  - name: "Sports"
-    link_name: "Sports"
-    groups:
-      - links:
-          - title: "ESPN"
-            url: "https://global.espn.com/?src=com"
-          - title: "NBA"
-            url: "https://espn.com/nba"
-          - title: "Scores"
-            url: "https://espn.com/nba/scoreboard"
-          - title: "Standings"
-            url: "https://espn.com/nba/standings"
-          - title: "Spurs"
-            url: "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
-      - links:
-          - title: "NBA Stats"
-            url: "https://www.nba.com/stats"
-          - title: "Player Impact Estimate"
-            url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=PIE"
-          - title: "Net Rating"
-            url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=NET_RATING"
-          - title: "Fantasy Points"
-            url: "https://www.nba.com/stats/players/traditional?CF=GP_RANK*LE*300:MIN_RANK*LE*300&dir=A&sort=NBA_FANTASY_PTS"
-      - links:
-          - title: "NBA Top Plays"
-            url: "https://www.youtube.com/@NBA/search?query=NBA%20Top%20Plays"
-      - links:
-          - title: "Yahoo! Sports"
-            url: "https://sports.yahoo.com/"
-          - title: "NBA"
-            url: "https://sports.yahoo.com/nba"
-      - links:
-          - title: "Bleacher Report"
-            url: "https://www.bleacherreport.com/"
-          - title: "NBA"
-            url: "https://www.bleacherreport.com/nba"
-      - links:
-          - title: "538 Sports"
-            url: "https://fivethirtyeight.com/sports/"
-          - title: "NBA"
-            url: "https://fivethirtyeight.com/tag/nba/"
-      - links:
-          - title: "HoopsHype Rumors"
-            url: "https://hoopshype.com/rumors"
-          - title: "Spurs"
-            url: "https://hoopshype.com/team/san-antonio-spurs/"
-      - links:
-          - title: "Basketball Jersey Archive"
-            url: "https://basketballjerseyarchive.com/"
-          - title: "NBA Logos"
-            url: "https://www.sportslogos.net/teams/list_by_league/6/National_Basketball_Association/NBA/logos/"
-          - title: "AEU Mall"
-            url: "https://shopee.ph/aeu_mall?page=0&sortBy=ctime"
-          - title: "Jersey 8888"
-            url: "https://shopee.ph/jersey8888?page=0&sortBy=ctime"
-      - title: "San Antonio Spurs"
-        links:
-          - title: "Pounding the Rock"
-            url: "https://www.poundingtherock.com/"
-      - links:
-          - title: "Air Alamo"
-            url: "https://airalamo.com/"
-      - links:
-          - title: "Spurs Nation"
-            url: "https://www.expressnews.com/sports/spurs/"
-      - links:
-          - title: "Best Defensive Rating"
-            url: "https://www.nba.com/stats/players/defense/?sort=DEF_RATING&dir=-1&Season=2023-24&SeasonType=Regular%20Season&Outcome=W&TeamID=1610612759&CF=MIN*GE*15"
-      - links:
-          - title: "Most Fantasy Points"
-            url: "https://www.nba.com/stats/players/traditional/?sort=NBA_FANTASY_PTS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
-      - links:
-          - title: "Plus Minus Player"
-            url: "https://www.nba.com/stats/players/traditional/?sort=PLUS_MINUS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
-      - links:
-          - title: "Plus Minus Lineup"
-            url: "https://www.nba.com/stats/lineups/traditional/?sort=PLUS_MINUS&dir=1&Season=2023-24&SeasonType=Regular%20Season&PerMode=Totals&TeamID=1610612759"
-      - title: "Tennis"
-        links:
-          - title: "ATP World Rankings"
-            url: "https://www.atptour.com/en/rankings/singles/"
-          - title: "Live Rankings"
-            url: "https://live-tennis.eu/en/atp-live-ranking"
-      - links:
-          - title: "WTA World Rankings"
-            url: "https://www.wtatennis.com/rankings/singles"
-          - title: "Live Rankings"
-            url: "https://live-tennis.eu/en/wta-live-ranking"
-      - links:
-          - title: "Alex Eala"
-            url: ""
-          - title: "Tennis.com Player Activity"
-            url: "https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/"
-          - title: "WTA Overview"
-            url: "https://www.wtatennis.com/players/330332/alexandra-eala/#overview"
-      - title: "Australian Sports"
-        links:
-          - title: "ABC Sport"
-            url: "https://abc.net.au/news/sport/"
-      - links:
-          - title: "Cricinfo"
-            url: "https://www.espncricinfo.com/"
+- name: "Sports"
+  link_name: "Sports"
+  groups:
+  - links:
+    - title: "ESPN"
+      url: "https://global.espn.com/?src=com"
+    - title: "NBA"
+      url: "https://espn.com/nba"
+    - title: "Scores"
+      url: "https://espn.com/nba/scoreboard"
+    - title: "Standings"
+      url: "https://espn.com/nba/standings"
+    - title: "Spurs"
+      url: "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+  - links:
+    - title: "NBA Stats"
+      url: "https://www.nba.com/stats"
+    - title: "Player Impact Estimate"
+      url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=PIE"
+    - title: "Net Rating"
+      url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=NET_RATING"
+    - title: "Fantasy Points"
+      url: "https://www.nba.com/stats/players/traditional?CF=GP_RANK*LE*300:MIN_RANK*LE*300&dir=A&sort=NBA_FANTASY_PTS"
+  - links:
+    - title: "NBA Top Plays"
+      url: "https://www.youtube.com/@NBA/search?query=NBA%20Top%20Plays"
+  - links:
+    - title: "Yahoo! Sports"
+      url: "https://sports.yahoo.com/"
+    - title: "NBA"
+      url: "https://sports.yahoo.com/nba"
+  - links:
+    - title: "Bleacher Report"
+      url: "https://www.bleacherreport.com/"
+    - title: "NBA"
+      url: "https://www.bleacherreport.com/nba"
+  - links:
+    - title: "538 Sports"
+      url: "https://fivethirtyeight.com/sports/"
+    - title: "NBA"
+      url: "https://fivethirtyeight.com/tag/nba/"
+  - links:
+    - title: "HoopsHype Rumors"
+      url: "https://hoopshype.com/rumors"
+    - title: "Spurs"
+      url: "https://hoopshype.com/team/san-antonio-spurs/"
+  - links:
+    - title: "Basketball Jersey Archive"
+      url: "https://basketballjerseyarchive.com/"
+    - title: "NBA Logos"
+      url: "https://www.sportslogos.net/teams/list_by_league/6/National_Basketball_Association/NBA/logos/"
+    - title: "AEU Mall"
+      url: "https://shopee.ph/aeu_mall?page=0&sortBy=ctime"
+    - title: "Jersey 8888"
+      url: "https://shopee.ph/jersey8888?page=0&sortBy=ctime"
+  - title: "San Antonio Spurs"
+    links:
+    - title: "Pounding the Rock"
+      url: "https://www.poundingtherock.com/"
+  - links:
+    - title: "Air Alamo"
+      url: "https://airalamo.com/"
+  - links:
+    - title: "Spurs Nation"
+      url: "https://www.expressnews.com/sports/spurs/"
+  - links:
+    - title: "Best Defensive Rating"
+      url: "https://www.nba.com/stats/players/defense/?sort=DEF_RATING&dir=-1&Season=2023-24&SeasonType=Regular%20Season&Outcome=W&TeamID=1610612759&CF=MIN*GE*15"
+  - links:
+    - title: "Most Fantasy Points"
+      url: "https://www.nba.com/stats/players/traditional/?sort=NBA_FANTASY_PTS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
+  - links:
+    - title: "Plus Minus Player"
+      url: "https://www.nba.com/stats/players/traditional/?sort=PLUS_MINUS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
+  - links:
+    - title: "Plus Minus Lineup"
+      url: "https://www.nba.com/stats/lineups/traditional/?sort=PLUS_MINUS&dir=1&Season=2023-24&SeasonType=Regular%20Season&PerMode=Totals&TeamID=1610612759"
+  - title: "Tennis"
+    links:
+    - title: "ATP World Rankings"
+      url: "https://www.atptour.com/en/rankings/singles/"
+    - title: "Live Rankings"
+      url: "https://live-tennis.eu/en/atp-live-ranking"
+  - links:
+    - title: "WTA World Rankings"
+      url: "https://www.wtatennis.com/rankings/singles"
+    - title: "Live Rankings"
+      url: "https://live-tennis.eu/en/wta-live-ranking"
+  - links:
+    - title: "Alex Eala"
+      url: ""
+    - title: "Tennis.com Player Activity"
+      url: "https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/"
+    - title: "WTA Overview"
+      url: "https://www.wtatennis.com/players/330332/alexandra-eala/#overview"
+  - title: "Australian Sports"
+    links:
+    - title: "ABC Sport"
+      url: "https://abc.net.au/news/sport/"
+  - links:
+    - title: "Cricinfo"
+      url: "https://www.espncricinfo.com/"
 
-  - name: "Board Games"
-    link_name: "Board Games"
-    groups:
-      - title: "BoardGameGeek"
-        links:
-          - title: "BoardGameGeek"
-            url: "https://boardgamegeek.com"
-          - title: "Subscriptions"
-            url: "https://boardgamegeek.com/subscriptions"
-          - title: "Search"
-            url: "https://boardgamegeek.com/advsearch/boardgame"
-      - links:
-          - title: "Complexity"
-            url: ""
-          - title: "Very Light"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=1.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "Light"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1.5&floatrange%5Bavgweight%5D%5Bmax%5D=1.99&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "Medium Light"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=2&floatrange%5Bavgweight%5D%5Bmax%5D=2.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "Medium"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=2.5&floatrange%5Bavgweight%5D%5Bmax%5D=3.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "Heavy"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=3.5&floatrange%5Bavgweight%5D%5Bmax%5D=5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-      - links:
-          - title: "Duration"
-            url: ""
-          - title: "20 Minutes"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "40 Minutes"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bleastplaytime%5D%5Bmin%5D=21&range%5Bplaytime%5D%5Bmax%5D=40&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "1 Hour"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bleastplaytime%5D%5Bmin%5D=30&range%5Bplaytime%5D%5Bmax%5D=60&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-      - links:
-          - title: "Light 20 Minutes"
-            url: ""
-          - title: "20th Century"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=1900&range%5Byearpublished%5D%5Bmax%5D=1999&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2000s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2010s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2020s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-      - links:
-          - title: "Players"
-            url: ""
-          - title: "1"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=1&range%5Bmaxplayers%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=2&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"
-          - title: "3"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=3&range%5Bmaxplayers%5D%5Bmin%5D=3&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "4"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=4&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "5"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=5&range%5Bmaxplayers%5D%5Bmin%5D=5&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "6"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=6&range%5Bmaxplayers%5D%5Bmin%5D=6&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "7"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=7&range%5Bmaxplayers%5D%5Bmin%5D=7&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "8"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=8&range%5Bmaxplayers%5D%5Bmin%5D=8&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "9"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=9&range%5Bmaxplayers%5D%5Bmin%5D=9&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "10"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=10&range%5Bmaxplayers%5D%5Bmin%5D=10&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "11"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=11&range%5Bmaxplayers%5D%5Bmin%5D=11&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "12"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=12&range%5Bmaxplayers%5D%5Bmin%5D=12&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-      - links:
-          - title: "All Games"
-            url: ""
-          - title: "Before 1990"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=-999999999&range%5Byearpublished%5D%5Bmax%5D=1989&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "1990s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=1990&range%5Byearpublished%5D%5Bmax%5D=1999&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2000s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2010s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2020s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-      - links:
-          - title: "Light Games"
-            url: ""
-          - title: "Before 1990"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=-999999999&range%5Byearpublished%5D%5Bmax%5D=1989&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "1990s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=1990&range%5Byearpublished%5D%5Bmax%5D=1999&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2000s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2010s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-          - title: "2020s"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
-      - links:
-          - title: "Versatile"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"
-          - title: "Card Games"
-            url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&propertyids%5B0%5D=1002&B1=Submit"
-      - title: "Reviews"
-        links:
-          - title: "Dice Tower"
-            url: "https://dicetower.com"
-          - title: "Countdowns"
-            url: "https://www.youtube.com/@thedicetower/search?query=top"
-          - title: "Week in Review"
-            url: "https://www.youtube.com/playlist?list=PLOlRvTbmD6tLXrBugjAV1nlFMW5Z4OzJy"
-          - title: "Latest Reviews"
-            url: "https://dicetower.com/board-game-videos?field_category_tid=5"
-      - links:
-          - title: "iSlaytheDragon Reviews"
-            url: "https://islaythedragon.com/category/game-reviews/"
-      - links:
-          - title: "Geeks Under Grace"
-            url: "https://www.geeksundergrace.com/tabletop/"
-      - links:
-          - title: "Meeple Like Us"
-            url: "https://meeplelikeus.co.uk/"
-          - title: "Master List"
-            url: "https://meeplelikeus.co.uk/meeple-like-us-masterlist/"
-      - links:
-          - title: "What's Eric Playing"
-            url: "https://whatsericplaying.com/"
-          - title: "Top 15"
-            url: "https://whatsericplaying.com/top-15/"
-          - title: "Hot 15"
-            url: "https://whatsericplaying.com/hot-15/"
-      - links:
-          - title: "Board vs Game"
-            url: "https://boardvsgame.com"
-      - title: "Print and Play"
-        links:
-          - title: "PNP Board Games"
-            url: "https://www.boardgamer.ru/forum/index.php?action=unread"
-      - links:
-          - title: "Tabletop Simulator Workshop"
-            url: "https://steamcommunity.com/app/286160/workshop/"
-          - title: "Most Recent"
-            url: "https://steamcommunity.com/workshop/browse/?appid=286160&browsesort=mostrecent&section=readytouseitems"
-      - links:
-          - title: "steamworkshopdownloader.io"
-            url: "https://steamworkshopdownloader.io/"
-          - title: "Steam Workshop Download"
-            url: "http://steamworkshop.download"
-      - links:
-          - title: "Tray Template"
-            url: "https://templatemaker.nl/index.php?template=matchbox&source=dielines&lang=en"
-      - links:
-          - title: "The Esoteric Order of Gamers"
-            url: "https://www.orderofgamers.com/games/"
-      - title: "Manila Stores"
-        links:
-          - title: "GamingLib"
-            url: "https://www.gaminglib.com/collections/all?sort_by=created-descending"
-      - links:
-          - title: "Geekbox PH"
-            url: "https://geekboxph.com/collections/shop-all?sort_by=created-descending"
-          - title: "Shopee Store"
-            url: "https://shopee.ph/geekboxph?page=0&sortBy=ctime"
-      - links:
-          - title: "Board Game Essentials"
-            url: "https://shopee.ph/boardgameessentials?page=0&sortBy=ctime"
+- name: "Board Games"
+  link_name: "Board Games"
+  groups:
+  - title: "BoardGameGeek"
+    links:
+    - title: "BoardGameGeek"
+      url: "https://boardgamegeek.com"
+    - title: "Subscriptions"
+      url: "https://boardgamegeek.com/subscriptions"
+    - title: "Search"
+      url: "https://boardgamegeek.com/advsearch/boardgame"
+  - links:
+    - title: "Complexity"
+      url: ""
+    - title: "Very Light"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=1.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "Light"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1.5&floatrange%5Bavgweight%5D%5Bmax%5D=1.99&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "Medium Light"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=2&floatrange%5Bavgweight%5D%5Bmax%5D=2.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "Medium"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=2.5&floatrange%5Bavgweight%5D%5Bmax%5D=3.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "Heavy"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=3.5&floatrange%5Bavgweight%5D%5Bmax%5D=5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+  - links:
+    - title: "Duration"
+      url: ""
+    - title: "20 Minutes"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "40 Minutes"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bleastplaytime%5D%5Bmin%5D=21&range%5Bplaytime%5D%5Bmax%5D=40&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "1 Hour"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bleastplaytime%5D%5Bmin%5D=30&range%5Bplaytime%5D%5Bmax%5D=60&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+  - links:
+    - title: "Light 20 Minutes"
+      url: ""
+    - title: "20th Century"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=1900&range%5Byearpublished%5D%5Bmax%5D=1999&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2000s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2010s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2020s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+  - links:
+    - title: "Players"
+      url: ""
+    - title: "1"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=1&range%5Bmaxplayers%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=2&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"
+    - title: "3"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=3&range%5Bmaxplayers%5D%5Bmin%5D=3&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "4"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=4&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "5"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=5&range%5Bmaxplayers%5D%5Bmin%5D=5&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "6"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=6&range%5Bmaxplayers%5D%5Bmin%5D=6&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "7"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=7&range%5Bmaxplayers%5D%5Bmin%5D=7&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "8"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=8&range%5Bmaxplayers%5D%5Bmin%5D=8&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "9"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=9&range%5Bmaxplayers%5D%5Bmin%5D=9&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "10"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=10&range%5Bmaxplayers%5D%5Bmin%5D=10&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "11"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=11&range%5Bmaxplayers%5D%5Bmin%5D=11&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "12"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=12&range%5Bmaxplayers%5D%5Bmin%5D=12&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+  - links:
+    - title: "All Games"
+      url: ""
+    - title: "Before 1990"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=-999999999&range%5Byearpublished%5D%5Bmax%5D=1989&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "1990s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=1990&range%5Byearpublished%5D%5Bmax%5D=1999&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2000s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2010s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2020s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+  - links:
+    - title: "Light Games"
+      url: ""
+    - title: "Before 1990"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=-999999999&range%5Byearpublished%5D%5Bmax%5D=1989&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "1990s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=1990&range%5Byearpublished%5D%5Bmax%5D=1999&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2000s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2010s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+    - title: "2020s"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+  - links:
+    - title: "Versatile"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"
+    - title: "Card Games"
+      url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&propertyids%5B0%5D=1002&B1=Submit"
+  - title: "Reviews"
+    links:
+    - title: "Dice Tower"
+      url: "https://dicetower.com"
+    - title: "Countdowns"
+      url: "https://www.youtube.com/@thedicetower/search?query=top"
+    - title: "Week in Review"
+      url: "https://www.youtube.com/playlist?list=PLOlRvTbmD6tLXrBugjAV1nlFMW5Z4OzJy"
+    - title: "Latest Reviews"
+      url: "https://dicetower.com/board-game-videos?field_category_tid=5"
+  - links:
+    - title: "iSlaytheDragon Reviews"
+      url: "https://islaythedragon.com/category/game-reviews/"
+  - links:
+    - title: "Geeks Under Grace"
+      url: "https://www.geeksundergrace.com/tabletop/"
+  - links:
+    - title: "Meeple Like Us"
+      url: "https://meeplelikeus.co.uk/"
+    - title: "Master List"
+      url: "https://meeplelikeus.co.uk/meeple-like-us-masterlist/"
+  - links:
+    - title: "What's Eric Playing"
+      url: "https://whatsericplaying.com/"
+    - title: "Top 15"
+      url: "https://whatsericplaying.com/top-15/"
+    - title: "Hot 15"
+      url: "https://whatsericplaying.com/hot-15/"
+  - links:
+    - title: "Board vs Game"
+      url: "https://boardvsgame.com"
+  - title: "Print and Play"
+    links:
+    - title: "PNP Board Games"
+      url: "https://www.boardgamer.ru/forum/index.php?action=unread"
+  - links:
+    - title: "Tabletop Simulator Workshop"
+      url: "https://steamcommunity.com/app/286160/workshop/"
+    - title: "Most Recent"
+      url: "https://steamcommunity.com/workshop/browse/?appid=286160&browsesort=mostrecent&section=readytouseitems"
+  - links:
+    - title: "steamworkshopdownloader.io"
+      url: "https://steamworkshopdownloader.io/"
+    - title: "Steam Workshop Download"
+      url: "http://steamworkshop.download"
+  - links:
+    - title: "Tray Template"
+      url: "https://templatemaker.nl/index.php?template=matchbox&source=dielines&lang=en"
+  - links:
+    - title: "The Esoteric Order of Gamers"
+      url: "https://www.orderofgamers.com/games/"
+  - title: "Manila Stores"
+    links:
+    - title: "GamingLib"
+      url: "https://www.gaminglib.com/collections/all?sort_by=created-descending"
+  - links:
+    - title: "Geekbox PH"
+      url: "https://geekboxph.com/collections/shop-all?sort_by=created-descending"
+    - title: "Shopee Store"
+      url: "https://shopee.ph/geekboxph?page=0&sortBy=ctime"
+  - links:
+    - title: "Board Game Essentials"
+      url: "https://shopee.ph/boardgameessentials?page=0&sortBy=ctime"
 
-  - name: "Development"
-    link_name: "Dev"
-    groups:
-      - links:
-          - title: "Google PageSpeed Insights"
-            url: "https://developers.google.com/speed/pagespeed/insights/"
-          - title: "DD3"
-            url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
-      - links:
-          - title: "GlobalStats Statcounter"
-            url: "https://gs.statcounter.com/"
-          - title: "w3techs CMS Usage"
-            url: "https://w3techs.com/technologies/history_overview/content_management/all"
-      - links:
-          - title: "Namesilo"
-            url: "https://www.namesilo.com"
-      - links:
-          - title: "Whois Lookup"
-            url: "https://whois.domaintools.com/"
-      - links:
-          - title: "IP Location Finder"
-            url: "https://iplocation.io/"
-      - links:
-          - title: "HTTP Headers Analyzer"
-            url: "https://dri.es/headers?url=https://dd-3.netlify.app"
-      - links:
-          - title: "Header Security Scan"
-            url: "https://securityheaders.com/?q=https%3A%2F%2Fdd-3.netlify.app%2F"
-      - links:
-          - title: "FB Sharing Debugger"
-            url: "https://developers.facebook.com/tools/debug/"
-      - links:
-          - title: "Dr Link Checker"
-            url: "https://www.drlinkcheck.com/"
-          - title: "Dead Link Checker"
-            url: "https://www.deadlinkchecker.com/"
-      - title: "PHP"
-        links:
-          - title: "Clean Code PHP"
-            url: "https://github.com/jupeter/clean-code-php"
-      - links:
-          - title: "Laravel"
-            url: "https://laravel.com"
-          - title: "6 Docs"
-            url: "https://laravel.com/docs/6.x"
-          - title: "Top Packages"
-            url: "https://laravel.bepsvpt.me/"
-      - links:
-          - title: "Voyager"
-            url: "https://voyager.devdojo.com/"
-          - title: "Releases"
-            url: "https://github.com/the-control-group/voyager/releases"
-          - title: "Docs"
-            url: "https://voyager-docs.devdojo.com/"
-      - links:
-          - title: "CodeIgniter"
-            url: "https://www.codeigniter.com/"
-          - title: "Docs"
-            url: "https://www.codeigniter.com/user_guide/index.html#"
-      - links:
-          - title: "Backdrop CMS"
-            url: "https://backdropcms.org"
-          - title: "Roadmap"
-            url: "https://backdropcms.org/roadmap"
-      - links:
-          - title: "Grav"
-            url: "https://getgrav.org/"
-          - title: "Releases"
-            url: "https://github.com/getgrav/grav/releases"
-      - links:
-          - title: "PHP Download"
-            url: "https://php-download.com/"
-      - title: "Reference and Training"
-        links:
-          - title: "Tutorialspoint"
-            url: "https://www.tutorialspoint.com/web_development_tutorials.htm"
-      - links:
-          - title: "Programming Notes for Professionals"
-            url: "https://goalkicker.com/"
-      - links:
-          - title: "Free Code Camp"
-            url: "https://learn.freecodecamp.org/"
-      - links:
-          - title: "Scrimba"
-            url: "https://scrimba.com/"
-      - links:
-          - title: "Cheltenham Courseware"
-            url: "https://www.cheltenhamcourseware.com/"
-      - title: "Browsers"
-        links:
-          - title: "Brave Browser Portable"
-            url: "https://github.com/portapps/brave-portable/releases"
-      - links:
-          - title: "Firefox Portable"
-            url: "https://portableapps.com/apps/internet/firefox_portable"
-      - title: "Servers"
-        links:
-          - title: "Local"
-            url: "https://localwp.com/releases/"
-      - links:
-          - title: "XAMPP"
-            url: "https://www.apachefriends.org/download.html"
-      - links:
-          - title: "Laragon"
-            url: "https://laragon.org/"
-          - title: "Releases"
-            url: "https://github.com/leokhoa/laragon/releases"
-      - title: "Text Editors"
-        links:
-          - title: "VS Codium"
-            url: "https://vscodium.com/"
-          - title: "Releases"
-            url: "https://github.com/VSCodium/vscodium/releases"
-      - links:
-          - title: "Sublime Text"
-            url: "https://www.sublimetext.com/3"
-          - title: "Popular Packages"
-            url: "https://packagecontrol.io/browse/popular"
-      - title: "WordPress"
-        links:
-          - title: "Wordpress"
-            url: "https://wordpress.org"
-          - title: "Releases"
-            url: "https://wordpress.org/download/releases/"
-          - title: "Planet"
-            url: "https://planet.wordpress.org"
-          - title: "Full Site Editing"
-            url: "https://wordpress.org/themes/tags/full-site-editing/"
-      - links:
-          - title: "GPL Developer"
-            url: "https://gpldeveloper.com/"
-          - title: "Recent"
-            url: "https://gpldeveloper.com/recently-updated/"
-      - links:
-          - title: "WP Hive"
-            url: "https://wphive.com/"
-          - title: "Gutenberg"
-            url: "https://wphive.com/plugin-search/?category=gutenberg&amp;search=&amp;sortby=active-installs-desc"
-      - links:
-          - title: "GenerateWP"
-            url: "https://generatewp.com/"
-      - links:
-          - title: "FreeWP"
-            url: "http://freewp.io/"
-      - links:
-          - title: "PRO Elements"
-            url: "https://proelements.org/"
-          - title: "Releases"
-            url: "https://github.com/proelements/proelements/releases"
-      - links:
-          - title: "Draft"
-            url: "https://wpdraft.com/"
-      - title: "Drupal"
-        links:
-          - title: "Drupal"
-            url: "https://drupal.org/"
-          - title: "Planet"
-            url: "https://drupal.org/planet"
-          - title: "Initiatives"
-            url: "https://www.drupal.org/about/core/strategic-initiatives"
-          - title: "Usage"
-            url: "https://www.drupal.org/project/usage/"
-      - links:
-          - title: "Droopler"
-            url: "https://github.com/droptica/droopler_project/releases"
-          - title: "Releases"
-            url: "https://www.drupal.org/project/droopler/releases"
-      - links:
-          - title: "Drupal 9"
-            url: "https://www.drupal.org/about/9"
-          - title: "Modules"
-            url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A9&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-          - title: "Themes"
-            url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-          - title: "Distributions"
-            url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-      - links:
-          - title: "Drupal 8"
-            url: "https://www.drupal.org/8"
-          - title: "Modules"
-            url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A8&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-          - title: "Themes"
-            url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-          - title: "Distributions"
-            url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-      - links:
-          - title: "Drupal Modules: The 1%"
-            url: "https://vimeo.com/user10080484"
-      - title: "Static Site Generators"
-        links:
-          - title: "Static Site Generators"
-            url: "https://jamstack.org/generators/"
-      - links:
-          - title: "Jigsaw"
-            url: "https://jigsaw.tighten.co/"
-          - title: "Docs"
-            url: "https://jigsaw.tighten.co/docs/installation/"
-          - title: "Releases"
-            url: "https://github.com/tighten/jigsaw/releases"
-      - links:
-          - title: "Hugo"
-            url: "https://gohugo.io/"
-          - title: "Releases"
-            url: "https://github.com/gohugoio/hugo/releases"
-          - title: "Bootstrap Themes"
-            url: "https://themes.gohugo.io/tags/bootstrap/"
-          - title: "Congo Theme"
-            url: "https://github.com/jpanther/congo/releases"
-      - links:
-          - title: "Netlify"
-            url: "https://app.netlify.com"
-          - title: "Dashboard Deluxe 3"
-            url: "https://dd-3.netlify.app"
-          - title: "Dashboard Deluxe 2"
-            url: "https://dd2.netlify.app"
-          - title: "Dashboard Deluxe"
-            url: "https://dashd.netlify.app"
-      - links:
-          - title: "Github"
-            url: "https://github.com"
-          - title: "Dashboard Deluxe"
-            url: "https://github.com/dashboarddeluxe/"
-          - title: "Dashboard Deluxe Site"
-            url: "https://github.com/dashboarddeluxe/dashboarddeluxe.github.io"
-      - links:
-          - title: "Prose"
-            url: "https://prose.io"
-          - title: "Edit Dashboard Deluxe"
-            url: "https://prose.io/#dashboarddeluxe/dashboarddeluxe.github.io/edit/master/index.md"
-      - title: "CSS Frameworks"
-        links:
-          - title: "Bootstrap"
-            url: "https://getbootstrap.com/"
-          - title: "Docs"
-            url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/"
-          - title: "Blog"
-            url: "https://blog.getbootstrap.com/"
-          - title: "Releases"
-            url: "https://github.com/twbs/bootstrap/releases"
-      - links:
-          - title: "TailwindCSS"
-            url: "https://tailwindcss.com/"
-          - title: "Docs"
-            url: "https://tailwindcss.com/docs"
-          - title: "v1 Docs"
-            url: "https://v1.tailwindcss.com/docs/"
-          - title: "Play"
-            url: "https://play.tailwindcss.com/"
-          - title: "Releases"
-            url: "https://github.com/tailwindlabs/tailwindcss/releases"
-      - links:
-          - title: "Awesome TailwindCSS"
-            url: "https://awesomeopensource.com/project/aniftyco/awesome-tailwindcss"
-      - links:
-          - title: "TailBlocks"
-            url: "https://tailblocks.cc/"
-      - links:
-          - title: "Wicked Blocks"
-            url: "https://wickedblocks.dev/"
-      - links:
-          - title: "Made with Tailwind"
-            url: "https://madewithtailwindcss.com/"
+- name: "Development"
+  link_name: "Dev"
+  groups:
+  - links:
+    - title: "Google PageSpeed Insights"
+      url: "https://developers.google.com/speed/pagespeed/insights/"
+    - title: "DD3"
+      url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
+  - links:
+    - title: "GlobalStats Statcounter"
+      url: "https://gs.statcounter.com/"
+    - title: "w3techs CMS Usage"
+      url: "https://w3techs.com/technologies/history_overview/content_management/all"
+  - links:
+    - title: "Namesilo"
+      url: "https://www.namesilo.com"
+  - links:
+    - title: "Whois Lookup"
+      url: "https://whois.domaintools.com/"
+  - links:
+    - title: "IP Location Finder"
+      url: "https://iplocation.io/"
+  - links:
+    - title: "HTTP Headers Analyzer"
+      url: "https://dri.es/headers?url=https://dd-3.netlify.app"
+  - links:
+    - title: "Header Security Scan"
+      url: "https://securityheaders.com/?q=https%3A%2F%2Fdd-3.netlify.app%2F"
+  - links:
+    - title: "FB Sharing Debugger"
+      url: "https://developers.facebook.com/tools/debug/"
+  - links:
+    - title: "Dr Link Checker"
+      url: "https://www.drlinkcheck.com/"
+    - title: "Dead Link Checker"
+      url: "https://www.deadlinkchecker.com/"
+  - title: "PHP"
+    links:
+    - title: "Clean Code PHP"
+      url: "https://github.com/jupeter/clean-code-php"
+  - links:
+    - title: "Laravel"
+      url: "https://laravel.com"
+    - title: "6 Docs"
+      url: "https://laravel.com/docs/6.x"
+    - title: "Top Packages"
+      url: "https://laravel.bepsvpt.me/"
+  - links:
+    - title: "Voyager"
+      url: "https://voyager.devdojo.com/"
+    - title: "Releases"
+      url: "https://github.com/the-control-group/voyager/releases"
+    - title: "Docs"
+      url: "https://voyager-docs.devdojo.com/"
+  - links:
+    - title: "CodeIgniter"
+      url: "https://www.codeigniter.com/"
+    - title: "Docs"
+      url: "https://www.codeigniter.com/user_guide/index.html#"
+  - links:
+    - title: "Backdrop CMS"
+      url: "https://backdropcms.org"
+    - title: "Roadmap"
+      url: "https://backdropcms.org/roadmap"
+  - links:
+    - title: "Grav"
+      url: "https://getgrav.org/"
+    - title: "Releases"
+      url: "https://github.com/getgrav/grav/releases"
+  - links:
+    - title: "PHP Download"
+      url: "https://php-download.com/"
+  - title: "Reference and Training"
+    links:
+    - title: "Tutorialspoint"
+      url: "https://www.tutorialspoint.com/web_development_tutorials.htm"
+  - links:
+    - title: "Programming Notes for Professionals"
+      url: "https://goalkicker.com/"
+  - links:
+    - title: "Free Code Camp"
+      url: "https://learn.freecodecamp.org/"
+  - links:
+    - title: "Scrimba"
+      url: "https://scrimba.com/"
+  - links:
+    - title: "Cheltenham Courseware"
+      url: "https://www.cheltenhamcourseware.com/"
+  - title: "Browsers"
+    links:
+    - title: "Brave Browser Portable"
+      url: "https://github.com/portapps/brave-portable/releases"
+  - links:
+    - title: "Firefox Portable"
+      url: "https://portableapps.com/apps/internet/firefox_portable"
+  - title: "Servers"
+    links:
+    - title: "Local"
+      url: "https://localwp.com/releases/"
+  - links:
+    - title: "XAMPP"
+      url: "https://www.apachefriends.org/download.html"
+  - links:
+    - title: "Laragon"
+      url: "https://laragon.org/"
+    - title: "Releases"
+      url: "https://github.com/leokhoa/laragon/releases"
+  - title: "Text Editors"
+    links:
+    - title: "VS Codium"
+      url: "https://vscodium.com/"
+    - title: "Releases"
+      url: "https://github.com/VSCodium/vscodium/releases"
+  - links:
+    - title: "Sublime Text"
+      url: "https://www.sublimetext.com/3"
+    - title: "Popular Packages"
+      url: "https://packagecontrol.io/browse/popular"
+  - title: "WordPress"
+    links:
+    - title: "Wordpress"
+      url: "https://wordpress.org"
+    - title: "Releases"
+      url: "https://wordpress.org/download/releases/"
+    - title: "Planet"
+      url: "https://planet.wordpress.org"
+    - title: "Full Site Editing"
+      url: "https://wordpress.org/themes/tags/full-site-editing/"
+  - links:
+    - title: "GPL Developer"
+      url: "https://gpldeveloper.com/"
+    - title: "Recent"
+      url: "https://gpldeveloper.com/recently-updated/"
+  - links:
+    - title: "WP Hive"
+      url: "https://wphive.com/"
+    - title: "Gutenberg"
+      url: "https://wphive.com/plugin-search/?category=gutenberg&amp;search=&amp;sortby=active-installs-desc"
+  - links:
+    - title: "GenerateWP"
+      url: "https://generatewp.com/"
+  - links:
+    - title: "FreeWP"
+      url: "http://freewp.io/"
+  - links:
+    - title: "PRO Elements"
+      url: "https://proelements.org/"
+    - title: "Releases"
+      url: "https://github.com/proelements/proelements/releases"
+  - links:
+    - title: "Draft"
+      url: "https://wpdraft.com/"
+  - title: "Drupal"
+    links:
+    - title: "Drupal"
+      url: "https://drupal.org/"
+    - title: "Planet"
+      url: "https://drupal.org/planet"
+    - title: "Initiatives"
+      url: "https://www.drupal.org/about/core/strategic-initiatives"
+    - title: "Usage"
+      url: "https://www.drupal.org/project/usage/"
+  - links:
+    - title: "Droopler"
+      url: "https://github.com/droptica/droopler_project/releases"
+    - title: "Releases"
+      url: "https://www.drupal.org/project/droopler/releases"
+  - links:
+    - title: "Drupal 9"
+      url: "https://www.drupal.org/about/9"
+    - title: "Modules"
+      url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A9&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Themes"
+      url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Distributions"
+      url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+  - links:
+    - title: "Drupal 8"
+      url: "https://www.drupal.org/8"
+    - title: "Modules"
+      url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A8&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Themes"
+      url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Distributions"
+      url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+  - links:
+    - title: "Drupal Modules: The 1%"
+      url: "https://vimeo.com/user10080484"
+  - title: "Static Site Generators"
+    links:
+    - title: "Static Site Generators"
+      url: "https://jamstack.org/generators/"
+  - links:
+    - title: "Jigsaw"
+      url: "https://jigsaw.tighten.co/"
+    - title: "Docs"
+      url: "https://jigsaw.tighten.co/docs/installation/"
+    - title: "Releases"
+      url: "https://github.com/tighten/jigsaw/releases"
+  - links:
+    - title: "Hugo"
+      url: "https://gohugo.io/"
+    - title: "Releases"
+      url: "https://github.com/gohugoio/hugo/releases"
+    - title: "Bootstrap Themes"
+      url: "https://themes.gohugo.io/tags/bootstrap/"
+    - title: "Congo Theme"
+      url: "https://github.com/jpanther/congo/releases"
+  - links:
+    - title: "Netlify"
+      url: "https://app.netlify.com"
+    - title: "Dashboard Deluxe 3"
+      url: "https://dd-3.netlify.app"
+    - title: "Dashboard Deluxe 2"
+      url: "https://dd2.netlify.app"
+    - title: "Dashboard Deluxe"
+      url: "https://dashd.netlify.app"
+  - links:
+    - title: "Github"
+      url: "https://github.com"
+    - title: "Dashboard Deluxe"
+      url: "https://github.com/dashboarddeluxe/"
+    - title: "Dashboard Deluxe Site"
+      url: "https://github.com/dashboarddeluxe/dashboarddeluxe.github.io"
+  - links:
+    - title: "Prose"
+      url: "https://prose.io"
+    - title: "Edit Dashboard Deluxe"
+      url: "https://prose.io/#dashboarddeluxe/dashboarddeluxe.github.io/edit/master/index.md"
+  - title: "CSS Frameworks"
+    links:
+    - title: "Bootstrap"
+      url: "https://getbootstrap.com/"
+    - title: "Docs"
+      url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+    - title: "Blog"
+      url: "https://blog.getbootstrap.com/"
+    - title: "Releases"
+      url: "https://github.com/twbs/bootstrap/releases"
+  - links:
+    - title: "TailwindCSS"
+      url: "https://tailwindcss.com/"
+    - title: "Docs"
+      url: "https://tailwindcss.com/docs"
+    - title: "v1 Docs"
+      url: "https://v1.tailwindcss.com/docs/"
+    - title: "Play"
+      url: "https://play.tailwindcss.com/"
+    - title: "Releases"
+      url: "https://github.com/tailwindlabs/tailwindcss/releases"
+  - links:
+    - title: "Awesome TailwindCSS"
+      url: "https://awesomeopensource.com/project/aniftyco/awesome-tailwindcss"
+  - links:
+    - title: "TailBlocks"
+      url: "https://tailblocks.cc/"
+  - links:
+    - title: "Wicked Blocks"
+      url: "https://wickedblocks.dev/"
+  - links:
+    - title: "Made with Tailwind"
+      url: "https://madewithtailwindcss.com/"
 
-  - name: "Design"
-    link_name: "Design"
-    groups:
-      - title: "Images"
-        links:
-          - title: "Pixabay"
-            url: "https://pixabay.com/"
-      - links:
-          - title: "Unsplash"
-            url: "https://unsplash.com/"
-      - links:
-          - title: "Pxhere"
-            url: "https://pxhere.com/"
-      - links:
-          - title: "Unsample"
-            url: "https://unsample.net/"
-      - links:
-          - title: "Gratisography"
-            url: "https://gratisography.com/"
-      - links:
-          - title: "Pexels"
-            url: "https://www.pexels.com/"
-      - links:
-          - title: "Stocksnap"
-            url: "https://stocksnap.io"
-      - links:
-          - title: "Freeimages"
-            url: "https://www.freeimages.com/"
-      - links:
-          - title: "Picography"
-            url: "https://picography.co"
-      - links:
-          - title: "Picjumbo"
-            url: "https://picjumbo.com/"
-      - links:
-          - title: "Morguefile"
-            url: "https://morguefile.com"
-      - links:
-          - title: "Flickr Image Search"
-            url: "https://www.flickr.com/search/?license=4%2C5%2C6%2C9%2C10&advanced=1&dimension_search_mode=min&height=1024&width=1024&media=photos&text="
-      - links:
-          - title: "Jay Mantri"
-            url: "https://jaymantri.com"
-      - links:
-          - title: "Magdeleine CC0"
-            url: "https://magdeleine.co/license/cc0/"
-      - links:
-          - title: "Refe Free"
-            url: "https://getrefe.com/downloads/category/free/"
-      - links:
-          - title: "SuperFamous Images"
-            url: "https://images.superfamous.com/"
-      - title: "Icons"
-        links:
-          - title: "Icomoon App"
-            url: "https://icomoon.io/app"
-      - links:
-          - title: "Heroicons"
-            url: "https://heroicons.com/"
-      - links:
-          - title: "Logo Ipsum"
-            url: "https://logoipsum.com/"
-      - title: "Patterns"
-        links:
-          - title: "Trianglify.io"
-            url: "https://trianglify.io/"
-      - links:
-          - title: "Trianglify Background Generator"
-            url: "https://alssndro.github.io/trianglify-background-generator/"
-      - links:
-          - title: "Geopattern"
-            url: "https://btmills.github.io/geopattern/geopattern.html"
-      - links:
-          - title: "Patterncooler"
-            url: "https://patterncooler.com/"
-      - links:
-          - title: "Striped Backgrounds"
-            url: "http://stripedbgs.com/"
-      - links:
-          - title: "Mesher"
-            url: "https://csshero.org/mesher/"
-      - links:
-          - title: "Hero Patterns"
-            url: "https://heropatterns.com/"
-      - links:
-          - title: "Flaticon Patterns"
-            url: "http://pattern.flaticon.com/"
-      - links:
-          - title: "The Pattern Library"
-            url: "http://thepatternlibrary.com/"
-      - links:
-          - title: "Subtle Patterns"
-            url: "https://www.toptal.com/designers/subtlepatterns/"
-      - links:
-          - title: "Transparent Textures"
-            url: "https://www.transparenttextures.com/"
-      - links:
-          - title: "Generate Random Bitmap PNG"
-            url: "https://onlinepngtools.com/generate-random-png"
-      - title: "Fonts"
-        links:
-          - title: "Google Fonts"
-            url: "https://fonts.google.com/"
-          - title: "8+ Styles"
-            url: "https://fonts.google.com/?sort=popularity&stylecount=8"
-          - title: "Variable"
-            url: "https://fonts.google.com/?sort=popularity&vfonly=true"
-      - links:
-          - title: "Font Identifier"
-            url: "https://fontsquirrel.com/matcherator"
-      - links:
-          - title: "Fontsquirrel"
-            url: "https://fontsquirrel.com"
-      - links:
-          - title: "Dafont"
-            url: "https://dafont.com"
-      - links:
-          - title: "Fontspace"
-            url: "https://fontspace.com"
-      - links:
-          - title: "1001 Fonts"
-            url: "https://1001fonts.com"
-      - links:
-          - title: "Fonts in the Wild"
-            url: "https://www.fontsinthewild.com/"
-      - links:
-          - title: "Fonts in Use"
-            url: "https://fontsinuse.com/"
-      - links:
-          - title: "Typewolf"
-            url: "https://www.typewolf.com/"
-      - links:
-          - title: "You Work for Them - Fonts"
-            url: "https://www.youworkforthem.com/fonts"
-      - links:
-          - title: "Weekly Fonts"
-            url: "https://www.weeklyfonts.com/"
-      - title: "Color Extraction"
-        links:
-          - title: "TinEye Color Extraction"
-            url: "https://labs.tineye.com/color/"
-      - links:
-          - title: "PHP Color Extract"
-            url: "https://www.coolphptools.com/color_extract"
-      - title: "Inspiration"
-        links:
-          - title: "Land Book"
-            url: "https://land-book.com/"
-      - links:
-          - title: "Dribble"
-            url: "https://dribbble.com/"
-      - links:
-          - title: "Site Inspire"
-            url: "https://www.siteinspire.com/"
-      - links:
-          - title: "Designspiration"
-            url: "https://www.designspiration.net/"
-      - title: "Galaxy Watch Studio"
-        links:
-          - title: "Galaxy Watch Studio"
-            url: "https://developer.samsung.com/galaxy-watch-design/studio/overview.html"
-      - links:
-          - title: "Samsung Seller Office"
-            url: "https://seller.samsungapps.com"
-      - links:
-          - title: "Sales Summary"
-            url: "https://seller.samsungapps.com/accounting/accountingList.as"
-      - links:
-          - title: "Buyer Comments"
-            url: "https://seller.samsungapps.com/comment/getCommentList.as"
-      - links:
-          - title: "Coupons"
-            url: "https://seller.samsungapps.com/product/promotion/promotioncoupon.as"
+- name: "Design"
+  link_name: "Design"
+  groups:
+  - title: "Images"
+    links:
+    - title: "Pixabay"
+      url: "https://pixabay.com/"
+  - links:
+    - title: "Unsplash"
+      url: "https://unsplash.com/"
+  - links:
+    - title: "Pxhere"
+      url: "https://pxhere.com/"
+  - links:
+    - title: "Unsample"
+      url: "https://unsample.net/"
+  - links:
+    - title: "Gratisography"
+      url: "https://gratisography.com/"
+  - links:
+    - title: "Pexels"
+      url: "https://www.pexels.com/"
+  - links:
+    - title: "Stocksnap"
+      url: "https://stocksnap.io"
+  - links:
+    - title: "Freeimages"
+      url: "https://www.freeimages.com/"
+  - links:
+    - title: "Picography"
+      url: "https://picography.co"
+  - links:
+    - title: "Picjumbo"
+      url: "https://picjumbo.com/"
+  - links:
+    - title: "Morguefile"
+      url: "https://morguefile.com"
+  - links:
+    - title: "Flickr Image Search"
+      url: "https://www.flickr.com/search/?license=4%2C5%2C6%2C9%2C10&advanced=1&dimension_search_mode=min&height=1024&width=1024&media=photos&text="
+  - links:
+    - title: "Jay Mantri"
+      url: "https://jaymantri.com"
+  - links:
+    - title: "Magdeleine CC0"
+      url: "https://magdeleine.co/license/cc0/"
+  - links:
+    - title: "Refe Free"
+      url: "https://getrefe.com/downloads/category/free/"
+  - links:
+    - title: "SuperFamous Images"
+      url: "https://images.superfamous.com/"
+  - title: "Icons"
+    links:
+    - title: "Icomoon App"
+      url: "https://icomoon.io/app"
+  - links:
+    - title: "Heroicons"
+      url: "https://heroicons.com/"
+  - links:
+    - title: "Logo Ipsum"
+      url: "https://logoipsum.com/"
+  - title: "Patterns"
+    links:
+    - title: "Trianglify.io"
+      url: "https://trianglify.io/"
+  - links:
+    - title: "Trianglify Background Generator"
+      url: "https://alssndro.github.io/trianglify-background-generator/"
+  - links:
+    - title: "Geopattern"
+      url: "https://btmills.github.io/geopattern/geopattern.html"
+  - links:
+    - title: "Patterncooler"
+      url: "https://patterncooler.com/"
+  - links:
+    - title: "Striped Backgrounds"
+      url: "http://stripedbgs.com/"
+  - links:
+    - title: "Mesher"
+      url: "https://csshero.org/mesher/"
+  - links:
+    - title: "Hero Patterns"
+      url: "https://heropatterns.com/"
+  - links:
+    - title: "Flaticon Patterns"
+      url: "http://pattern.flaticon.com/"
+  - links:
+    - title: "The Pattern Library"
+      url: "http://thepatternlibrary.com/"
+  - links:
+    - title: "Subtle Patterns"
+      url: "https://www.toptal.com/designers/subtlepatterns/"
+  - links:
+    - title: "Transparent Textures"
+      url: "https://www.transparenttextures.com/"
+  - links:
+    - title: "Generate Random Bitmap PNG"
+      url: "https://onlinepngtools.com/generate-random-png"
+  - title: "Fonts"
+    links:
+    - title: "Google Fonts"
+      url: "https://fonts.google.com/"
+    - title: "8+ Styles"
+      url: "https://fonts.google.com/?sort=popularity&stylecount=8"
+    - title: "Variable"
+      url: "https://fonts.google.com/?sort=popularity&vfonly=true"
+  - links:
+    - title: "Font Identifier"
+      url: "https://fontsquirrel.com/matcherator"
+  - links:
+    - title: "Fontsquirrel"
+      url: "https://fontsquirrel.com"
+  - links:
+    - title: "Dafont"
+      url: "https://dafont.com"
+  - links:
+    - title: "Fontspace"
+      url: "https://fontspace.com"
+  - links:
+    - title: "1001 Fonts"
+      url: "https://1001fonts.com"
+  - links:
+    - title: "Fonts in the Wild"
+      url: "https://www.fontsinthewild.com/"
+  - links:
+    - title: "Fonts in Use"
+      url: "https://fontsinuse.com/"
+  - links:
+    - title: "Typewolf"
+      url: "https://www.typewolf.com/"
+  - links:
+    - title: "You Work for Them - Fonts"
+      url: "https://www.youworkforthem.com/fonts"
+  - links:
+    - title: "Weekly Fonts"
+      url: "https://www.weeklyfonts.com/"
+  - title: "Color Extraction"
+    links:
+    - title: "TinEye Color Extraction"
+      url: "https://labs.tineye.com/color/"
+  - links:
+    - title: "PHP Color Extract"
+      url: "https://www.coolphptools.com/color_extract"
+  - title: "Inspiration"
+    links:
+    - title: "Land Book"
+      url: "https://land-book.com/"
+  - links:
+    - title: "Dribble"
+      url: "https://dribbble.com/"
+  - links:
+    - title: "Site Inspire"
+      url: "https://www.siteinspire.com/"
+  - links:
+    - title: "Designspiration"
+      url: "https://www.designspiration.net/"
+  - title: "Galaxy Watch Studio"
+    links:
+    - title: "Galaxy Watch Studio"
+      url: "https://developer.samsung.com/galaxy-watch-design/studio/overview.html"
+  - links:
+    - title: "Samsung Seller Office"
+      url: "https://seller.samsungapps.com"
+  - links:
+    - title: "Sales Summary"
+      url: "https://seller.samsungapps.com/accounting/accountingList.as"
+  - links:
+    - title: "Buyer Comments"
+      url: "https://seller.samsungapps.com/comment/getCommentList.as"
+  - links:
+    - title: "Coupons"
+      url: "https://seller.samsungapps.com/product/promotion/promotioncoupon.as"
 
-  - name: "Emergency"
-    link_name: "Emergency"
-    groups:
-      - title: "Weather"
-        links:
-          - title: "Accuweather"
-            url: "https://www.accuweather.com/en/ph/pasig/264876/hourly-weather-forecast/264876"
-          - title: "Minutecast"
-            url: "https://www.accuweather.com/en/ph/pasig/264876/minute-weather-forecast/264876"
-      - links:
-          - title: "Weather.com"
-            url: "https://weather.com/en-PH/weather/hourbyhour/l/c3784b13635e8dc4653bad5703d3c7590317cc43475d6bbbd94809d9e30ec8fe"
-      - title: "Calamities"
-        links:
-          - title: "PHIVOLCS"
-            url: "https://www.phivolcs.dost.gov.ph/index.php/earthquake/earthquake-information3"
-          - title: "Latest Earthquake Info"
-            url: "https://earthquake.phivolcs.dost.gov.ph/"
-          - title: "Tsunami Information"
-            url: "https://tsunami.phivolcs.dost.gov.ph/"
-      - links:
-          - title: "Volcano Bulletin"
-            url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2"
-          - title: "Taal"
-            url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/taal-volcano"
-          - title: "Pinatubo"
-            url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/pinatubo-volcano"
-          - title: "Mayon"
-            url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/mayon-volcano"
-      - links:
-          - title: "USGS"
-            url: "https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22%3A%2230day_sig%22%2C%22search%22%3Anull%2C%22listFormat%22%3A%22default%22%2C%22sort%22%3A%22newest%22%2C%22basemap%22%3A%22terrain%22%2C%22autoUpdate%22%3Atrue%2C%22restrictListToMap%22%3Afalse%2C%22timeZone%22%3A%22utc%22%2C%22mapposition%22%3A%5B%5B-78.49055166160312%2C74.8828125%5D%2C%5B78.42019327591201%2C325.1953125%5D%5D%2C%22overlays%22%3A%7B%22plates%22%3Atrue%7D%2C%22viewModes%22%3A%7B%22map%22%3Atrue%2C%22list%22%3Atrue%2C%22settings%22%3Afalse%2C%22help%22%3Afalse%7D%7D"
-      - links:
-          - title: "PAGASA"
-            url: "https://bagong.pagasa.dost.gov.ph"
-      - links:
-          - title: "Earth Wind Map"
-            url: "https://earth.nullschool.net/#current/wind/surface/level/orthographic=119.43,12.98,1301/loc=121.040,14.550"
-      - links:
-          - title: "Windfinder"
-            url: "https://www.windfinder.com/"
-      - links:
-          - title: "HazardHunterPH"
-            url: "https://hazardhunter.georisk.gov.ph/"
-      - links:
-          - title: "NOAH - Nationwide Operational Assessment of Hazards"
-            url: "https://noah.up.edu.ph/"
-      - links:
-          - title: "DAM Information"
-            url: "https://bagong.pagasa.dost.gov.ph/flood#dam-information"
-      - title: "COVID-19"
-        links:
-          - title: "John Hopkins University"
-            url: "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
-      - links:
-          - title: "ncov2019.live"
-            url: "https://ncov2019.live/"
-      - links:
-          - title: "Worldometers COVID-19"
-            url: "https://www.worldometers.info/coronavirus/"
-          - title: "Philippines"
-            url: "https://www.worldometers.info/coronavirus/country/philippines/"
-      - links:
-          - title: "DOH COVID-19 Tracker"
-            url: "https://doh.gov.ph/covid19tracker"
-      - links:
-          - title: "COVID-19 Variants"
-            url: "https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/"
+- name: "Emergency"
+  link_name: "Emergency"
+  groups:
+  - title: "Weather"
+    links:
+    - title: "Accuweather"
+      url: "https://www.accuweather.com/en/ph/pasig/264876/hourly-weather-forecast/264876"
+    - title: "Minutecast"
+      url: "https://www.accuweather.com/en/ph/pasig/264876/minute-weather-forecast/264876"
+  - links:
+    - title: "Weather.com"
+      url: "https://weather.com/en-PH/weather/hourbyhour/l/c3784b13635e8dc4653bad5703d3c7590317cc43475d6bbbd94809d9e30ec8fe"
+  - title: "Calamities"
+    links:
+    - title: "PHIVOLCS"
+      url: "https://www.phivolcs.dost.gov.ph/index.php/earthquake/earthquake-information3"
+    - title: "Latest Earthquake Info"
+      url: "https://earthquake.phivolcs.dost.gov.ph/"
+    - title: "Tsunami Information"
+      url: "https://tsunami.phivolcs.dost.gov.ph/"
+  - links:
+    - title: "Volcano Bulletin"
+      url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2"
+    - title: "Taal"
+      url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/taal-volcano"
+    - title: "Pinatubo"
+      url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/pinatubo-volcano"
+    - title: "Mayon"
+      url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/mayon-volcano"
+  - links:
+    - title: "USGS"
+      url: "https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22%3A%2230day_sig%22%2C%22search%22%3Anull%2C%22listFormat%22%3A%22default%22%2C%22sort%22%3A%22newest%22%2C%22basemap%22%3A%22terrain%22%2C%22autoUpdate%22%3Atrue%2C%22restrictListToMap%22%3Afalse%2C%22timeZone%22%3A%22utc%22%2C%22mapposition%22%3A%5B%5B-78.49055166160312%2C74.8828125%5D%2C%5B78.42019327591201%2C325.1953125%5D%5D%2C%22overlays%22%3A%7B%22plates%22%3Atrue%7D%2C%22viewModes%22%3A%7B%22map%22%3Atrue%2C%22list%22%3Atrue%2C%22settings%22%3Afalse%2C%22help%22%3Afalse%7D%7D"
+  - links:
+    - title: "PAGASA"
+      url: "https://bagong.pagasa.dost.gov.ph"
+  - links:
+    - title: "Earth Wind Map"
+      url: "https://earth.nullschool.net/#current/wind/surface/level/orthographic=119.43,12.98,1301/loc=121.040,14.550"
+  - links:
+    - title: "Windfinder"
+      url: "https://www.windfinder.com/"
+  - links:
+    - title: "HazardHunterPH"
+      url: "https://hazardhunter.georisk.gov.ph/"
+  - links:
+    - title: "NOAH - Nationwide Operational Assessment of Hazards"
+      url: "https://noah.up.edu.ph/"
+  - links:
+    - title: "DAM Information"
+      url: "https://bagong.pagasa.dost.gov.ph/flood#dam-information"
+  - title: "COVID-19"
+    links:
+    - title: "John Hopkins University"
+      url: "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+  - links:
+    - title: "ncov2019.live"
+      url: "https://ncov2019.live/"
+  - links:
+    - title: "Worldometers COVID-19"
+      url: "https://www.worldometers.info/coronavirus/"
+    - title: "Philippines"
+      url: "https://www.worldometers.info/coronavirus/country/philippines/"
+  - links:
+    - title: "DOH COVID-19 Tracker"
+      url: "https://doh.gov.ph/covid19tracker"
+  - links:
+    - title: "COVID-19 Variants"
+      url: "https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/"
 
-  - name: "Books"
-    link_name: "Books"
-    groups:
-      - links:
-          - title: "Goodreads"
-            url: "https://www.goodreads.com/"
-          - title: "Recommendations"
-            url: "https://www.goodreads.com/recommendations"
-      - links:
-          - title: "Calibre Portable"
-            url: "https://calibre-ebook.com/download_portable"
-          - title: "What's New"
-            url: "https://calibre-ebook.com/whats-new"
-          - title: "Releases"
-            url: "https://github.com/kovidgoyal/calibre/releases"
-      - links:
-          - title: "Library Genesis"
-            url: "https://libgen.gs/"
-          - title: "Proxies"
-            url: "https://libgen.onl/library-genesis/#Library_Genesis_Website_URLS"
-          - title: "Alternate 1"
-            url: "https://libgen.is/"
-          - title: "Alternate 2"
-            url: "https://gen.lib.rus.ec/"
-          - title: "Alternate 3"
-            url: "https://libgen.pw/"
-      - links:
-          - title: "Z Library"
-            url: "https://b-ok.org/"
-          - title: "Single Sign In"
-            url: "https://singlelogin.me/"
-          - title: "Alternate 1"
-            url: "https://b-ok.asia/"
-          - title: "Alternate 2"
-            url: "https://1lib.ph/"
-      - links:
-          - title: "Booksee"
-            url: "https://en.booksee.org/"
-      - links:
-          - title: "BookFI"
-            url: "https://en.bookfi.net/"
-      - links:
-          - title: "Mobilism"
-            url: "https://mobilism.org/"
-      - links:
-          - title: "WOW eBook"
-            url: "https://wowebook.org"
-      - links:
-          - title: "OpenStax Textbooks"
-            url: "https://openstax.org/subjects/view-all"
-      - title: "Best Sellers"
-        links:
-          - title: "Amazon"
-            url: "https://amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_unv_b_1_12290_1"
-          - title: "Hot New Releases"
-            url: "https://www.amazon.com/gp/new-releases/books"
-          - title: "Business & Money"
-            url: "https://www.amazon.com/gp/new-releases/books/3/"
-          - title: "Self-Help"
-            url: "https://www.amazon.com/gp/new-releases/books/4736/"
-      - links:
-          - title: "New York Times"
-            url: ""
-          - title: "Advice, How-To & Miscellaneous"
-            url: "https://nytimes.com/books/best-sellers/advice-how-to-and-miscellaneous/"
-          - title: "Business"
-            url: "https://www.nytimes.com/books/best-sellers/business-books/"
-      - title: "Christian"
-        links:
-          - title: "StepBible"
-            url: "https://www.stepbible.org/"
-          - title: "NASB with Vocabulary Transliteration"
-            url: "https://www.stepbible.org/?q=version=NASB|reference=John.1&options=HTVRLGUN"
-      - links:
-          - title: "ChristianDL"
-            url: "https://www.christiandl.com/unread/"
-          - title: "eBooks"
-            url: "https://www.christiandl.com/e-books/"
-      - links:
-          - title: "MyBible"
-            url: "https://mybible.zone/en/"
-          - title: "Bible Downloads"
-            url: "https://www.ph4.org/b4_index.php?k=bibles&q=mybible"
-      - links:
-          - title: "Zefania XML Bibles"
-            url: "https://sourceforge.net/projects/zefania-sharp/files/Bibles/ENG/"
-          - title: "Alternate"
-            url: "https://www.ph4.org/b4_mobi.php?q=zefania"
+- name: "Books"
+  link_name: "Books"
+  groups:
+  - links:
+    - title: "Goodreads"
+      url: "https://www.goodreads.com/"
+    - title: "Recommendations"
+      url: "https://www.goodreads.com/recommendations"
+  - links:
+    - title: "Calibre Portable"
+      url: "https://calibre-ebook.com/download_portable"
+    - title: "What's New"
+      url: "https://calibre-ebook.com/whats-new"
+    - title: "Releases"
+      url: "https://github.com/kovidgoyal/calibre/releases"
+  - links:
+    - title: "Library Genesis"
+      url: "https://libgen.gs/"
+    - title: "Proxies"
+      url: "https://libgen.onl/library-genesis/#Library_Genesis_Website_URLS"
+    - title: "Alternate 1"
+      url: "https://libgen.is/"
+    - title: "Alternate 2"
+      url: "https://gen.lib.rus.ec/"
+    - title: "Alternate 3"
+      url: "https://libgen.pw/"
+  - links:
+    - title: "Z Library"
+      url: "https://b-ok.org/"
+    - title: "Single Sign In"
+      url: "https://singlelogin.me/"
+    - title: "Alternate 1"
+      url: "https://b-ok.asia/"
+    - title: "Alternate 2"
+      url: "https://1lib.ph/"
+  - links:
+    - title: "Booksee"
+      url: "https://en.booksee.org/"
+  - links:
+    - title: "BookFI"
+      url: "https://en.bookfi.net/"
+  - links:
+    - title: "Mobilism"
+      url: "https://mobilism.org/"
+  - links:
+    - title: "WOW eBook"
+      url: "https://wowebook.org"
+  - links:
+    - title: "OpenStax Textbooks"
+      url: "https://openstax.org/subjects/view-all"
+  - title: "Best Sellers"
+    links:
+    - title: "Amazon"
+      url: "https://amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_unv_b_1_12290_1"
+    - title: "Hot New Releases"
+      url: "https://www.amazon.com/gp/new-releases/books"
+    - title: "Business & Money"
+      url: "https://www.amazon.com/gp/new-releases/books/3/"
+    - title: "Self-Help"
+      url: "https://www.amazon.com/gp/new-releases/books/4736/"
+  - links:
+    - title: "New York Times"
+      url: ""
+    - title: "Advice, How-To & Miscellaneous"
+      url: "https://nytimes.com/books/best-sellers/advice-how-to-and-miscellaneous/"
+    - title: "Business"
+      url: "https://www.nytimes.com/books/best-sellers/business-books/"
+  - title: "Christian"
+    links:
+    - title: "StepBible"
+      url: "https://www.stepbible.org/"
+    - title: "NASB with Vocabulary Transliteration"
+      url: "https://www.stepbible.org/?q=version=NASB|reference=John.1&options=HTVRLGUN"
+  - links:
+    - title: "ChristianDL"
+      url: "https://www.christiandl.com/unread/"
+    - title: "eBooks"
+      url: "https://www.christiandl.com/e-books/"
+  - links:
+    - title: "MyBible"
+      url: "https://mybible.zone/en/"
+    - title: "Bible Downloads"
+      url: "https://www.ph4.org/b4_index.php?k=bibles&q=mybible"
+  - links:
+    - title: "Zefania XML Bibles"
+      url: "https://sourceforge.net/projects/zefania-sharp/files/Bibles/ENG/"
+    - title: "Alternate"
+      url: "https://www.ph4.org/b4_mobi.php?q=zefania"
 
-  - name: "Trading"
-    link_name: "Trading"
-    groups:
-      - title: "Forex"
-        links:
-          - title: "ForexFactory"
-            url: "https://forexfactory.com"
-          - title: "Calendar"
-            url: "https://forexfactory.com/calendar.php"
-      - links:
-          - title: "Euro FX VIX"
-            url: "https://www.barchart.com/stocks/quotes/$EVZ/interactive-chart"
-          - title: "Analysis versus EMA(10)"
-            url: "https://www.barchart.com/stocks/quotes/$EVZ/technical-chart?plot=LINE&volume=0&data=DO&density=L&pricesOn=1&asPctChange=0&logscale=0&indicators=EXPMA(10)&sym=$EVZ&grid=1&height=625&studyheight=200"
-      - links:
-          - title: "Spike Charts"
-            url: "https://next.newsimpact.com/economic-indicators/"
-      - links:
-          - title: "MyFXBook Dashboard"
-            url: "https://myfxbook.com/dashboard"
-          - title: "EA Wizard"
-            url: "https://www.myfxbook.com/en/help/connect-metatrader-ea"
-      - links:
-          - title: "Investing.com Economic Calendar"
-            url: "https://investing.com/economic-calendar/"
-      - links:
-          - title: "TradingView"
-            url: "https://www.tradingview.com/"
-          - title: "Chart"
-            url: "https://www.tradingview.com/chart"
-          - title: "KY"
-            url: "https://www.tradingview.com/u/KarYong/"
-      - links:
-          - title: "EA Builder"
-            url: "https://www.eabuilder.com/"
-      - links:
-          - title: "Position Size Calculator (MT4)"
-            url: "https://www.earnforex.com/metatrader-indicators/Position-Size-Calculator/"
-          - title: "Releases"
-            url: "https://github.com/EarnForex/PositionSizeCalculator/releases"
-      - links:
-          - title: "No Nonsense Forex"
-            url: "https://nononsenseforex.com/"
-          - title: "Blog"
-            url: "https://nononsenseforex.com/forex-blog/"
-      - links:
-          - title: "No Nonsense Trader"
-            url: "https://nononsensetrader.com/"
-      - links:
-          - title: "NNFX Algo Tester"
-            url: "https://nnfxalgotester.com/"
-          - title: "Indicators"
-            url: "https://nnfxalgotester.com/help/included-indicators/"
-      - links:
-          - title: "Philippine Association of Forex Traders Inc. (PAFTI)"
-            url: "https://www.pafti.ph/"
-      - title: "Cryptocurrency"
-        links:
-          - title: "CryptoCraft"
-            url: "https://www.cryptocraft.com/"
-      - links:
-          - title: "Coins.PH"
-            url: "https://app.coins.ph/wallet"
-      - links:
-          - title: "BTCPHP"
-            url: "https://www.coingecko.com/en/coins/bitcoin/php"
-      - links:
-          - title: "CoinMarketCap"
-            url: "https://coinmarketcap.com/"
-      - links:
-          - title: "Uphold"
-            url: "https://uphold.com/dashboard"
-      - links:
-          - title: "Kucoin"
-            url: "https://www.kucoin.com/account"
+- name: "Trading"
+  link_name: "Trading"
+  groups:
+  - title: "Forex"
+    links:
+    - title: "ForexFactory"
+      url: "https://forexfactory.com"
+    - title: "Calendar"
+      url: "https://forexfactory.com/calendar.php"
+  - links:
+    - title: "Euro FX VIX"
+      url: "https://www.barchart.com/stocks/quotes/$EVZ/interactive-chart"
+    - title: "Analysis versus EMA(10)"
+      url: "https://www.barchart.com/stocks/quotes/$EVZ/technical-chart?plot=LINE&volume=0&data=DO&density=L&pricesOn=1&asPctChange=0&logscale=0&indicators=EXPMA(10)&sym=$EVZ&grid=1&height=625&studyheight=200"
+  - links:
+    - title: "Spike Charts"
+      url: "https://next.newsimpact.com/economic-indicators/"
+  - links:
+    - title: "MyFXBook Dashboard"
+      url: "https://myfxbook.com/dashboard"
+    - title: "EA Wizard"
+      url: "https://www.myfxbook.com/en/help/connect-metatrader-ea"
+  - links:
+    - title: "Investing.com Economic Calendar"
+      url: "https://investing.com/economic-calendar/"
+  - links:
+    - title: "TradingView"
+      url: "https://www.tradingview.com/"
+    - title: "Chart"
+      url: "https://www.tradingview.com/chart"
+    - title: "KY"
+      url: "https://www.tradingview.com/u/KarYong/"
+  - links:
+    - title: "EA Builder"
+      url: "https://www.eabuilder.com/"
+  - links:
+    - title: "Position Size Calculator (MT4)"
+      url: "https://www.earnforex.com/metatrader-indicators/Position-Size-Calculator/"
+    - title: "Releases"
+      url: "https://github.com/EarnForex/PositionSizeCalculator/releases"
+  - links:
+    - title: "No Nonsense Forex"
+      url: "https://nononsenseforex.com/"
+    - title: "Blog"
+      url: "https://nononsenseforex.com/forex-blog/"
+  - links:
+    - title: "No Nonsense Trader"
+      url: "https://nononsensetrader.com/"
+  - links:
+    - title: "NNFX Algo Tester"
+      url: "https://nnfxalgotester.com/"
+    - title: "Indicators"
+      url: "https://nnfxalgotester.com/help/included-indicators/"
+  - links:
+    - title: "Philippine Association of Forex Traders Inc. (PAFTI)"
+      url: "https://www.pafti.ph/"
+  - title: "Cryptocurrency"
+    links:
+    - title: "CryptoCraft"
+      url: "https://www.cryptocraft.com/"
+  - links:
+    - title: "Coins.PH"
+      url: "https://app.coins.ph/wallet"
+  - links:
+    - title: "BTCPHP"
+      url: "https://www.coingecko.com/en/coins/bitcoin/php"
+  - links:
+    - title: "CoinMarketCap"
+      url: "https://coinmarketcap.com/"
+  - links:
+    - title: "Uphold"
+      url: "https://uphold.com/dashboard"
+  - links:
+    - title: "Kucoin"
+      url: "https://www.kucoin.com/account"
