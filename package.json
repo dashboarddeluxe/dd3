@@ -12,8 +12,7 @@
     "scripts": {
         "dev": "hugo server",
         "build": "hugo --gc --minify",
-        "watch": "hugo server --disableFastRender --navigateToChanged",
-        "deploy": "npx wrangler deploy"
+        "watch": "hugo server --disableFastRender --navigateToChanged"
     },
     "dependencies": {
         "@tailwindcss/postcss": "^4.0.1",
