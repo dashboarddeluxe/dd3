@@ -386,14 +386,12 @@ sections:
         links:
           - title: "Dice Tower"
             url: "https://dicetower.com"
-          - title: "Top Countdowns"
+          - title: "Countdowns"
             url: "https://www.youtube.com/@thedicetower/search?query=top"
           - title: "Week in Review"
             url: "https://www.youtube.com/playlist?list=PLOlRvTbmD6tLXrBugjAV1nlFMW5Z4OzJy"
-          - title: "Latest Review Videos"
+          - title: "Latest Reviews"
             url: "https://dicetower.com/board-game-videos?field_category_tid=5"
-          - title: "News"
-            url: "https://dicetowernews.com"
       - links:
           - title: "iSlaytheDragon Reviews"
             url: "https://islaythedragon.com/category/game-reviews/"
