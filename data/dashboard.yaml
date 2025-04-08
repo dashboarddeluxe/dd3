@@ -394,7 +394,7 @@ sections:
     - title: "Week in Review"
       url: "https://www.youtube.com/playlist?list=PLOlRvTbmD6tLXrBugjAV1nlFMW5Z4OzJy"
     - title: "Latest Reviews"
-      url: "https://dicetower.com/board-game-videos?field_category_tid=5"
+      url: "https://dicetower.com/dice-tower-reviews"
   - links:
     - title: "iSlaytheDragon Reviews"
       url: "https://islaythedragon.com/category/game-reviews/"
@@ -759,9 +759,6 @@ sections:
     - title: "Magdeleine CC0"
       url: "https://magdeleine.co/license/cc0/"
   - links:
-    - title: "Refe Free"
-      url: "https://getrefe.com/downloads/category/free/"
-  - links:
     - title: "SuperFamous Images"
       url: "https://images.superfamous.com/"
   - title: "Icons"
@@ -796,9 +793,6 @@ sections:
   - links:
     - title: "Hero Patterns"
       url: "https://heropatterns.com/"
-  - links:
-    - title: "Flaticon Patterns"
-      url: "http://pattern.flaticon.com/"
   - links:
     - title: "The Pattern Library"
       url: "http://thepatternlibrary.com/"
@@ -869,22 +863,6 @@ sections:
   - links:
     - title: "Designspiration"
       url: "https://www.designspiration.net/"
-  - title: "Galaxy Watch Studio"
-    links:
-    - title: "Galaxy Watch Studio"
-      url: "https://developer.samsung.com/galaxy-watch-design/studio/overview.html"
-  - links:
-    - title: "Samsung Seller Office"
-      url: "https://seller.samsungapps.com"
-  - links:
-    - title: "Sales Summary"
-      url: "https://seller.samsungapps.com/accounting/accountingList.as"
-  - links:
-    - title: "Buyer Comments"
-      url: "https://seller.samsungapps.com/comment/getCommentList.as"
-  - links:
-    - title: "Coupons"
-      url: "https://seller.samsungapps.com/product/promotion/promotioncoupon.as"
 
 - name: "Emergency"
   link_name: "Emergency"
@@ -948,9 +926,6 @@ sections:
       url: "https://www.worldometers.info/coronavirus/"
     - title: "Philippines"
       url: "https://www.worldometers.info/coronavirus/country/philippines/"
-  - links:
-    - title: "DOH COVID-19 Tracker"
-      url: "https://doh.gov.ph/covid19tracker"
   - links:
     - title: "COVID-19 Variants"
       url: "https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/"
@@ -1058,9 +1033,6 @@ sections:
       url: "https://www.barchart.com/stocks/quotes/$EVZ/interactive-chart"
     - title: "Analysis versus EMA(10)"
       url: "https://www.barchart.com/stocks/quotes/$EVZ/technical-chart?plot=LINE&volume=0&data=DO&density=L&pricesOn=1&asPctChange=0&logscale=0&indicators=EXPMA(10)&sym=$EVZ&grid=1&height=625&studyheight=200"
-  - links:
-    - title: "Spike Charts"
-      url: "https://next.newsimpact.com/economic-indicators/"
   - links:
     - title: "MyFXBook Dashboard"
       url: "https://myfxbook.com/dashboard"
