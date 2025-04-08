@@ -12,17 +12,17 @@
                     <div class="outline outline-gray-300 h-full section section--{{ .name | urlize }}">
                         {{/* Anchor for section navigation */}}
                         <span id="{{ .name | urlize }}" class="section__anchor"></span> {{/* Section header */}}
-                        <div class="py-2 px-4 bg-gray-800">
+                        <div class="py-2 px-3 bg-gray-800">
                             <h2 class="font-bold text-xl text-white section__title">
                                 {{ .name }}
                             </h2>
                         </div>
                         {{/* Section content */}}
-                        <div class="px-4 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm xl:text-xl">
+                        <div class="px-3 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm xl:text-xl">
                             {{/* Grid layout, 1 column on small/medium screens, 2 columns on lg+ screens */}}
                             <div class="grid grid-cols-1 lg:grid-cols-2">
                                 {{/* Loop through each group in the section */}} {{ range .groups }} {{/* Display group title if it exists */}} {{ if .title }}
-                                <div class="text-lg lg:text-base xl:text-xl font-bold lg:col-span-2 border-b-2 border-gray-400 my-2 section__sub-title">
+                                <div class="text-lg lg:text-base xl:text-xl font-bold lg:col-span-2 border-b-2 border-gray-400 mt-1 mb-2 section__sub-title">
                                     {{ .title }}</div>
                                 {{ end }} {{/* Check if any headers exist in this group */}} {{ $hasHeader := false }} {{ range .links }} {{ if or .is_header .no_link }} {{ $hasHeader = true }} {{ end }} {{ end }} {{/* If headers exist, render them first */}} {{ if $hasHeader }} {{
                                 range .links }} {{ if or .is_header .no_link }}
