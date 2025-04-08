@@ -992,8 +992,8 @@ sections:
     links:
     - title: "StepBible"
       url: "https://www.stepbible.org/"
-    - title: "NASB with Vocabulary Transliteration"
-      url: "https://www.stepbible.org/?q=version=NASB|reference=John.1&options=HTVRLGUN"
+    - title: "NASB 2020"
+      url: "https://www.stepbible.org/?q=version=NASB2020@reference=John.1&options=VHLETGUN"
   - links:
     - title: "ChristianDL"
       url: "https://www.christiandl.com/unread/"
