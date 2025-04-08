@@ -1,4 +1,4 @@
-{{/* Access dashboard data from site.Data.dashboard */}} {{ if .IsHome }} {{ with site.Data.dashboard }}
+{{/* Access dashboard data from site.Data.dashboard */}} {{/* Check if current page is the home page */}} {{ if .IsHome }} {{/* Only execute this block on the home page */}} {{ with site.Data.dashboard }}
 <div class="fixed inset-x-0 top-0">
     <header class="flex items-center shadow bg-black py-2 z-50 h-16" role="banner">
         <div class="flex items-center justify-center w-full px-4">
@@ -47,4 +47,4 @@
 
 {{ $navigationJS := resources.Get "js/navigation.js" | resources.Fingerprint }}
 <script src="{{ $navigationJS.RelPermalink }}" integrity="{{ $navigationJS.Data.Integrity }}" crossorigin="anonymous"></script>
-{{/* End of dashboard data context */}} {{ end }} {{ end }}
+{{/* End of dashboard data context */}} {{ end }} {{/* End of home page conditional block */}} {{ end }}
