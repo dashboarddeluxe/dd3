@@ -126,7 +126,7 @@ sections:
     - title: "Active Sales"
       url: "https://www.app-sales.net/activesales/"
   - links:
-    - title: "Glary Utilies"
+    - title: "Glary Utilities"
       url: "https://download.glarysoft.com/guportable.zip"
   - links:
     - title: "TronScript"
@@ -281,7 +281,7 @@ sections:
       url: "https://abc.net.au/news/sport/"
   - links:
     - title: "Cricinfo"
-      url: "https://www.espncricinfo.com/"
+      url: "https://www.espncricinfo.com/team/australia-2"
 
 - name: "Board Games"
   link_name: "Board Games"
@@ -494,8 +494,6 @@ sections:
       url: "https://laravel.com"
     - title: "6 Docs"
       url: "https://laravel.com/docs/6.x"
-    - title: "Top Packages"
-      url: "https://laravel.bepsvpt.me/"
   - links:
     - title: "Voyager"
       url: "https://voyager.devdojo.com/"
@@ -578,10 +576,10 @@ sections:
     - title: "Full Site Editing"
       url: "https://wordpress.org/themes/tags/full-site-editing/"
   - links:
-    - title: "GPL Developer"
-      url: "https://gpldeveloper.com/"
+    - title: "GNU Elements"
+      url: "https://gnuelements.com/"
     - title: "Recent"
-      url: "https://gpldeveloper.com/recently-updated/"
+      url: "https://gnuelements.com/recently-updated/"
   - links:
     - title: "WP Hive"
       url: "https://wphive.com/"
@@ -862,7 +860,7 @@ sections:
       url: "https://www.siteinspire.com/"
   - links:
     - title: "Designspiration"
-      url: "https://www.designspiration.net/"
+      url: "https://www.designspiration.com/"
 
 - name: "Emergency"
   link_name: "Emergency"
@@ -947,30 +945,23 @@ sections:
       url: "https://github.com/kovidgoyal/calibre/releases"
   - links:
     - title: "Library Genesis"
-      url: "https://libgen.gs/"
+      url: "https://libgen.is/"
     - title: "Proxies"
       url: "https://libgen.onl/library-genesis/#Library_Genesis_Website_URLS"
     - title: "Alternate 1"
-      url: "https://libgen.is/"
+      url: "https://libgen.rs/"
     - title: "Alternate 2"
-      url: "https://gen.lib.rus.ec/"
-    - title: "Alternate 3"
-      url: "https://libgen.pw/"
+      url: "https://libgen.st/"
   - links:
     - title: "Z Library"
-      url: "https://b-ok.org/"
-    - title: "Single Sign In"
-      url: "https://singlelogin.me/"
-    - title: "Alternate 1"
-      url: "https://b-ok.asia/"
-    - title: "Alternate 2"
-      url: "https://1lib.ph/"
+      url: "https://z-library.sk/"
+    - title: "Options"
+      url: "https://go-to-library.sk/"
+    - title: "Tor"
+      url: "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion"
   - links:
     - title: "Booksee"
       url: "https://en.booksee.org/"
-  - links:
-    - title: "BookFI"
-      url: "https://en.bookfi.net/"
   - links:
     - title: "Mobilism"
       url: "https://mobilism.org/"
