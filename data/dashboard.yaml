@@ -578,8 +578,8 @@ sections:
   - links:
     - title: "GNU Elements"
       url: "https://gnuelements.com/"
-    - title: "Recent"
-      url: "https://gnuelements.com/recently-updated/"
+    - title: "Latest Updates"
+      url: "https://gnuelements.com/account/latest-updates/"
   - links:
     - title: "WP Hive"
       url: "https://wphive.com/"
