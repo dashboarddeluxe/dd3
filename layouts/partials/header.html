@@ -1,11 +1,11 @@
-{{/* Access dashboard data from site.Data.dashboard */}} {{ with site.Data.dashboard }}
+{{/* Access dashboard data from site.Data.dashboard */}} {{ if .IsHome }} {{ with site.Data.dashboard }}
 <div class="fixed inset-x-0 top-0">
     <header class="flex items-center shadow bg-black py-2 z-50 h-16" role="banner">
         <div class="flex items-center justify-center w-full px-4">
             <div class="max-w-7xl w-full flex items-center justify-between">
                 {{/* Site title with link to home */}}
                 <a href="/" title="{{ .header.title }} home" class="inline-flex items-center hover:underline px-2">
-                    <h1 class="text-lg md:text-2xl font-bold text-white my-0">{{ .header.title }}</h1>
+                    <h1 class="text-xl font-bold text-white my-0">{{ .header.title }}</h1>
                 </a>
 
                 <div class="flex items-center">
@@ -47,4 +47,4 @@
 
 {{ $navigationJS := resources.Get "js/navigation.js" | resources.Fingerprint }}
 <script src="{{ $navigationJS.RelPermalink }}" integrity="{{ $navigationJS.Data.Integrity }}" crossorigin="anonymous"></script>
-{{/* End of dashboard data context */}} {{ end }}
+{{/* End of dashboard data context */}} {{ end }} {{ end }}
