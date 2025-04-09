@@ -6,39 +6,37 @@
         {{/* Content width constraint */}}
         <div class="max-w-[120rem] w-full">
             {{/* Loop through each section in the data structure */}} {{ range .sections }}
-            <div class="grid grid-cols-1 gap-4 mb-4">
+            <div class="mb-4">
                 {{/* Section card with shadow */}}
-                <div class="overflow-hidden shadow-lg">
-                    <div class="outline outline-gray-300 h-full section section--{{ .name | urlize }}">
-                        {{/* Anchor for section navigation */}}
-                        <span id="{{ .name | urlize }}" class="section__anchor"></span> {{/* Section header */}}
-                        <div class="py-2 px-3 bg-gray-800">
-                            <h2 class="font-bold text-xl text-white section__title">
-                                {{ .name }}
-                            </h2>
-                        </div>
-                        {{/* Section content */}}
-                        <div class="px-3 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm xl:text-xl">
-                            {{/* Grid layout, 1 column on small/medium screens, 2 columns on lg+ screens */}}
-                            <div class="grid grid-cols-1 lg:grid-cols-2">
-                                {{/* Loop through each group in the section */}} {{ range .groups }}{{/* Display group title if it exists */}} {{ if .title }}
-                                <div class="text-lg lg:text-base xl:text-xl font-bold lg:col-span-2 border-b-2 border-gray-400 mt-1 mb-2 section__sub-title">
-                                    {{ .title }}</div>
-                                {{ end }}{{/* Check if any headers exist in this group */}}{{ $hasHeader := false }}{{ range .links }} {{ if or .is_header .no_link }} {{ $hasHeader = true }} {{ end }}{{ end }}{{/* If headers exist, render them first */}}{{ if $hasHeader }}{{ range .links
-                                }} {{ if or .is_header .no_link }}
-                                <div class="py-2">
-                                    <span class="text-sm font-bold">{{ .title }}</span>
-                                </div>
-                                {{ end }}{{ end }}{{ end }}{{/* Link row - vertical on mobile, horizontal with separators on larger screens */}}
-                                <div class="flex flex-col sm:flex-row sm:flex-wrap">{{/* Track if we're at the first link for styling purposes */}} {{ $isFirstLink := true }} {{/* Loop through all links that aren't headers */}}{{ range .links }}{{ if not (or .is_header .no_link) }}
-                                    <div class="flex items-center my-1 sm:my-0">{{/* Add separator pipe between links (except first) on non-mobile */}}{{ if not $isFirstLink }}
-                                        <span class="mx-[2px] text-gray-500 hidden sm:inline">|</span>{{ end }}{{/* Render appropriate link type */}}{{ if .is_code }}{{/* Code display (not clickable) */}}<span class="text-lg lg:text-sm xl:text-xl">{{ .title }}</span>{{
-                                        else }}{{ if eq .url "" }}{{/* Text without link */}}<span class="text-lg lg:text-sm xl:text-xl font-bold">{{ .title }}</span>{{ else }}{{/* Clickable link with special styling for first link */}}<a href="{{ .url }}"
-                                            target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline inline-flex items-center {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a>{{
-                                        end }}{{ end }}</div>{{/* Mark that we're no longer on first link */}} {{ $isFirstLink = false }} {{ end }} {{ end }}
-                                </div>
-                                {{ end }}
+                <div class="overflow-hidden shadow-lg outline outline-gray-300 h-full section section--{{ .name | urlize }}">
+                    <h2 id="{{ .name | urlize }}" class="py-2 px-3 bg-gray-800 font-bold text-xl text-white section__title">
+                        {{ .name }}
+                    </h2>
+
+                    {{/* Section content */}}
+                    <div class="px-3 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm xl:text-xl">
+                        {{/* Grid layout, 1 column on small/medium screens, 2 columns on lg+ screens */}}
+                        <div class="grid grid-cols-1 lg:grid-cols-2">
+                            {{/* Loop through each group in the section */}} {{ range .groups }} {{/* Display group title if it exists */}} {{ if .title }}
+                            <div class="text-lg lg:text-base xl:text-xl font-bold lg:col-span-2 border-b-2 border-gray-400 mt-1 mb-2 section__sub-title">
+                                {{ .title }}
                             </div>
+                            {{ end }} {{/* Check if any headers exist in this group */}} {{ $hasHeader := false }} {{ range .links }} {{ if or .is_header .no_link }} {{ $hasHeader = true }} {{ end }} {{ end }} {{/* If headers exist, render them first */}} {{ if $hasHeader }} {{
+                            range .links }} {{ if or .is_header .no_link }}
+                            <span class="text-sm font-bold block py-2">{{ .title }}</span> {{ end }} {{ end }} {{ end }} {{/* Link row - simplified structure */}}
+                            <ul class="flex flex-col sm:flex-row sm:flex-wrap">
+                                {{/* Track if we're at the first link */}} {{ $isFirstLink := true }} {{/* Loop through all links that aren't headers */}} {{ range .links }} {{ if not (or .is_header .no_link) }}
+                                <li class="my-1 sm:my-0 {{ if not $isFirstLink }}sm:before:content-['|'] sm:before:mx-[2px] sm:before:text-gray-500{{ end }}">
+                                    {{/* Render appropriate link type */}} {{ if .is_code }}
+                                    <span class="text-lg lg:text-sm xl:text-xl">{{ .title }}</span> {{ else if eq .url "" }}
+                                    <span class="text-lg lg:text-sm xl:text-xl font-bold">{{ .title }}</span> {{ else }}
+                                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline inline-flex items-center {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">
+                                                    {{ .title }}
+                                                </a> {{ end }} {{/* Mark that we're no longer on first link */}} {{ $isFirstLink = false }}
+                                </li>
+                                {{ end }} {{ end }}
+                            </ul>
+                            {{ end }}
                         </div>
                     </div>
                 </div>
