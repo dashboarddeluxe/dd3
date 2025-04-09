@@ -458,11 +458,6 @@ sections:
     - title: "DD3"
       url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
   - links:
-    - title: "GlobalStats Statcounter"
-      url: "https://gs.statcounter.com/"
-    - title: "w3techs CMS Usage"
-      url: "https://w3techs.com/technologies/history_overview/content_management/all"
-  - links:
     - title: "Namesilo"
       url: "https://www.namesilo.com"
   - links:
@@ -506,16 +501,6 @@ sections:
       url: "https://www.codeigniter.com/"
     - title: "Docs"
       url: "https://www.codeigniter.com/user_guide/index.html#"
-  - links:
-    - title: "Backdrop CMS"
-      url: "https://backdropcms.org"
-    - title: "Roadmap"
-      url: "https://backdropcms.org/roadmap"
-  - links:
-    - title: "Grav"
-      url: "https://getgrav.org/"
-    - title: "Releases"
-      url: "https://github.com/getgrav/grav/releases"
   - links:
     - title: "PHP Download"
       url: "https://php-download.com/"
@@ -565,76 +550,6 @@ sections:
       url: "https://www.sublimetext.com/3"
     - title: "Popular Packages"
       url: "https://packagecontrol.io/browse/popular"
-  - title: "WordPress"
-    links:
-    - title: "Wordpress"
-      url: "https://wordpress.org"
-    - title: "Releases"
-      url: "https://wordpress.org/download/releases/"
-    - title: "Planet"
-      url: "https://planet.wordpress.org"
-    - title: "Full Site Editing"
-      url: "https://wordpress.org/themes/tags/full-site-editing/"
-  - links:
-    - title: "GNU Elements"
-      url: "https://gnuelements.com/"
-    - title: "Latest Updates"
-      url: "https://gnuelements.com/account/latest-updates/"
-  - links:
-    - title: "WP Hive"
-      url: "https://wphive.com/"
-    - title: "Gutenberg"
-      url: "https://wphive.com/plugin-search/?category=gutenberg&amp;search=&amp;sortby=active-installs-desc"
-  - links:
-    - title: "GenerateWP"
-      url: "https://generatewp.com/"
-  - links:
-    - title: "FreeWP"
-      url: "http://freewp.io/"
-  - links:
-    - title: "PRO Elements"
-      url: "https://proelements.org/"
-    - title: "Releases"
-      url: "https://github.com/proelements/proelements/releases"
-  - links:
-    - title: "Draft"
-      url: "https://wpdraft.com/"
-  - title: "Drupal"
-    links:
-    - title: "Drupal"
-      url: "https://drupal.org/"
-    - title: "Planet"
-      url: "https://drupal.org/planet"
-    - title: "Initiatives"
-      url: "https://www.drupal.org/about/core/strategic-initiatives"
-    - title: "Usage"
-      url: "https://www.drupal.org/project/usage/"
-  - links:
-    - title: "Droopler"
-      url: "https://github.com/droptica/droopler_project/releases"
-    - title: "Releases"
-      url: "https://www.drupal.org/project/droopler/releases"
-  - links:
-    - title: "Drupal 9"
-      url: "https://www.drupal.org/about/9"
-    - title: "Modules"
-      url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A9&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-    - title: "Themes"
-      url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-    - title: "Distributions"
-      url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-  - links:
-    - title: "Drupal 8"
-      url: "https://www.drupal.org/8"
-    - title: "Modules"
-      url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A8&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-    - title: "Themes"
-      url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-    - title: "Distributions"
-      url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
-  - links:
-    - title: "Drupal Modules: The 1%"
-      url: "https://vimeo.com/user10080484"
   - title: "Static Site Generators"
     links:
     - title: "Static Site Generators"
@@ -709,6 +624,95 @@ sections:
   - links:
     - title: "Made with Tailwind"
       url: "https://madewithtailwindcss.com/"
+
+- name: "Content Management Systems"
+  link_name: "CMS"
+  groups:
+  - links:
+    - title: "GlobalStats Statcounter"
+      url: "https://gs.statcounter.com/"
+    - title: "w3techs CMS Usage"
+      url: "https://w3techs.com/technologies/history_overview/content_management/all"
+  - links:
+    - title: "Backdrop CMS"
+      url: "https://backdropcms.org"
+    - title: "Roadmap"
+      url: "https://backdropcms.org/roadmap"
+  - links:
+    - title: "Grav"
+      url: "https://getgrav.org/"
+    - title: "Releases"
+      url: "https://github.com/getgrav/grav/releases"
+  - title: "WordPress"
+    links:
+    - title: "Wordpress"
+      url: "https://wordpress.org"
+    - title: "Releases"
+      url: "https://wordpress.org/download/releases/"
+    - title: "Planet"
+      url: "https://planet.wordpress.org"
+    - title: "Full Site Editing"
+      url: "https://wordpress.org/themes/tags/full-site-editing/"
+  - links:
+    - title: "GNU Elements"
+      url: "https://gnuelements.com/"
+    - title: "Latest Updates"
+      url: "https://gnuelements.com/account/latest-updates/"
+  - links:
+    - title: "WP Hive"
+      url: "https://wphive.com/"
+    - title: "Gutenberg"
+      url: "https://wphive.com/plugin-search/?category=gutenberg&amp;search=&amp;sortby=active-installs-desc"
+  - links:
+    - title: "GenerateWP"
+      url: "https://generatewp.com/"
+  - links:
+    - title: "FreeWP"
+      url: "http://freewp.io/"
+  - links:
+    - title: "PRO Elements"
+      url: "https://proelements.org/"
+    - title: "Releases"
+      url: "https://github.com/proelements/proelements/releases"
+  - links:
+    - title: "Draft"
+      url: "https://wpdraft.com/"
+  - title: "Drupal"
+    links:
+    - title: "Drupal"
+      url: "https://drupal.org/"
+    - title: "Planet"
+      url: "https://drupal.org/planet"
+    - title: "Initiatives"
+      url: "https://www.drupal.org/about/core/strategic-initiatives"
+    - title: "Usage"
+      url: "https://www.drupal.org/project/usage/"
+  - links:
+    - title: "Droopler"
+      url: "https://github.com/droptica/droopler_project/releases"
+    - title: "Releases"
+      url: "https://www.drupal.org/project/droopler/releases"
+  - links:
+    - title: "Drupal 9"
+      url: "https://www.drupal.org/about/9"
+    - title: "Modules"
+      url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A9&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Themes"
+      url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Distributions"
+      url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+  - links:
+    - title: "Drupal 8"
+      url: "https://www.drupal.org/8"
+    - title: "Modules"
+      url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A8&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Themes"
+      url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+    - title: "Distributions"
+      url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+  - links:
+    - title: "Drupal Modules: The 1%"
+      url: "https://vimeo.com/user10080484"
 
 - name: "Design"
   link_name: "Design"
