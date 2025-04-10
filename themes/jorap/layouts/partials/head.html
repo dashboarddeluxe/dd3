@@ -1,0 +1,11 @@
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ block "title" . }} {{- .Site.Title -}} {{- if .Title -}} {{- print " | " -}} {{- .Title -}} {{- end -}} {{ end }}
+    </title>
+    {{- if .Description }}
+    <meta name="description" content="{{ .Description }}" />{{- else }}
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ else }}Dashboard Deluxe 3 - Your centralized hub for quick access to websites and resources.{{ end }}" />{{- end }}{{- if .Keywords }}
+    <meta name="keywords" content="{{ delimit .Keywords " , " }}"/>{{ end -}}{{- if .Params.Author }}
+    <meta name="author" content="{{ .Params.Author}}" /> {{ end -}} {{ partialCached "css.html" . }} {{ partialCached "js.html" . }}
+</head>

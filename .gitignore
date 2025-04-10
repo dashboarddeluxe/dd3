@@ -1,5 +1,33 @@
-/node_modules
+# Hugo default output directory
 /public
+/resources
 /resources/_gen/
-/hugo_stats.json
+/assets/jsconfig.json
 .hugo_build.lock
+hugo_stats.json
+
+# Node modules
+/node_modules
+
+# Temporary files
+.tmp
+.temp
+.DS_Store
+*.backup
+*.bak
+*.log
+*.swp
+Thumbs.db
+
+# IDE specific files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

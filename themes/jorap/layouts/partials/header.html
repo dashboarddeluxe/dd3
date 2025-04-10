@@ -1,0 +1,39 @@
+{{/* Access dashboard data from site.Data.dashboard */}} {{/* Check if current page is the home page */}} {{ if .IsHome }}{{/* Only execute this block on the home page */}} {{ with site.Data.dashboard }}
+<header class="fixed inset-x-0 top-0 bg-black shadow py-2 z-50 h-16 flex items-center" role="banner">
+    <div class="w-full px-4 flex items-center justify-center">
+        <div class="max-w-[120rem] w-full mx-auto flex items-center justify-between">
+            {{/* Site title with link to home */}}
+            <a href="/" title="{{ .header.title }} home" class="inline-flex items-center hover:underline px-0">
+                <h1 class="text-xl xl:text-2xl font-bold text-white my-0">{{ .header.title }}</h1>
+            </a>
+
+            {{/* Desktop navigation menu */}}
+            <nav class="hidden lg:flex items-center">
+                {{/* Loop through all sections defined in dashboard data */}} {{ range .sections }}
+                <a href="#{{ .name | urlize }}" class="ml-4 text-gray-100 font-semibold text-base xl:text-lg hover:underline js-scroll-link">{{ .link_name }}</a> {{ end }}
+            </nav>
+
+            {{/* Mobile menu toggle button */}}
+            <button type="button" class="flex justify-center items-center bg-blue-600 border border-blue-600 h-12 w-12 rounded-full lg:hidden focus:outline-none" id="mobile-menu-button" aria-label="Toggle Navigation Menu">
+                <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg" class="fill-white h-9 w-4" viewbox="0 0 32 32">
+                    <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"></path>
+                </svg>
+                <svg id="js-nav-menu-hide" xmlns="http://www.w3.org/2000/svg" class="hidden fill-white h-9 w-4" viewbox="0 0 36 30">
+                    <polygon points="32.8,4.4 28.6,0.2 18,10.8 7.4,0.2 3.2,4.4 13.8,15 3.2,25.6 7.4,29.8 18,19.2 28.6,29.8 32.8,25.6 22.2,15"></polygon>
+                </svg>
+            </button>
+        </div>
+    </div>
+</header>
+
+{{/* Mobile navigation menu (hidden by default) */}}
+<nav id="js-nav-menu" class="fixed inset-x-0 top-16 hidden lg:hidden bg-white shadow py-2 z-40">
+    <div class="flex flex-wrap px-4 max-w-[120rem] mx-auto">
+        {{/* Loop through sections for mobile menu */}} {{ range .sections }}
+        <a href="#{{ .name | urlize }}" class="px-4 text-gray-800 font-semibold text-lg py-3 hover:text-blue-500 js-scroll-link">{{ .link_name }}</a> {{ end }}
+    </div>
+</nav>
+
+{{ $navigationJS := resources.Get "js/navigation.js" | resources.Fingerprint }}
+<script src="{{ $navigationJS.RelPermalink }}" integrity="{{ $navigationJS.Data.Integrity }}" crossorigin="anonymous"></script>
+{{/* End of dashboard data context */}} {{ end }} {{/* End of home page conditional block */}} {{ end }}

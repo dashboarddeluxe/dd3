@@ -1,0 +1,4 @@
+{{/* Get the main.js file from assets - DISABLED {{- with resources.Get "js/main.js" }} */}} {{- with false }}{{/* Disabled main.js loading */}}{{/* If in development environment */}}{{- if eq hugo.Environment "development" }}{{/* Build the JS without
+minification */}}{{- with . | js.Build }}
+<script src="{{ .RelPermalink }}"></script>{{- end }}{{- else }}{{/* If in production environment */}}{{- $opts := dict "minify" true }}{{/* Build with minification and add fingerprint for caching */}}{{- with . | js.Build $opts | fingerprint }}
+<script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>{{- end }}{{- end }}{{- end }}

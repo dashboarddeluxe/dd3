@@ -2,6 +2,7 @@ baseURL = 'https://dd-3.netlify.app/'
 languageCode = 'en-us'
 title = 'Dashboard Deluxe 3'
 disableHugoGeneratorInject = true
+theme = 'dashboarddeluxe'
 
 [params]
   description = 'Your centralized hub for quick access to all your favorite websites and resources. Organized by category for easy navigation.'

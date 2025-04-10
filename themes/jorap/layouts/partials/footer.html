@@ -1,0 +1,7 @@
+{{/* Access the dashboard data from site.Data */}} {{ with site.Data.dashboard }}{{/* Footer section with gray background, white text and padding */}}
+<footer class="bg-gray-800 text-white py-8">
+    <div class="max-w-[120rem] mx-auto px-4 text-center text-sm">
+        {{/* Copyright line with the site title from dashboard data and current year */}}
+        <p>© {{ .header.title }}, {{ now.Format "2006" }}</p>
+    </div>
+</footer>{{/* End of the with block for dashboard data */}}{{ end }}

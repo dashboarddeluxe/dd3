@@ -1,0 +1,12 @@
+name = "Dashboard Deluxe"
+license = "MIT"
+licenselink = ""
+description = "Dashboard Deluxe Hugo Theme with Tailwind CSS"
+homepage = "https://dd-3.netlify.app"
+tags = ["tailwindcss", "responsive"]
+features = ["tailwindcss"]
+min_version = "0.118.0"
+
+[author]
+  name = "JoRap"
+  homepage = "https://jorap.com"
