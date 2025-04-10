@@ -36,16 +36,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const scrollLinks = document.querySelectorAll('.js-scroll-link');
     const headerOffset = document.querySelector('header').offsetHeight + 5;
 
-    scrollLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
+    // Check if we should scroll to a section on page load (from URL hash)
+    if (window.location.hash) {
+        const targetId = window.location.hash.substring(1);
+        const targetElement = document.getElementById(targetId);
 
-            // Close mobile menu when link is clicked
-            navMenu.hide();
-
-            if (targetElement) {
+        if (targetElement) {
+            setTimeout(function() {
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -53,6 +50,34 @@ document.addEventListener('DOMContentLoaded', function() {
                     top: offsetPosition,
                     behavior: 'smooth'
                 });
+            }, 100); // Small delay to ensure page is fully loaded
+        }
+    }
+
+    scrollLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            // Only prevent default if it's not a modified click (ctrl, alt, shift, meta)
+            // This allows links to open in new tabs with ctrl+click or middle mouse click
+            if (!e.ctrlKey && !e.shiftKey && !e.metaKey && !e.altKey && e.which === 1) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                // Close mobile menu when link is clicked
+                navMenu.hide();
+
+                if (targetElement) {
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+
+                    // Update URL hash without causing a jump (pushState is smoother)
+                    history.pushState(null, null, '#' + targetId);
+                }
             }
         });
     });
