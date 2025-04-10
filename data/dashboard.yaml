@@ -35,6 +35,8 @@ sections:
     - title: "Messages"
       url: "https://messages.google.com/web"
   - links:
+    - title: "Search"
+      url: ""
     - title: "Ecosia"
       url: "https://www.ecosia.org/"
     - title: "DuckDuckGo"
@@ -75,7 +77,7 @@ sections:
     - title: "World Time Buddy"
       url: "https://www.worldtimebuddy.com/"
     - title: "Preset"
-      url: "https://www.worldtimebuddy.com/?pl=1&lid=1701668,5192726,5308655&hf=0"
+      url: "https://www.worldtimebuddy.com/?pl=1&lid=1701668,5192726,3369157,6167865,2193733,1566083,5308655&h=1701668&hf=0"
   - links:
     - title: "Speed Test"
       url: "https://www.speedtest.net/"
@@ -83,11 +85,8 @@ sections:
       url: "https://speed.cloudflare.com/"
     - title: "Fast.com"
       url: "https://fast.com/"
-  - links:
     - title: "Open Speed Test"
       url: "https://openspeedtest.com/"
-    - title: "ipFail Continuous"
-      url: "https://webtools.ipfail.org/internet-speed-test/"
   - links:
     - title: "Pairdrop"
       url: "https://pairdrop.net/"

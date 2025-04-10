@@ -93,3 +93,11 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+.link-pipe,
+.link-set-title {
+    min-height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}

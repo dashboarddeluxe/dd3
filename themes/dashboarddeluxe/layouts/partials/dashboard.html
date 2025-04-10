@@ -17,10 +17,9 @@
                 {{ end }} {{/* Simplified link container - no more nested elements for each link */}} {{/* Display headers first if needed */}} {{ range .links }}{{ if or .is_header .no_link }}
                 <span class="text-sm font-bold block py-2">{{ .title }}</span> {{ end }}{{ end }} {{/* Display all regular links with minimal elements */}}
                 <div class="flex flex-col items-start sm:flex-row sm:flex-wrap">
-                    {{ $isFirstLink := true }} {{ range .links }}{{ if not (or .is_header .no_link) }} {{/* Use span separators instead of pseudo-elements */}} {{ if not $isFirstLink }}<span class="text-gray-500 mx-[2px] hidden sm:inline">|</span>{{ end
-                    }} {{/* Render appropriate link with fewer wrapper elements */}} {{ if .is_code }}
-                    <span class="text-lg lg:text-sm xl:text-xl">{{ .title }}</span> {{ else if eq .url "" }}
-                    <span class="text-lg lg:text-sm xl:text-xl font-bold">{{ .title }}</span> {{ else }}
+                    {{ $isFirstLink := true }} {{ range .links }} {{ if not (or .is_header .no_link) }} {{ if not $isFirstLink }}
+                    <span class="text-gray-500 mx-[2px] hidden sm:inline link-pipe">|</span> {{ end }} {{ if eq .url "" }}
+                    <span class="text-lg lg:text-sm xl:text-xl font-bold link-set-title">{{ .title }}</span> {{ else }}
                     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a> {{ end }} {{ $isFirstLink
                     = false }} {{ end }}{{ end }}
                 </div>
