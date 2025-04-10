@@ -18,10 +18,10 @@
                 <span class="text-sm font-bold block py-2">{{ .title }}</span> {{ end }}{{ end }} {{/* Display all regular links with minimal elements */}}
                 <div class="flex flex-col items-start sm:flex-row sm:flex-wrap">
                     {{ $isFirstLink := true }} {{ range .links }} {{ if not (or .is_header .no_link) }} {{ if not $isFirstLink }}
-                    <span class="text-gray-500 mx-[2px] hidden sm:inline link-pipe">|</span> {{ end }} {{ if eq .url "" }}
-                    <span class="text-lg lg:text-sm xl:text-xl font-bold link-set-title">{{ .title }}</span> {{ else }}
-                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a> {{ end }} {{ $isFirstLink
-                    = false }} {{ end }}{{ end }}
+                    <span class="text-gray-500 mx-[2px] hidden sm:inline min-h-[24px] content-center">|</span> {{ end }} {{ if eq .url "" }}
+                    <span class="text-lg lg:text-sm xl:text-xl font-bold min-h-[24px] content-center">{{ .title }}</span> {{ else }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline min-h-[24px] min-w-[24px] inline-flex items-center justify-center {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a>{{
+                    end }} {{ $isFirstLink = false }} {{ end }}{{ end }}
                 </div>
 
                 {{ end }}

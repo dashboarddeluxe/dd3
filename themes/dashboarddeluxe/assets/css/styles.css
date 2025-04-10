@@ -82,22 +82,3 @@
 body {
     font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
-
-
-/* Add minimum height and width for all links */
-
-a {
-    min-height: 24px;
-    min-width: 24px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.link-pipe,
-.link-set-title {
-    min-height: 24px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
