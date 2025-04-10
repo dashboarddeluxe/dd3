@@ -772,6 +772,9 @@ sections:
   - links:
     - title: "Logo Ipsum"
       url: "https://logoipsum.com/"
+  - links:
+    - title: "Nucleo App Free Icons"
+      url: "https://nucleoapp.com/free-icons"
   - title: "Patterns"
     links:
     - title: "Trianglify.io"
