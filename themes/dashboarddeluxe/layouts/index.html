@@ -1,1 +1,1 @@
-{{ define "main" }} {{ partial "dashboard.html" site.Data.dashboard }} {{ end }}
+{{ define "main" }} {{ partial "dashboard.html" (dict "dashboard" site.Data.dashboard "site" site) }} {{ end }}

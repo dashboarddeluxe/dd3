@@ -1,6 +1,6 @@
 name = "Dashboard Deluxe"
 license = "MIT"
-licenselink = ""
+licenselink = "https://opensource.org/licenses/MIT"
 description = "Dashboard Deluxe Hugo Theme with Tailwind CSS"
 homepage = "https://dd-3.netlify.app"
 tags = ["tailwindcss", "responsive"]

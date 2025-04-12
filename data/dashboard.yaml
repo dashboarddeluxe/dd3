@@ -1,1090 +1,1520 @@
 header:
   title: "Dashboard Deluxe 3"
-
 sections:
 - name: "Main"
   link_name: "Main"
+  hidden: false
   groups:
   - links:
     - title: "Netvibes Dashboard"
       url: "https://www.netvibes.com/dashboard"
+      hidden: false
     - title: "Mobile Netvibes"
       url: "https://mobile.netvibes.com"
+      hidden: false
     - title: "Feedly"
       url: "https://feedly.com"
+      hidden: false
     - title: "Inoreader"
       url: "https://www.inoreader.com/"
+      hidden: false
   - links:
     - title: "Gmail"
       url: "https://gmail.com"
+      hidden: false
     - title: "Yahoo! Mail"
       url: "https://mail.yahoo.com"
+      hidden: false
   - links:
     - title: "Google"
       url: "https://google.com"
+      hidden: false
     - title: "Image Search"
       url: "https://images.google.com/"
+      hidden: false
     - title: "Keep"
       url: "https://keep.google.com"
+      hidden: false
     - title: "Calendar"
       url: "https://calendar.google.com"
+      hidden: false
     - title: "Drive"
       url: "https://drive.google.com"
+      hidden: false
     - title: "Photos"
       url: "https://photos.google.com"
+      hidden: false
     - title: "Messages"
       url: "https://messages.google.com/web"
+      hidden: false
   - links:
     - title: "Search"
       url: ""
+      hidden: false
     - title: "Ecosia"
       url: "https://www.ecosia.org/"
+      hidden: false
     - title: "DuckDuckGo"
       url: "https://duckduckgo.com/"
+      hidden: false
     - title: "Yahoo!"
       url: "https://yahoo.com"
+      hidden: false
     - title: "Bing"
       url: "https://bing.com"
+      hidden: false
   - links:
     - title: "Facebook"
       url: "https://facebook.com/"
+      hidden: false
     - title: "Messenger"
       url: "https://facebook.com/messages"
+      hidden: false
     - title: "Basic"
       url: "https://mbasic.facebook.com"
+      hidden: false
     - title: "Basic Messenger"
       url: "https://mbasic.facebook.com/messages/?ref_component=mbasic_home_header&amp;ref_page=%2Fwap%2Fhome.php&amp;refid=8"
+      hidden: false
   - links:
     - title: "Twitter"
       url: "https://twitter.com/home"
+      hidden: false
     - title: "Trends"
       url: "https://twitter.com/i/trends"
+      hidden: false
   - links:
     - title: "YouTube"
       url: "https://youtube.com/"
+      hidden: false
     - title: "Subscriptions"
       url: "https://youtube.com/feed/subscriptions"
+      hidden: false
     - title: "History"
       url: "https://www.youtube.com/feed/history"
+      hidden: false
     - title: "Studio"
       url: "https://studio.youtube.com/"
+      hidden: false
   - links:
     - title: "WhatsApp"
       url: "https://web.whatsapp.com/"
+      hidden: false
     - title: "Telegram"
       url: "https://web.telegram.org/"
+      hidden: false
   - links:
     - title: "World Time Buddy"
       url: "https://www.worldtimebuddy.com/"
+      hidden: false
     - title: "Preset"
       url: "https://www.worldtimebuddy.com/?pl=1&lid=1701668,5192726,3369157,6167865,2193733,1566083,5308655&h=1701668&hf=0"
+      hidden: false
   - links:
     - title: "Speed Test"
       url: "https://www.speedtest.net/"
+      hidden: false
     - title: "Cloudflare"
       url: "https://speed.cloudflare.com/"
+      hidden: false
     - title: "Fast.com"
       url: "https://fast.com/"
+      hidden: false
     - title: "Open Speed Test"
       url: "https://openspeedtest.com/"
+      hidden: false
   - links:
     - title: "Pairdrop"
       url: "https://pairdrop.net/"
+      hidden: false
     - title: "Snapdrop"
       url: "https://snapdrop.net/"
+      hidden: false
   - title: "E-Commerce"
+    hidden: false
     links:
     - title: "Shopee"
       url: "https://shopee.ph/"
+      hidden: false
     - title: "My Purchases"
       url: "https://shopee.ph/user/purchase"
+      hidden: false
   - links:
     - title: "Lazada"
       url: "https://lazada.com.ph/"
+      hidden: false
   - title: "Apparel"
+    hidden: false
     links:
     - title: "World Balance"
       url: "https://www.worldbalance.com.ph/"
+      hidden: false
     - title: "Men's Shoes"
       url: "https://worldbalance.com.ph/collections/all-shoes-m?sort_by=created-descending"
+      hidden: false
     - title: "Women's Shoes"
       url: "https://worldbalance.com.ph/collections/all-shoes-l?sort_by=created-descending"
+      hidden: false
     - title: "Trail Shoes"
       url: "https://worldbalance.com.ph/collections/trail?sort_by=created-descending"
+      hidden: false
   - links:
     - title: "Cole Vintage"
       url: "https://colevintage.com/"
+      hidden: false
     - title: "XL"
       url: "https://colevintage.com/collections/sale-xlarge"
+      hidden: true
   - title: "Software"
+    hidden: false
     links:
     - title: "App Sales"
       url: "https://www.app-sales.net/"
+      hidden: false
     - title: "Now Free"
       url: "https://www.app-sales.net/nowfree/"
+      hidden: false
     - title: "Active Sales"
       url: "https://www.app-sales.net/activesales/"
+      hidden: false
   - links:
     - title: "Glary Utilities"
       url: "https://download.glarysoft.com/guportable.zip"
+      hidden: false
   - links:
     - title: "TronScript"
       url: "https://www.reddit.com/r/TronScript/wiki/downloads"
+      hidden: false
   - links:
     - title: "Portapps"
       url: "https://portapps.io/apps/"
+      hidden: false
   - links:
     - title: "TCP Optimizer"
       url: "https://www.speedguide.net/downloads.php"
+      hidden: false
   - links:
     - title: "CDKOffers"
       url: "https://www.cdkoffers.com/"
-  - links:
-    - title: "The House of Portable"
-      url: "https://thehouseofportable.com/?home=1"
+      hidden: false
   - links:
     - title: "CTT Windows Utility"
       url: "https://github.com/ChrisTitusTech/winutil"
+      hidden: false
     - title: "irm christitus.com/win | iex"
       url: ""
+      hidden: false
+  - links:
+    - title: "The House of Portable"
+      url: "https://thehouseofportable.com/?home=1"
+      hidden: true
   - title: "News and Media"
+    hidden: false
     links:
     - title: "SmartTubeNext"
       url: "https://github.com/yuliskov/SmartTubeNext"
+      hidden: false
   - links:
     - title: "Spotify"
       url: "https://open.spotify.com/"
+      hidden: false
   - links:
     - title: "Google"
       url: "https://news.google.com/?hl=en-PH&gl=PH&ceid=PH:en"
+      hidden: false
   - links:
     - title: "AllSides"
       url: "https://www.allsides.com/unbiased-balanced-news"
+      hidden: false
   - links:
     - title: "Sky Cable"
       url: "https://www.mysky.com.ph/metromanila"
+      hidden: false
     - title: "Promos"
       url: "https://www.mysky.com.ph/metromanila/promos"
+      hidden: false
     - title: "Service Advisories"
       url: "https://www.mysky.com.ph/help-service-advisories"
+      hidden: false
     - title: "Advisory"
       url: "https://skyadvisory.mysky.com.ph/"
+      hidden: false
     - title: "Support"
       url: "https://www.mysky.com.ph/metromanila/contact-us/inquiries"
+      hidden: false
   - links:
     - title: "Casa Daza"
       url: "https://www.youtube.com/results?search_query=casa+daza+metro.style&sp=CAISAhAB"
+      hidden: false
   - title: "Productivity"
+    hidden: false
     links:
     - title: "NapChart"
       url: "https://napchart.com/app"
+      hidden: false
 
 - name: "Sports"
   link_name: "Sports"
+  hidden: false
   groups:
   - links:
     - title: "ESPN"
       url: "https://global.espn.com/?src=com"
+      hidden: false
     - title: "NBA"
       url: "https://espn.com/nba"
+      hidden: false
     - title: "Scores"
       url: "https://espn.com/nba/scoreboard"
+      hidden: false
     - title: "Standings"
       url: "https://espn.com/nba/standings"
+      hidden: false
     - title: "Spurs"
       url: "https://www.espn.com/nba/team/_/name/sa/san-antonio-spurs"
+      hidden: false
   - links:
     - title: "NBA Stats"
       url: "https://www.nba.com/stats"
+      hidden: false
     - title: "Player Impact Estimate"
       url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=PIE"
+      hidden: false
     - title: "Net Rating"
       url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=NET_RATING"
+      hidden: false
     - title: "Fantasy Points"
       url: "https://www.nba.com/stats/players/traditional?CF=GP_RANK*LE*300:MIN_RANK*LE*300&dir=A&sort=NBA_FANTASY_PTS"
+      hidden: false
   - links:
     - title: "NBA Top Plays"
       url: "https://www.youtube.com/@NBA/search?query=NBA%20Top%20Plays"
+      hidden: false
   - links:
     - title: "Yahoo! Sports"
       url: "https://sports.yahoo.com/"
+      hidden: false
     - title: "NBA"
       url: "https://sports.yahoo.com/nba"
+      hidden: false
   - links:
     - title: "Bleacher Report"
       url: "https://www.bleacherreport.com/"
+      hidden: false
     - title: "NBA"
       url: "https://www.bleacherreport.com/nba"
-  - links:
-    - title: "538 Sports"
-      url: "https://fivethirtyeight.com/sports/"
-    - title: "NBA"
-      url: "https://fivethirtyeight.com/tag/nba/"
+      hidden: false
   - links:
     - title: "HoopsHype Rumors"
       url: "https://hoopshype.com/rumors"
+      hidden: false
     - title: "Spurs"
       url: "https://hoopshype.com/team/san-antonio-spurs/"
+      hidden: false
   - links:
     - title: "Basketball Jersey Archive"
       url: "https://basketballjerseyarchive.com/"
+      hidden: false
     - title: "NBA Logos"
       url: "https://www.sportslogos.net/teams/list_by_league/6/National_Basketball_Association/NBA/logos/"
+      hidden: false
     - title: "AEU Mall"
       url: "https://shopee.ph/aeu_mall?page=0&sortBy=ctime"
+      hidden: true
     - title: "Jersey 8888"
       url: "https://shopee.ph/jersey8888?page=0&sortBy=ctime"
+      hidden: true
   - title: "San Antonio Spurs"
+    hidden: false
     links:
     - title: "Pounding the Rock"
       url: "https://www.poundingtherock.com/"
+      hidden: false
   - links:
     - title: "Air Alamo"
       url: "https://airalamo.com/"
+      hidden: false
   - links:
     - title: "Spurs Nation"
       url: "https://www.expressnews.com/sports/spurs/"
+      hidden: false
   - links:
     - title: "Best Defensive Rating"
       url: "https://www.nba.com/stats/players/defense/?sort=DEF_RATING&dir=-1&Season=2023-24&SeasonType=Regular%20Season&Outcome=W&TeamID=1610612759&CF=MIN*GE*15"
+      hidden: false
   - links:
     - title: "Most Fantasy Points"
       url: "https://www.nba.com/stats/players/traditional/?sort=NBA_FANTASY_PTS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
+      hidden: false
   - links:
     - title: "Plus Minus Player"
       url: "https://www.nba.com/stats/players/traditional/?sort=PLUS_MINUS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
+      hidden: false
   - links:
     - title: "Plus Minus Lineup"
       url: "https://www.nba.com/stats/lineups/traditional/?sort=PLUS_MINUS&dir=1&Season=2023-24&SeasonType=Regular%20Season&PerMode=Totals&TeamID=1610612759"
+      hidden: false
   - title: "Tennis"
+    hidden: false
     links:
     - title: "ATP World Rankings"
       url: "https://www.atptour.com/en/rankings/singles/"
+      hidden: false
     - title: "Live Rankings"
       url: "https://live-tennis.eu/en/atp-live-ranking"
+      hidden: false
   - links:
     - title: "WTA World Rankings"
       url: "https://www.wtatennis.com/rankings/singles"
+      hidden: false
     - title: "Live Rankings"
       url: "https://live-tennis.eu/en/wta-live-ranking"
+      hidden: false
   - links:
     - title: "Alex Eala"
       url: ""
+      hidden: false
     - title: "Tennis.com Player Activity"
       url: "https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/"
+      hidden: false
     - title: "WTA Overview"
       url: "https://www.wtatennis.com/players/330332/alexandra-eala/#overview"
+      hidden: false
   - title: "Australian Sports"
+    hidden: false
     links:
     - title: "ABC Sport"
       url: "https://abc.net.au/news/sport/"
+      hidden: false
   - links:
     - title: "Cricinfo"
       url: "https://www.espncricinfo.com/team/australia-2"
+      hidden: false
 
 - name: "Board Games"
   link_name: "Board Games"
+  hidden: false
   groups:
   - title: "BoardGameGeek"
+    hidden: false
     links:
     - title: "BoardGameGeek"
       url: "https://boardgamegeek.com"
+      hidden: false
     - title: "Subscriptions"
       url: "https://boardgamegeek.com/subscriptions"
+      hidden: false
     - title: "Search"
       url: "https://boardgamegeek.com/advsearch/boardgame"
+      hidden: false
   - links:
     - title: "Complexity"
       url: ""
+      hidden: false
     - title: "Very Light"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=1.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "Light"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1.5&floatrange%5Bavgweight%5D%5Bmax%5D=1.99&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "Medium Light"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=2&floatrange%5Bavgweight%5D%5Bmax%5D=2.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "Medium"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=2.5&floatrange%5Bavgweight%5D%5Bmax%5D=3.49&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "Heavy"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=3.5&floatrange%5Bavgweight%5D%5Bmax%5D=5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
   - links:
     - title: "Duration"
       url: ""
+      hidden: false
     - title: "20 Minutes"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "40 Minutes"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bleastplaytime%5D%5Bmin%5D=21&range%5Bplaytime%5D%5Bmax%5D=40&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "1 Hour"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bleastplaytime%5D%5Bmin%5D=30&range%5Bplaytime%5D%5Bmax%5D=60&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
   - links:
     - title: "Light 20 Minutes"
       url: ""
+      hidden: false
     - title: "20th Century"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=1900&range%5Byearpublished%5D%5Bmax%5D=1999&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2000s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2010s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2020s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
   - links:
     - title: "Players"
       url: ""
+      hidden: false
     - title: "1"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=1&range%5Bmaxplayers%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=2&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"
+      hidden: false
     - title: "3"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=3&range%5Bmaxplayers%5D%5Bmin%5D=3&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "4"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=4&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "5"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=5&range%5Bmaxplayers%5D%5Bmin%5D=5&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "6"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=6&range%5Bmaxplayers%5D%5Bmin%5D=6&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "7"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=7&range%5Bmaxplayers%5D%5Bmin%5D=7&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "8"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=8&range%5Bmaxplayers%5D%5Bmin%5D=8&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "9"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=9&range%5Bmaxplayers%5D%5Bmin%5D=9&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "10"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=10&range%5Bmaxplayers%5D%5Bmin%5D=10&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "11"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=11&range%5Bmaxplayers%5D%5Bmin%5D=11&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "12"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=12&range%5Bmaxplayers%5D%5Bmin%5D=12&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
   - links:
     - title: "All Games"
       url: ""
+      hidden: false
     - title: "Before 1990"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=-999999999&range%5Byearpublished%5D%5Bmax%5D=1989&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "1990s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=1990&range%5Byearpublished%5D%5Bmax%5D=1999&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2000s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2010s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2020s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
   - links:
     - title: "Light Games"
       url: ""
+      hidden: false
     - title: "Before 1990"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=-999999999&range%5Byearpublished%5D%5Bmax%5D=1989&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "1990s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=1990&range%5Byearpublished%5D%5Bmax%5D=1999&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2000s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2000&range%5Byearpublished%5D%5Bmax%5D=2009&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2010s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2010&range%5Byearpublished%5D%5Bmax%5D=2019&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
     - title: "2020s"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D=2020&range%5Byearpublished%5D%5Bmax%5D=2029&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"
+      hidden: false
   - links:
     - title: "Versatile"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"
+      hidden: false
     - title: "Card Games"
       url: "https://boardgamegeek.com/search/boardgame?sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&propertyids%5B0%5D=1002&B1=Submit"
+      hidden: false
   - title: "Reviews"
+    hidden: false
     links:
     - title: "Dice Tower"
       url: "https://dicetower.com"
+      hidden: false
     - title: "Countdowns"
       url: "https://www.youtube.com/@thedicetower/search?query=top"
+      hidden: false
     - title: "Week in Review"
       url: "https://www.youtube.com/playlist?list=PLOlRvTbmD6tLXrBugjAV1nlFMW5Z4OzJy"
+      hidden: false
     - title: "Latest Reviews"
       url: "https://dicetower.com/dice-tower-reviews"
+      hidden: false
   - links:
     - title: "iSlaytheDragon Reviews"
       url: "https://islaythedragon.com/category/game-reviews/"
+      hidden: false
   - links:
     - title: "Geeks Under Grace"
       url: "https://www.geeksundergrace.com/tabletop/"
+      hidden: false
   - links:
     - title: "Meeple Like Us"
       url: "https://meeplelikeus.co.uk/"
+      hidden: false
     - title: "Master List"
       url: "https://meeplelikeus.co.uk/meeple-like-us-masterlist/"
+      hidden: false
   - links:
     - title: "What's Eric Playing"
       url: "https://whatsericplaying.com/"
+      hidden: false
     - title: "Top 15"
       url: "https://whatsericplaying.com/top-15/"
+      hidden: false
     - title: "Hot 15"
       url: "https://whatsericplaying.com/hot-15/"
+      hidden: false
   - links:
     - title: "Board vs Game"
       url: "https://boardvsgame.com"
+      hidden: false
   - title: "Print and Play"
-    links:
-    - title: "PNP Board Games"
-      url: "https://www.boardgamer.ru/forum/index.php?action=unread"
+    hidden: false
   - links:
     - title: "Tabletop Simulator Workshop"
       url: "https://steamcommunity.com/app/286160/workshop/"
+      hidden: false
     - title: "Most Recent"
       url: "https://steamcommunity.com/workshop/browse/?appid=286160&browsesort=mostrecent&section=readytouseitems"
-  - links:
-    - title: "steamworkshopdownloader.io"
-      url: "https://steamworkshopdownloader.io/"
-    - title: "Steam Workshop Download"
-      url: "http://steamworkshop.download"
+      hidden: false
   - links:
     - title: "Tray Template"
       url: "https://templatemaker.nl/index.php?template=matchbox&source=dielines&lang=en"
+      hidden: false
   - links:
     - title: "The Esoteric Order of Gamers"
       url: "https://www.orderofgamers.com/games/"
+      hidden: false
+    links:
+    - title: "PNP Board Games"
+      url: "https://www.boardgamer.ru/forum/index.php?action=unread"
+      hidden: true
+  - links:
+    - title: "steamworkshopdownloader.io"
+      url: "https://steamworkshopdownloader.io/"
+      hidden: true
+    - title: "Steam Workshop Download"
+      url: "http://steamworkshop.download"
+      hidden: true
   - title: "Manila Stores"
+    hidden: false
     links:
     - title: "GamingLib"
       url: "https://www.gaminglib.com/collections/all?sort_by=created-descending"
+      hidden: false
   - links:
     - title: "Geekbox PH"
       url: "https://geekboxph.com/collections/shop-all?sort_by=created-descending"
+      hidden: false
     - title: "Shopee Store"
       url: "https://shopee.ph/geekboxph?page=0&sortBy=ctime"
+      hidden: false
   - links:
     - title: "Board Game Essentials"
       url: "https://shopee.ph/boardgameessentials?page=0&sortBy=ctime"
+      hidden: false
 
 - name: "Development"
   link_name: "Dev"
+  hidden: false
   groups:
   - links:
     - title: "Google PageSpeed Insights"
       url: "https://developers.google.com/speed/pagespeed/insights/"
+      hidden: false
     - title: "DD3"
       url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
+      hidden: false
   - links:
     - title: "Namesilo"
       url: "https://www.namesilo.com"
+      hidden: false
   - links:
     - title: "Whois Lookup"
       url: "https://whois.domaintools.com/"
+      hidden: false
   - links:
     - title: "IP Location Finder"
       url: "https://iplocation.io/"
+      hidden: false
   - links:
     - title: "HTTP Headers Analyzer"
       url: "https://dri.es/headers?url=https://dd-3.netlify.app"
+      hidden: false
   - links:
     - title: "Header Security Scan"
       url: "https://securityheaders.com/?q=https%3A%2F%2Fdd-3.netlify.app%2F"
+      hidden: false
   - links:
     - title: "FB Sharing Debugger"
       url: "https://developers.facebook.com/tools/debug/"
+      hidden: false
   - links:
     - title: "Dr Link Checker"
       url: "https://www.drlinkcheck.com/"
+      hidden: false
     - title: "Dead Link Checker"
       url: "https://www.deadlinkchecker.com/"
+      hidden: false
   - title: "PHP"
+    hidden: false
     links:
     - title: "Clean Code PHP"
       url: "https://github.com/jupeter/clean-code-php"
+      hidden: false
   - links:
     - title: "Laravel"
       url: "https://laravel.com"
+      hidden: false
     - title: "6 Docs"
       url: "https://laravel.com/docs/6.x"
+      hidden: false
   - links:
     - title: "Voyager"
       url: "https://voyager.devdojo.com/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/the-control-group/voyager/releases"
+      hidden: false
     - title: "Docs"
       url: "https://voyager-docs.devdojo.com/"
+      hidden: false
   - links:
     - title: "CodeIgniter"
       url: "https://www.codeigniter.com/"
+      hidden: false
     - title: "Docs"
       url: "https://www.codeigniter.com/user_guide/index.html#"
+      hidden: false
   - links:
     - title: "PHP Download"
       url: "https://php-download.com/"
+      hidden: false
   - title: "Reference and Training"
+    hidden: false
     links:
     - title: "Tutorialspoint"
       url: "https://www.tutorialspoint.com/web_development_tutorials.htm"
+      hidden: false
   - links:
     - title: "Programming Notes for Professionals"
       url: "https://goalkicker.com/"
+      hidden: false
   - links:
     - title: "Free Code Camp"
       url: "https://learn.freecodecamp.org/"
+      hidden: false
   - links:
     - title: "Scrimba"
       url: "https://scrimba.com/"
+      hidden: false
   - links:
     - title: "Cheltenham Courseware"
       url: "https://www.cheltenhamcourseware.com/"
+      hidden: false
   - title: "Browsers"
+    hidden: false
     links:
     - title: "Brave Browser Portable"
       url: "https://github.com/portapps/brave-portable/releases"
+      hidden: false
   - links:
     - title: "Firefox Portable"
       url: "https://portableapps.com/apps/internet/firefox_portable"
+      hidden: false
   - title: "Servers"
+    hidden: false
     links:
     - title: "Local"
       url: "https://localwp.com/releases/"
+      hidden: false
   - links:
     - title: "XAMPP"
       url: "https://www.apachefriends.org/download.html"
+      hidden: false
   - links:
     - title: "Laragon"
       url: "https://laragon.org/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/leokhoa/laragon/releases"
+      hidden: false
   - title: "Text Editors"
+    hidden: false
     links:
     - title: "VS Codium"
       url: "https://vscodium.com/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/VSCodium/vscodium/releases"
+      hidden: false
   - links:
     - title: "Sublime Text"
       url: "https://www.sublimetext.com/3"
+      hidden: false
     - title: "Popular Packages"
       url: "https://packagecontrol.io/browse/popular"
+      hidden: false
   - title: "Static Site Generators"
+    hidden: false
     links:
     - title: "Static Site Generators"
       url: "https://jamstack.org/generators/"
+      hidden: false
   - links:
     - title: "Jigsaw"
       url: "https://jigsaw.tighten.co/"
+      hidden: false
     - title: "Docs"
       url: "https://jigsaw.tighten.co/docs/installation/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/tighten/jigsaw/releases"
+      hidden: false
   - links:
     - title: "Hugo"
       url: "https://gohugo.io/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/gohugoio/hugo/releases"
+      hidden: false
     - title: "Bootstrap Themes"
       url: "https://themes.gohugo.io/tags/bootstrap/"
+      hidden: false
     - title: "Congo Theme"
       url: "https://github.com/jpanther/congo/releases"
+      hidden: false
   - links:
     - title: "Netlify"
       url: "https://app.netlify.com"
+      hidden: false
     - title: "Dashboard Deluxe 3"
       url: "https://dd-3.netlify.app"
+      hidden: false
     - title: "Dashboard Deluxe 2"
       url: "https://dd2.netlify.app"
+      hidden: false
     - title: "Dashboard Deluxe"
       url: "https://dashd.netlify.app"
+      hidden: false
   - links:
     - title: "Github"
       url: "https://github.com"
+      hidden: false
     - title: "Dashboard Deluxe"
       url: "https://github.com/dashboarddeluxe/"
+      hidden: false
     - title: "Dashboard Deluxe Site"
       url: "https://github.com/dashboarddeluxe/dashboarddeluxe.github.io"
+      hidden: false
   - links:
     - title: "Prose"
       url: "https://prose.io"
+      hidden: false
     - title: "Edit Dashboard Deluxe"
       url: "https://prose.io/#dashboarddeluxe/dashboarddeluxe.github.io/edit/master/index.md"
+      hidden: false
   - title: "CSS Frameworks"
+    hidden: false
     links:
     - title: "Bootstrap"
       url: "https://getbootstrap.com/"
+      hidden: false
     - title: "Docs"
       url: "https://getbootstrap.com/docs/5.0/getting-started/introduction/"
+      hidden: false
     - title: "Blog"
       url: "https://blog.getbootstrap.com/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/twbs/bootstrap/releases"
+      hidden: false
   - links:
     - title: "TailwindCSS"
       url: "https://tailwindcss.com/"
+      hidden: false
     - title: "Docs"
       url: "https://tailwindcss.com/docs"
+      hidden: false
     - title: "v1 Docs"
       url: "https://v1.tailwindcss.com/docs/"
+      hidden: false
     - title: "Play"
       url: "https://play.tailwindcss.com/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/tailwindlabs/tailwindcss/releases"
+      hidden: false
   - links:
     - title: "Awesome TailwindCSS"
       url: "https://awesomeopensource.com/project/aniftyco/awesome-tailwindcss"
+      hidden: false
   - links:
     - title: "TailBlocks"
       url: "https://tailblocks.cc/"
+      hidden: false
   - links:
     - title: "Wicked Blocks"
       url: "https://wickedblocks.dev/"
+      hidden: false
   - links:
     - title: "Made with Tailwind"
       url: "https://madewithtailwindcss.com/"
+      hidden: false
 
 - name: "Content Management Systems"
   link_name: "CMS"
+  hidden: false
   groups:
   - links:
     - title: "GlobalStats Statcounter"
       url: "https://gs.statcounter.com/"
+      hidden: false
     - title: "w3techs CMS Usage"
       url: "https://w3techs.com/technologies/history_overview/content_management/all"
+      hidden: false
   - links:
     - title: "Backdrop CMS"
       url: "https://backdropcms.org"
+      hidden: false
     - title: "Roadmap"
       url: "https://backdropcms.org/roadmap"
+      hidden: false
   - links:
     - title: "Grav"
       url: "https://getgrav.org/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/getgrav/grav/releases"
+      hidden: false
   - title: "WordPress"
+    hidden: false
     links:
     - title: "Wordpress"
       url: "https://wordpress.org"
+      hidden: false
     - title: "Releases"
       url: "https://wordpress.org/download/releases/"
+      hidden: false
     - title: "Planet"
       url: "https://planet.wordpress.org"
+      hidden: false
     - title: "Full Site Editing"
       url: "https://wordpress.org/themes/tags/full-site-editing/"
-  - links:
-    - title: "GNU Elements"
-      url: "https://gnuelements.com/"
-    - title: "Latest Updates"
-      url: "https://gnuelements.com/account/latest-updates/"
+      hidden: false
   - links:
     - title: "WP Hive"
       url: "https://wphive.com/"
+      hidden: false
     - title: "Gutenberg"
       url: "https://wphive.com/plugin-search/?category=gutenberg&amp;search=&amp;sortby=active-installs-desc"
+      hidden: false
   - links:
     - title: "GenerateWP"
       url: "https://generatewp.com/"
-  - links:
-    - title: "FreeWP"
-      url: "http://freewp.io/"
+      hidden: false
   - links:
     - title: "PRO Elements"
       url: "https://proelements.org/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/proelements/proelements/releases"
+      hidden: false
   - links:
     - title: "Draft"
       url: "https://wpdraft.com/"
+      hidden: false
+  - links:
+    - title: "GNU Elements"
+      url: "https://gnuelements.com/"
+      hidden: true
+    - title: "Latest Updates"
+      url: "https://gnuelements.com/account/latest-updates/"
+      hidden: true
   - title: "Drupal"
+    hidden: false
     links:
     - title: "Drupal"
       url: "https://drupal.org/"
+      hidden: false
     - title: "Planet"
       url: "https://drupal.org/planet"
+      hidden: false
     - title: "Initiatives"
       url: "https://www.drupal.org/about/core/strategic-initiatives"
+      hidden: false
     - title: "Usage"
       url: "https://www.drupal.org/project/usage/"
+      hidden: false
   - links:
     - title: "Droopler"
       url: "https://github.com/droptica/droopler_project/releases"
+      hidden: false
     - title: "Releases"
       url: "https://www.drupal.org/project/droopler/releases"
+      hidden: false
   - links:
     - title: "Drupal 9"
       url: "https://www.drupal.org/about/9"
+      hidden: false
     - title: "Modules"
       url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A9&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+      hidden: false
     - title: "Themes"
       url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+      hidden: false
     - title: "Distributions"
       url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A9&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+      hidden: false
   - links:
     - title: "Drupal 8"
       url: "https://www.drupal.org/8"
+      hidden: false
     - title: "Modules"
       url: "https://www.drupal.org/project/project_module?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=&amp;f%5B3%5D=sm_core_compatibility%3A8&amp;f%5B4%5D=sm_field_project_type%3Afull&amp;f%5B5%5D=&amp;f%5B6%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+      hidden: false
     - title: "Themes"
       url: "https://www.drupal.org/project/project_theme?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+      hidden: false
     - title: "Distributions"
       url: "https://www.drupal.org/project/project_distribution?f%5B0%5D=&amp;f%5B1%5D=&amp;f%5B2%5D=sm_core_compatibility%3A8&amp;f%5B3%5D=sm_field_project_type%3Afull&amp;f%5B4%5D=&amp;f%5B5%5D=&amp;text=&amp;solrsort=ds_project_latest_release+desc&amp;op=Search"
+      hidden: false
   - links:
     - title: "Drupal Modules: The 1%"
       url: "https://vimeo.com/user10080484"
+      hidden: false
 
 - name: "Design"
   link_name: "Design"
+  hidden: false
   groups:
   - title: "Images"
+    hidden: false
     links:
     - title: "Pixabay"
       url: "https://pixabay.com/"
+      hidden: false
   - links:
     - title: "Unsplash"
       url: "https://unsplash.com/"
+      hidden: false
   - links:
     - title: "Pxhere"
       url: "https://pxhere.com/"
+      hidden: false
   - links:
     - title: "Unsample"
       url: "https://unsample.net/"
+      hidden: false
   - links:
     - title: "Gratisography"
       url: "https://gratisography.com/"
+      hidden: false
   - links:
     - title: "Pexels"
       url: "https://www.pexels.com/"
+      hidden: false
   - links:
     - title: "Stocksnap"
       url: "https://stocksnap.io"
+      hidden: false
   - links:
     - title: "Freeimages"
       url: "https://www.freeimages.com/"
+      hidden: false
   - links:
     - title: "Picography"
       url: "https://picography.co"
+      hidden: false
   - links:
     - title: "Picjumbo"
       url: "https://picjumbo.com/"
+      hidden: false
   - links:
     - title: "Morguefile"
       url: "https://morguefile.com"
+      hidden: false
   - links:
     - title: "Flickr Image Search"
       url: "https://www.flickr.com/search/?license=4%2C5%2C6%2C9%2C10&advanced=1&dimension_search_mode=min&height=1024&width=1024&media=photos&text="
+      hidden: false
   - links:
     - title: "Jay Mantri"
       url: "https://jaymantri.com"
+      hidden: false
   - links:
     - title: "Magdeleine CC0"
       url: "https://magdeleine.co/license/cc0/"
+      hidden: false
   - links:
     - title: "SuperFamous Images"
       url: "https://images.superfamous.com/"
+      hidden: false
   - title: "Icons"
+    hidden: false
     links:
     - title: "Icomoon App"
       url: "https://icomoon.io/app"
+      hidden: false
   - links:
     - title: "Heroicons"
       url: "https://heroicons.com/"
+      hidden: false
   - links:
     - title: "Logo Ipsum"
       url: "https://logoipsum.com/"
+      hidden: false
   - links:
     - title: "Nucleo App Free Icons"
       url: "https://nucleoapp.com/free-icons"
+      hidden: false
   - title: "Patterns"
+    hidden: false
     links:
     - title: "Trianglify.io"
       url: "https://trianglify.io/"
+      hidden: false
   - links:
     - title: "Trianglify Background Generator"
       url: "https://alssndro.github.io/trianglify-background-generator/"
+      hidden: false
   - links:
     - title: "Geopattern"
       url: "https://btmills.github.io/geopattern/geopattern.html"
+      hidden: false
   - links:
     - title: "Patterncooler"
       url: "https://patterncooler.com/"
+      hidden: false
   - links:
     - title: "Striped Backgrounds"
       url: "http://stripedbgs.com/"
+      hidden: false
   - links:
     - title: "Mesher"
       url: "https://csshero.org/mesher/"
+      hidden: false
   - links:
     - title: "Hero Patterns"
       url: "https://heropatterns.com/"
+      hidden: false
   - links:
     - title: "The Pattern Library"
       url: "http://thepatternlibrary.com/"
+      hidden: false
   - links:
     - title: "Subtle Patterns"
       url: "https://www.toptal.com/designers/subtlepatterns/"
+      hidden: false
   - links:
     - title: "Transparent Textures"
       url: "https://www.transparenttextures.com/"
+      hidden: false
   - links:
     - title: "Generate Random Bitmap PNG"
       url: "https://onlinepngtools.com/generate-random-png"
+      hidden: false
   - title: "Fonts"
+    hidden: false
     links:
     - title: "Google Fonts"
       url: "https://fonts.google.com/"
+      hidden: false
     - title: "8+ Styles"
       url: "https://fonts.google.com/?sort=popularity&stylecount=8"
+      hidden: false
     - title: "Variable"
       url: "https://fonts.google.com/?sort=popularity&vfonly=true"
+      hidden: false
   - links:
     - title: "Font Identifier"
       url: "https://fontsquirrel.com/matcherator"
+      hidden: false
   - links:
     - title: "Fontsquirrel"
       url: "https://fontsquirrel.com"
+      hidden: false
   - links:
     - title: "Dafont"
       url: "https://dafont.com"
+      hidden: false
   - links:
     - title: "Fontspace"
       url: "https://fontspace.com"
+      hidden: false
   - links:
     - title: "1001 Fonts"
       url: "https://1001fonts.com"
+      hidden: false
   - links:
     - title: "Fonts in the Wild"
       url: "https://www.fontsinthewild.com/"
+      hidden: false
   - links:
     - title: "Fonts in Use"
       url: "https://fontsinuse.com/"
+      hidden: false
   - links:
     - title: "Typewolf"
       url: "https://www.typewolf.com/"
+      hidden: false
   - links:
     - title: "You Work for Them - Fonts"
       url: "https://www.youworkforthem.com/fonts"
+      hidden: false
   - links:
     - title: "Weekly Fonts"
       url: "https://www.weeklyfonts.com/"
+      hidden: false
   - title: "Color Extraction"
+    hidden: false
     links:
     - title: "TinEye Color Extraction"
       url: "https://labs.tineye.com/color/"
+      hidden: false
   - links:
     - title: "PHP Color Extract"
       url: "https://www.coolphptools.com/color_extract"
+      hidden: false
   - title: "Inspiration"
+    hidden: false
     links:
     - title: "Land Book"
       url: "https://land-book.com/"
+      hidden: false
   - links:
     - title: "Dribble"
       url: "https://dribbble.com/"
+      hidden: false
   - links:
     - title: "Site Inspire"
       url: "https://www.siteinspire.com/"
+      hidden: false
   - links:
     - title: "Designspiration"
       url: "https://www.designspiration.com/"
+      hidden: false
 
 - name: "Emergency"
   link_name: "Emergency"
+  hidden: false
   groups:
   - title: "Weather"
+    hidden: false
     links:
     - title: "Accuweather"
       url: "https://www.accuweather.com/en/ph/pasig/264876/hourly-weather-forecast/264876"
+      hidden: false
     - title: "Minutecast"
       url: "https://www.accuweather.com/en/ph/pasig/264876/minute-weather-forecast/264876"
+      hidden: false
   - links:
     - title: "Weather.com"
       url: "https://weather.com/en-PH/weather/hourbyhour/l/c3784b13635e8dc4653bad5703d3c7590317cc43475d6bbbd94809d9e30ec8fe"
+      hidden: false
   - title: "Calamities"
+    hidden: false
     links:
     - title: "PHIVOLCS"
       url: "https://www.phivolcs.dost.gov.ph/index.php/earthquake/earthquake-information3"
+      hidden: false
     - title: "Latest Earthquake Info"
       url: "https://earthquake.phivolcs.dost.gov.ph/"
+      hidden: false
     - title: "Tsunami Information"
       url: "https://tsunami.phivolcs.dost.gov.ph/"
+      hidden: false
   - links:
     - title: "Volcano Bulletin"
       url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2"
+      hidden: false
     - title: "Taal"
       url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/taal-volcano"
+      hidden: false
     - title: "Pinatubo"
       url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/pinatubo-volcano"
+      hidden: false
     - title: "Mayon"
       url: "https://www.phivolcs.dost.gov.ph/index.php/volcano-hazard/volcano-bulletin2/mayon-volcano"
+      hidden: false
   - links:
     - title: "USGS"
       url: "https://earthquake.usgs.gov/earthquakes/map/#%7B%22feed%22%3A%2230day_sig%22%2C%22search%22%3Anull%2C%22listFormat%22%3A%22default%22%2C%22sort%22%3A%22newest%22%2C%22basemap%22%3A%22terrain%22%2C%22autoUpdate%22%3Atrue%2C%22restrictListToMap%22%3Afalse%2C%22timeZone%22%3A%22utc%22%2C%22mapposition%22%3A%5B%5B-78.49055166160312%2C74.8828125%5D%2C%5B78.42019327591201%2C325.1953125%5D%5D%2C%22overlays%22%3A%7B%22plates%22%3Atrue%7D%2C%22viewModes%22%3A%7B%22map%22%3Atrue%2C%22list%22%3Atrue%2C%22settings%22%3Afalse%2C%22help%22%3Afalse%7D%7D"
+      hidden: false
   - links:
     - title: "PAGASA"
       url: "https://bagong.pagasa.dost.gov.ph"
+      hidden: false
   - links:
     - title: "Earth Wind Map"
       url: "https://earth.nullschool.net/#current/wind/surface/level/orthographic=119.43,12.98,1301/loc=121.040,14.550"
+      hidden: false
   - links:
     - title: "Windfinder"
       url: "https://www.windfinder.com/"
+      hidden: false
   - links:
     - title: "HazardHunterPH"
       url: "https://hazardhunter.georisk.gov.ph/"
+      hidden: false
   - links:
     - title: "NOAH - Nationwide Operational Assessment of Hazards"
       url: "https://noah.up.edu.ph/"
+      hidden: false
   - links:
     - title: "DAM Information"
       url: "https://bagong.pagasa.dost.gov.ph/flood#dam-information"
+      hidden: false
   - title: "COVID-19"
+    hidden: false
     links:
     - title: "John Hopkins University"
       url: "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+      hidden: false
   - links:
     - title: "ncov2019.live"
       url: "https://ncov2019.live/"
+      hidden: false
   - links:
     - title: "Worldometers COVID-19"
       url: "https://www.worldometers.info/coronavirus/"
+      hidden: false
     - title: "Philippines"
       url: "https://www.worldometers.info/coronavirus/country/philippines/"
+      hidden: false
   - links:
     - title: "COVID-19 Variants"
       url: "https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/"
+      hidden: false
 
 - name: "Books"
   link_name: "Books"
+  hidden: false
   groups:
   - links:
     - title: "Goodreads"
       url: "https://www.goodreads.com/"
+      hidden: false
     - title: "Recommendations"
       url: "https://www.goodreads.com/recommendations"
+      hidden: false
   - links:
     - title: "Calibre Portable"
       url: "https://calibre-ebook.com/download_portable"
+      hidden: false
     - title: "What's New"
       url: "https://calibre-ebook.com/whats-new"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/kovidgoyal/calibre/releases"
-  - links:
-    - title: "Library Genesis"
-      url: "https://libgen.is/"
-    - title: "Proxies"
-      url: "https://libgen.onl/library-genesis/#Library_Genesis_Website_URLS"
-    - title: "Alternate 1"
-      url: "https://libgen.rs/"
-    - title: "Alternate 2"
-      url: "https://libgen.st/"
-  - links:
-    - title: "Z Library"
-      url: "https://z-library.sk/"
-    - title: "Options"
-      url: "https://go-to-library.sk/"
-    - title: "Tor"
-      url: "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion"
-  - links:
-    - title: "Booksee"
-      url: "https://en.booksee.org/"
-  - links:
-    - title: "Mobilism"
-      url: "https://mobilism.org/"
-  - links:
-    - title: "WOW eBook"
-      url: "https://wowebook.org"
+      hidden: false
   - links:
     - title: "OpenStax Textbooks"
       url: "https://openstax.org/subjects/view-all"
+      hidden: false
+  - links:
+    - title: "Library Genesis"
+      url: "https://libgen.is/"
+      hidden: true
+    - title: "Proxies"
+      url: "https://libgen.onl/library-genesis/#Library_Genesis_Website_URLS"
+      hidden: true
+    - title: "Alternate 1"
+      url: "https://libgen.rs/"
+      hidden: true
+    - title: "Alternate 2"
+      url: "https://libgen.st/"
+      hidden: true
+  - links:
+    - title: "Z Library"
+      url: "https://z-library.sk/"
+      hidden: true
+    - title: "Options"
+      url: "https://go-to-library.sk/"
+      hidden: true
+    - title: "Tor"
+      url: "http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion"
+      hidden: true
+  - links:
+    - title: "Booksee"
+      url: "https://en.booksee.org/"
+      hidden: true
+  - links:
+    - title: "Mobilism"
+      url: "https://mobilism.org/"
+      hidden: true
+  - links:
+    - title: "WOW eBook"
+      url: "https://wowebook.org"
+      hidden: true
   - title: "Best Sellers"
+    hidden: false
     links:
     - title: "Amazon"
       url: "https://amazon.com/best-sellers-books-Amazon/zgbs/books/ref=zg_bs_unv_b_1_12290_1"
+      hidden: false
     - title: "Hot New Releases"
       url: "https://www.amazon.com/gp/new-releases/books"
+      hidden: false
     - title: "Business & Money"
       url: "https://www.amazon.com/gp/new-releases/books/3/"
+      hidden: false
     - title: "Self-Help"
       url: "https://www.amazon.com/gp/new-releases/books/4736/"
+      hidden: false
   - links:
     - title: "New York Times"
       url: ""
+      hidden: false
     - title: "Advice, How-To & Miscellaneous"
       url: "https://nytimes.com/books/best-sellers/advice-how-to-and-miscellaneous/"
+      hidden: false
     - title: "Business"
       url: "https://www.nytimes.com/books/best-sellers/business-books/"
+      hidden: false
   - title: "Christian"
+    hidden: false
     links:
     - title: "StepBible"
       url: "https://www.stepbible.org/"
+      hidden: false
     - title: "NASB 2020"
       url: "https://www.stepbible.org/?q=version=NASB2020@reference=John.1&options=VHLETGUN"
-  - links:
-    - title: "ChristianDL"
-      url: "https://www.christiandl.com/unread/"
-    - title: "eBooks"
-      url: "https://www.christiandl.com/e-books/"
+      hidden: false
   - links:
     - title: "MyBible"
       url: "https://mybible.zone/en/"
+      hidden: false
     - title: "Bible Downloads"
       url: "https://www.ph4.org/b4_index.php?k=bibles&q=mybible"
+      hidden: true
   - links:
     - title: "Zefania XML Bibles"
       url: "https://sourceforge.net/projects/zefania-sharp/files/Bibles/ENG/"
+      hidden: false
     - title: "Alternate"
       url: "https://www.ph4.org/b4_mobi.php?q=zefania"
-
+      hidden: true
+  - links:
+    - title: "ChristianDL"
+      url: "https://www.christiandl.com/unread/"
+      hidden: true
+    - title: "eBooks"
+      url: "https://www.christiandl.com/e-books/"
+      hidden: true
 - name: "Trading"
   link_name: "Trading"
+  hidden: false
   groups:
   - title: "Forex"
+    hidden: false
     links:
     - title: "ForexFactory"
       url: "https://forexfactory.com"
+      hidden: false
     - title: "Calendar"
       url: "https://forexfactory.com/calendar.php"
+      hidden: false
   - links:
     - title: "Euro FX VIX"
       url: "https://www.barchart.com/stocks/quotes/$EVZ/interactive-chart"
+      hidden: false
     - title: "Analysis versus EMA(10)"
       url: "https://www.barchart.com/stocks/quotes/$EVZ/technical-chart?plot=LINE&volume=0&data=DO&density=L&pricesOn=1&asPctChange=0&logscale=0&indicators=EXPMA(10)&sym=$EVZ&grid=1&height=625&studyheight=200"
+      hidden: false
   - links:
     - title: "MyFXBook Dashboard"
       url: "https://myfxbook.com/dashboard"
+      hidden: false
     - title: "EA Wizard"
       url: "https://www.myfxbook.com/en/help/connect-metatrader-ea"
+      hidden: false
   - links:
     - title: "Investing.com Economic Calendar"
       url: "https://investing.com/economic-calendar/"
+      hidden: false
   - links:
     - title: "TradingView"
       url: "https://www.tradingview.com/"
+      hidden: false
     - title: "Chart"
       url: "https://www.tradingview.com/chart"
+      hidden: false
     - title: "KY"
       url: "https://www.tradingview.com/u/KarYong/"
+      hidden: false
   - links:
     - title: "EA Builder"
       url: "https://www.eabuilder.com/"
+      hidden: false
   - links:
     - title: "Position Size Calculator (MT4)"
       url: "https://www.earnforex.com/metatrader-indicators/Position-Size-Calculator/"
+      hidden: false
     - title: "Releases"
       url: "https://github.com/EarnForex/PositionSizeCalculator/releases"
+      hidden: false
   - links:
     - title: "No Nonsense Forex"
       url: "https://nononsenseforex.com/"
+      hidden: false
     - title: "Blog"
       url: "https://nononsenseforex.com/forex-blog/"
+      hidden: false
   - links:
     - title: "No Nonsense Trader"
       url: "https://nononsensetrader.com/"
+      hidden: false
   - links:
     - title: "NNFX Algo Tester"
       url: "https://nnfxalgotester.com/"
+      hidden: false
     - title: "Indicators"
       url: "https://nnfxalgotester.com/help/included-indicators/"
+      hidden: false
   - links:
     - title: "Philippine Association of Forex Traders Inc. (PAFTI)"
       url: "https://www.pafti.ph/"
+      hidden: false
   - title: "Cryptocurrency"
+    hidden: false
     links:
     - title: "CryptoCraft"
       url: "https://www.cryptocraft.com/"
+      hidden: false
   - links:
     - title: "Coins.PH"
       url: "https://app.coins.ph/wallet"
+      hidden: false
   - links:
     - title: "BTCPHP"
       url: "https://www.coingecko.com/en/coins/bitcoin/php"
+      hidden: false
   - links:
     - title: "CoinMarketCap"
       url: "https://coinmarketcap.com/"
+      hidden: false
   - links:
     - title: "Uphold"
       url: "https://uphold.com/dashboard"
+      hidden: false
   - links:
     - title: "Kucoin"
       url: "https://www.kucoin.com/account"
+      hidden: false

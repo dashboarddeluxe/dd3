@@ -6,3 +6,5 @@ theme = 'dashboarddeluxe'
 
 [params]
   description = 'Your centralized hub for quick access to all your favorite websites and resources. Organized by category for easy navigation.'
+  # Set to true to show all sections and links, ignoring their hidden status
+  disableHiding = false

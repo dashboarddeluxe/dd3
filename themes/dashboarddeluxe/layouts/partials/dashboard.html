@@ -2,7 +2,7 @@
 <main role="main" class="flex flex-col min-h-screen bg-blue-100 text-gray-800 leading-normal antialiased w-full px-4 pb-8 pt-17 justify-center">
     {{/* Content width constraint */}}
     <div class="max-w-[120rem] w-full mx-auto">
-        {{/* Loop through each section in the data structure */}} {{ range .sections }} {{/* Section card with shadow */}}
+        {{/* Loop through each section in the data structure */}} {{ range .dashboard.sections }} {{ if or (not .hidden) ($.site.Params.disableHiding) }} {{/* Section card with shadow */}}
         <div class="overflow-hidden shadow-lg outline outline-gray-300 mb-4 section section--{{ .name | urlize }}">
             <h2 id="{{ .name | urlize }}" class="py-2 px-3 bg-gray-800 font-bold text-xl text-white section__title">
                 {{ .name }}
@@ -10,24 +10,24 @@
 
             {{/* Section content */}} {{/* Grid layout, 1 column on small/medium screens, 2 columns on lg+ screens */}}
             <div class="px-3 pb-4 pt-2 bg-gray-50 text-gray-700 text-lg lg:text-sm xl:text-xl grid grid-cols-1 lg:grid-cols-2">
-                {{/* Loop through each group in the section */}} {{ range .groups }} {{/* Display group title if it exists */}} {{ if .title }}
+                {{/* Loop through each group in the section */}} {{ range .groups }} {{ if or (not .hidden) ($.site.Params.disableHiding) }} {{/* Display group title if it exists */}} {{ if .title }}
                 <div class="text-lg lg:text-base xl:text-xl font-bold lg:col-span-2 border-b-2 border-gray-400 mt-1 mb-2 section__sub-title">
                     {{ .title }}
                 </div>
-                {{ end }} {{/* Simplified link container - no more nested elements for each link */}} {{/* Display headers first if needed */}} {{ range .links }}{{ if or .is_header .no_link }}
-                <span class="text-sm font-bold block py-2">{{ .title }}</span> {{ end }}{{ end }} {{/* Display all regular links with minimal elements */}}
+                {{ end }} {{/* Simplified link container - no more nested elements for each link */}} {{/* Display headers first if needed */}} {{ range .links }}{{ if and (or .is_header .no_link) (or (not .hidden) ($.site.Params.disableHiding)) }}
+                <span class="text-sm font-bold block py-2">{{ .title }}</span> {{ end }}{{ end }} {{/* Display all regular links with minimal elements */}} {{/* Check if there are any regular links to display */}} {{ $hasRegularLinks := false }} {{ range
+                .links }} {{ if and (not (or .is_header .no_link)) (or (not .hidden) ($.site.Params.disableHiding)) }} {{ $hasRegularLinks = true }} {{ end }} {{ end }} {{ if $hasRegularLinks }}
                 <div class="flex flex-col items-start sm:flex-row sm:flex-wrap">
-                    {{ $isFirstLink := true }} {{ range .links }} {{ if not (or .is_header .no_link) }} {{ if not $isFirstLink }}
+                    {{ $isFirstLink := true }} {{ range .links }} {{ if and (not (or .is_header .no_link)) (or (not .hidden) ($.site.Params.disableHiding)) }} {{ if not $isFirstLink }}
                     <span class="text-gray-500 mx-[2px] hidden sm:inline min-h-[24px] content-center">|</span> {{ end }} {{ if eq .url "" }}
                     <span class="text-lg lg:text-sm xl:text-xl font-bold min-h-[24px] content-center">{{ .title }}</span> {{ else }}
                     <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="text-lg lg:text-sm xl:text-xl hover:underline min-h-[24px] min-w-[24px] inline-flex items-center justify-center {{ if $isFirstLink }}font-bold sm:font-normal{{ else }}font-normal{{ end }}">{{ .title }}</a>{{
                     end }} {{ $isFirstLink = false }} {{ end }}{{ end }}
                 </div>
-
-                {{ end }}
+                {{ end }} {{ end }} {{ end }}
             </div>
 
         </div>
-        {{ end }}
+        {{ end }} {{ end }}
     </div>
 </main>

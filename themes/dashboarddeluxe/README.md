@@ -26,6 +26,16 @@ A clean, responsive Hugo theme with Tailwind CSS integration.
 
 The theme uses the dashboard.yaml data file to configure sections and links.
 
+### Theme Parameters
+
+You can customize the theme behavior by adding the following parameters to your `hugo.toml` file:
+
+```toml
+[params]
+  # Set to true to show all sections and links, ignoring their hidden status
+  disableHiding = false
+```
+
 ## Development
 
 To develop the theme:
