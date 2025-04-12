@@ -1,7 +1,15 @@
 {{/* Access the dashboard data from site.Data */}} {{ with site.Data.dashboard }}{{/* Footer section with gray background, white text and padding */}}
-<footer class="bg-gray-800 text-white py-8">
-    <div class="max-w-[120rem] mx-auto px-4 text-center text-sm">
-        {{/* Copyright line with the site title from dashboard data and current year */}}
-        <p>© {{ .header.title }}, {{ now.Format "2006" }}</p>
+<footer class="bg-black text-white py-8">
+    <div class="max-w-[120rem] mx-auto px-4">
+        {{/* Footer navigation menu */}}
+        <div class="flex flex-wrap justify-center my-8">
+            {{/* Loop through all sections defined in dashboard data */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) (.Site.Params.disableHiding) }}
+            <a href="#{{ .name | urlize }}" class="mx-3 text-gray-100 font-semibold text-base hover:underline js-scroll-link">{{ .link_name }}</a> {{ end }}{{ end }}
+        </div>
+
+        <div class="text-center text-sm my-4">
+            {{/* Copyright line with the site title from dashboard data and current year */}}
+            <p>© {{ site.Title }}, {{ now.Format "2006" }}</p>
+        </div>
     </div>
 </footer>{{/* End of the with block for dashboard data */}}{{ end }}
