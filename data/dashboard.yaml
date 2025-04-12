@@ -636,8 +636,8 @@ sections:
     - title: "Google PageSpeed Insights"
       url: "https://developers.google.com/speed/pagespeed/insights/"
       hidden: false
-    - title: "DD3"
-      url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdd-3.netlify.app%2F"
+    - title: "DD"
+      url: "https://pagespeed.web.dev/analysis?url=https%3A%2F%2Fdashd.netlify.app%2F"
       hidden: false
   - links:
     - title: "Namesilo"
@@ -653,11 +653,11 @@ sections:
       hidden: false
   - links:
     - title: "HTTP Headers Analyzer"
-      url: "https://dri.es/headers?url=https://dd-3.netlify.app"
+      url: "https://dri.es/headers?url=https://dashd.netlify.app"
       hidden: false
   - links:
     - title: "Header Security Scan"
-      url: "https://securityheaders.com/?q=https%3A%2F%2Fdd-3.netlify.app%2F"
+      url: "https://securityheaders.com/?q=https%3A%2F%2Fdashd.netlify.app%2F"
       hidden: false
   - links:
     - title: "FB Sharing Debugger"
@@ -802,12 +802,6 @@ sections:
     - title: "Netlify"
       url: "https://app.netlify.com"
       hidden: false
-    - title: "Dashboard Deluxe 3"
-      url: "https://dd-3.netlify.app"
-      hidden: false
-    - title: "Dashboard Deluxe 2"
-      url: "https://dd2.netlify.app"
-      hidden: false
     - title: "Dashboard Deluxe"
       url: "https://dashd.netlify.app"
       hidden: false
@@ -817,9 +811,6 @@ sections:
       hidden: false
     - title: "Dashboard Deluxe"
       url: "https://github.com/dashboarddeluxe/"
-      hidden: false
-    - title: "Dashboard Deluxe Site"
-      url: "https://github.com/dashboarddeluxe/dashboarddeluxe.github.io"
       hidden: false
   - links:
     - title: "Prose"
