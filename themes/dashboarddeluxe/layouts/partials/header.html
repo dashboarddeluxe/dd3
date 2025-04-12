@@ -9,7 +9,7 @@
 
             {{/* Desktop navigation menu */}}
             <nav class="hidden lg:flex items-center">
-                {{/* Loop through all sections defined in dashboard data */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) (.Site.Params.disableHiding) }}
+                {{/* Loop through all sections defined in dashboard data */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) ($.Site.Params.disableHiding) }}
                 <a href="#{{ .name | urlize }}" class="ml-4 text-gray-100 font-semibold text-base xl:text-lg hover:underline js-scroll-link">{{ .link_name }}</a> {{ end }}{{ end }}
             </nav>
 
@@ -29,7 +29,7 @@
 {{/* Mobile navigation menu (hidden by default) */}}
 <nav id="js-nav-menu" class="fixed inset-x-0 top-16 hidden lg:hidden bg-white shadow py-2 z-40">
     <div class="flex flex-wrap px-4 max-w-[120rem] mx-auto">
-        {{/* Loop through sections for mobile menu */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) (.Site.Params.disableHiding) }}
+        {{/* Loop through sections for mobile menu */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) ($.Site.Params.disableHiding) }}
         <a href="#{{ .name | urlize }}" class="px-4 text-gray-800 font-semibold text-lg py-3 hover:text-blue-500 js-scroll-link">{{ .link_name }}</a> {{ end }}{{ end }}
     </div>
 </nav>

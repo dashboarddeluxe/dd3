@@ -3,7 +3,7 @@
     <div class="max-w-[120rem] mx-auto px-4">
         {{/* Footer navigation menu */}}
         <div class="flex flex-wrap justify-center my-8">
-            {{/* Loop through all sections defined in dashboard data */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) (.Site.Params.disableHiding) }}
+            {{/* Loop through all sections defined in dashboard data */}} {{ range site.Data.dashboard.sections }}{{ if or (not .hidden) ($.Site.Params.disableHiding) }}
             <a href="#{{ .name | urlize }}" class="mx-3 text-gray-100 font-semibold text-base hover:underline js-scroll-link">{{ .link_name }}</a> {{ end }}{{ end }}
         </div>
 
