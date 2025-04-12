@@ -1409,7 +1409,7 @@ sections:
       hidden: true
 - name: "Trading"
   link_name: "Trading"
-  hidden: false
+  hidden: true
   groups:
   - title: "Forex"
     hidden: false
