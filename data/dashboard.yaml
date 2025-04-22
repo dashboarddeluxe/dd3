@@ -322,6 +322,13 @@ sections:
     - title: "Jersey 8888"
       url: "https://shopee.ph/jersey8888?page=0&sortBy=ctime"
       hidden: true
+  - links:
+    - title: "StreamEast"
+      url: "https://the.streameast.app//v86"
+      hidden: true
+    - title: "CricHD"
+      url: "https://m.crichd.vip/web007"
+      hidden: true
   - title: "San Antonio Spurs"
     hidden: false
     links:
