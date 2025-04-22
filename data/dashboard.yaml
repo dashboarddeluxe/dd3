@@ -326,6 +326,9 @@ sections:
     - title: "StreamEast"
       url: "https://the.streameast.app//v86"
       hidden: true
+    - title: "98DH"
+      url: "Tennis Streams"
+      hidden: true
     - title: "CricHD"
       url: "https://m.crichd.vip/web007"
       hidden: true
