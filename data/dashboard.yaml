@@ -329,6 +329,9 @@ sections:
     - title: "Tennis Streams"
       url: "https://98dh.site/"
       hidden: true
+    - title: "Tennis Streams YouTube"
+      url: "https://www.youtube.com/@fox-stream-tennis/streams"
+      hidden: true
     - title: "CricHD"
       url: "https://m.crichd.vip/web007"
       hidden: true
