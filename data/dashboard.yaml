@@ -879,7 +879,10 @@ sections:
     - title: "Made with Tailwind"
       url: "https://madewithtailwindcss.com/"
       hidden: false
-
+  - links:
+    - title: "Tailwind CSS Cheatsheet"
+        url: "https://twcss.pages.dev/"
+        hidden: false
 - name: "Content Management Systems"
   link_name: "CMS"
   hidden: false
