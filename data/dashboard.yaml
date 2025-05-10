@@ -324,7 +324,7 @@ sections:
       hidden: true
   - links:
     - title: "StreamEast"
-      url: "https://the.streameast.app//v86"
+      url: "https://the.streameast.app/"
       hidden: true
     - title: "Tennis Streams"
       url: "https://98dh.site/"
