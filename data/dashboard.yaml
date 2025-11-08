@@ -354,19 +354,19 @@ sections:
       hidden: false
   - links:
     - title: "Best Defensive Rating"
-      url: "https://www.nba.com/stats/players/defense/?sort=DEF_RATING&dir=-1&Season=2023-24&SeasonType=Regular%20Season&Outcome=W&TeamID=1610612759&CF=MIN*GE*15"
+      url: "https://www.nba.com/stats/players/defense?CF=MIN*GE*15&Outcome=W&Season=2025-26&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=DEF_RATING"
       hidden: false
   - links:
     - title: "Most Fantasy Points"
-      url: "https://www.nba.com/stats/players/traditional/?sort=NBA_FANTASY_PTS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
+      url: "https://www.nba.com/stats/players/traditional?CF=MIN*GE*15&Season=2025-26&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=NBA_FANTASY_PTS"
       hidden: false
   - links:
     - title: "Plus Minus Player"
-      url: "https://www.nba.com/stats/players/traditional/?sort=PLUS_MINUS&dir=-1&Season=2023-24&SeasonType=Regular%20Season&TeamID=1610612759&CF=MIN*GE*15"
+      url: "https://www.nba.com/stats/players/traditional?CF=MIN*GE*15&Season=2025-26&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=PLUS_MINUS"
       hidden: false
   - links:
     - title: "Plus Minus Lineup"
-      url: "https://www.nba.com/stats/lineups/traditional/?sort=PLUS_MINUS&dir=1&Season=2023-24&SeasonType=Regular%20Season&PerMode=Totals&TeamID=1610612759"
+      url: "https://www.nba.com/stats/lineups/traditional?sort=PLUS_MINUS&dir=1&Season=2025-26&SeasonType=Regular+Season&PerMode=Totals&TeamID=1610612759&slug=traditional"
       hidden: false
   - title: "Tennis"
     hidden: false
@@ -1270,6 +1270,9 @@ sections:
       url: "https://bagong.pagasa.dost.gov.ph"
       hidden: false
   - links:
+    - title: "Windy.com"
+      url: "https://www.windy.com/"
+      hidden: false
     - title: "Earth Wind Map"
       url: "https://earth.nullschool.net/#current/wind/surface/level/orthographic=119.43,12.98,1301/loc=121.040,14.550"
       hidden: false
