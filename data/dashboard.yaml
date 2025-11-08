@@ -276,10 +276,10 @@ sections:
       url: "https://www.nba.com/stats"
       hidden: false
     - title: "Player Impact Estimate"
-      url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=PIE"
+      url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&SeasonType=Regular%20Season&dir=A&sort=PIE"
       hidden: false
     - title: "Net Rating"
-      url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&Season=2023-24&SeasonType=Regular%20Season&dir=A&sort=NET_RATING"
+      url: "https://www.nba.com/stats/players/advanced?CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&SeasonType=Regular%20Season&dir=A&sort=NET_RATING"
       hidden: false
     - title: "Fantasy Points"
       url: "https://www.nba.com/stats/players/traditional?CF=GP_RANK*LE*300:MIN_RANK*LE*300&dir=A&sort=NBA_FANTASY_PTS"
@@ -354,19 +354,19 @@ sections:
       hidden: false
   - links:
     - title: "Best Defensive Rating"
-      url: "https://www.nba.com/stats/players/defense?CF=MIN*GE*15&Outcome=W&Season=2025-26&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=DEF_RATING"
+      url: "https://www.nba.com/stats/players/defense?CF=MIN*GE*15&Outcome=W&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=DEF_RATING"
       hidden: false
   - links:
     - title: "Most Fantasy Points"
-      url: "https://www.nba.com/stats/players/traditional?CF=MIN*GE*15&Season=2025-26&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=NBA_FANTASY_PTS"
+      url: "https://www.nba.com/stats/players/traditional?CF=MIN*GE*15&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=NBA_FANTASY_PTS"
       hidden: false
   - links:
     - title: "Plus Minus Player"
-      url: "https://www.nba.com/stats/players/traditional?CF=MIN*GE*15&Season=2025-26&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=PLUS_MINUS"
+      url: "https://www.nba.com/stats/players/traditional?CF=MIN*GE*15&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort=PLUS_MINUS"
       hidden: false
   - links:
     - title: "Plus Minus Lineup"
-      url: "https://www.nba.com/stats/lineups/traditional?sort=PLUS_MINUS&dir=1&Season=2025-26&SeasonType=Regular+Season&PerMode=Totals&TeamID=1610612759&slug=traditional"
+      url: "https://www.nba.com/stats/lineups/traditional?sort=PLUS_MINUS&dir=1&SeasonType=Regular+Season&PerMode=Totals&TeamID=1610612759&slug=traditional"
       hidden: false
   - title: "Tennis"
     hidden: false
