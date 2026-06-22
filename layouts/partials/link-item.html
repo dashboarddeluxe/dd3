@@ -1,0 +1,9 @@
+{{- $p := .p -}}
+
+{{- if gt .n 0 }}<span class="link-sep" aria-hidden="true">|</span>{{ end -}}
+{{- if or $p.header (not $p.link) -}}
+  <span class="link-label">{{ $p.title }}</span>
+{{- else -}}
+  {{- $href := partial "link-build.html" (dict "link" $p.link) -}}
+  <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">{{ $p.title }}</a>
+{{- end -}}

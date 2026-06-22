@@ -1,0 +1,11 @@
+{{- $from := .from -}}
+{{- $parts := split $from ":" -}}
+{{- $category := index $parts 0 -}}
+{{- $groupName := index $parts 1 -}}
+{{- $group := index (index (index hugo.Data "link-groups") $category).groups $groupName -}}
+{{- $items := slice -}}
+{{- range $group.items -}}
+  {{- $ref := printf "%s:%s.%s" $category $groupName .id -}}
+  {{- $items = $items | append (printf "%s | %s" .title $ref) -}}
+{{- end -}}
+{{- return $items -}}

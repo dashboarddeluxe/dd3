@@ -1,0 +1,47 @@
+{{- $item := strings.TrimSpace .item -}}
+{{- $title := "" -}}
+{{- $link := "" -}}
+{{- $header := false -}}
+{{- $hidden := false -}}
+{{- $parts := slice -}}
+{{- range split $item "|" -}}
+  {{- $parts = $parts | append (strings.TrimSpace .) -}}
+{{- end -}}
+
+{{- range seq 3 -}}
+  {{- if lt (len $parts) 1 -}}{{ break }}{{ end -}}
+  {{- $last := index $parts (sub (len $parts) 1) -}}
+  {{- $flag := lower $last -}}
+  {{- if eq $flag "hidden" -}}
+    {{- $hidden = true -}}
+    {{- $parts = first (sub (len $parts) 1) $parts -}}
+  {{- else if eq $flag "header" -}}
+    {{- $header = true -}}
+    {{- $parts = first (sub (len $parts) 1) $parts -}}
+  {{- else -}}
+    {{- break -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $n := len $parts -}}
+{{- if eq $n 1 -}}
+  {{- $title = index $parts 0 -}}
+  {{- $header = true -}}
+{{- else if ge $n 2 -}}
+  {{- $last := index $parts (sub $n 1) -}}
+  {{- $isLinkGroup := false -}}
+  {{- $colonParts := split $last ":" -}}
+  {{- if ge (len $colonParts) 2 -}}
+    {{- $category := index $colonParts 0 -}}
+    {{- $isLinkGroup = index (index hugo.Data "link-groups") $category -}}
+  {{- end -}}
+  {{- if or (hasPrefix $last "http") $isLinkGroup -}}
+    {{- $link = $last -}}
+    {{- $title = delimit (first (sub $n 1) $parts) " | " -}}
+  {{- else -}}
+    {{- $title = delimit $parts " | " -}}
+    {{- $header = true -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "title" $title "link" $link "header" $header "hidden" $hidden) -}}

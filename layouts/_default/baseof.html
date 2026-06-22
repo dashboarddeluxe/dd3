@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Locale }}">
+  {{ partial "head.html" . }}
+  <body class="flex min-h-dvh flex-col">
+    {{ partial "header.html" . }}
+    <main class="mx-auto w-full max-w-content flex-1 px-4 pb-8 pt-20">
+      <p id="search-status" class="search-status hidden" role="status" aria-live="polite" hidden></p>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+    {{ $js := slice (resources.Get "js/theme.js") (resources.Get "js/nav.js") (resources.Get "js/search.js") | resources.Concat "js/site.js" | minify | fingerprint }}
+    <script
+      src="{{ $js.RelPermalink }}"
+      {{ if not hugo.IsDevelopment }}integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"{{ end }}
+    ></script>
+  </body>
+</html>

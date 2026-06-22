@@ -1,0 +1,11 @@
+{{ $page := .page }}
+{{ $showAll := .showAll }}
+
+<section id="{{ $page.Title | urlize }}" class="section-card" data-section>
+  <h2 class="section-title">{{ $page.Title }}</h2>
+  <div class="section-body">
+    {{ range $page.Params.blocks }}
+      {{ partial "block.html" (dict "block" . "showAll" $showAll) }}
+    {{ end }}
+  </div>
+</section>

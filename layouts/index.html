@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ $showAll := .Site.Params.disableHiding }}
+{{ $sections := where .Site.RegularPages "Type" "dashboard" }}
+{{ range $sections.ByWeight }}
+  {{ if or $showAll (not .Params.hidden) }}
+    {{ partial "section.html" (dict "page" . "showAll" $showAll) }}
+  {{ end }}
+{{ end }}
+{{ end }}

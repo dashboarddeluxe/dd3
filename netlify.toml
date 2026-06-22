@@ -1,69 +1,42 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify --cleanDestinationDir"
+  command = "npm ci && npm run build"
 
 [build.environment]
-  HUGO_VERSION = "0.146.2"
+  HUGO_VERSION = "0.163.3"
   HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--no-audit --no-fund"
 
 [context.deploy-preview]
-  command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "npm ci && npm run build -- --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[[redirects]]
-  from = "/*"
-  to = "/404.html"
-  status = 404
+  command = "npm ci && npm run build -- -b $DEPLOY_PRIME_URL"
 
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'; font-src 'self'; connect-src 'self'; frame-src 'self'; object-src 'none'; upgrade-insecure-requests"
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
     X-Frame-Options = "SAMEORIGIN"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Cross-Origin-Embedder-Policy = "require-corp"
-    Cross-Origin-Opener-Policy = "same-origin"
-    Cross-Origin-Resource-Policy = "same-origin"
-    X-Permitted-Cross-Domain-Policies = "none"
-    Cache-Control = "public, max-age=3600"
 
 [[headers]]
-  for = "*.css"
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/css/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.woff2"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.jpg"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.png"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.gif"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
-  for = "*.svg"
+  for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"

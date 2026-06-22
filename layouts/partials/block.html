@@ -1,0 +1,31 @@
+{{- $block := .block -}}
+{{- $showAll := .showAll -}}
+
+{{- if $block.title -}}
+  <h3 class="group-title">{{ $block.title }}</h3>
+{{- end -}}
+
+{{- $items := false -}}
+{{- if $block.from -}}
+  {{- $items = partial "link-expand.html" (dict "from" $block.from) -}}
+{{- else -}}
+  {{- $items = $block.row | default $block.links -}}
+{{- end -}}
+
+{{- if or $items $block.label -}}
+  <div class="link-row" data-link-row>
+    {{- $n := 0 -}}
+    {{- if $block.label -}}
+      {{- $p := partial "link-parse.html" (dict "item" (printf "%s | header" $block.label)) -}}
+      {{- partial "link-item.html" (dict "p" $p "n" $n) -}}
+      {{- $n = add $n 1 -}}
+    {{- end -}}
+    {{- range $items -}}
+      {{- $p := partial "link-parse.html" (dict "item" .) -}}
+      {{- if or $showAll (not $p.hidden) -}}
+        {{- partial "link-item.html" (dict "p" $p "n" $n) -}}
+        {{- $n = add $n 1 -}}
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

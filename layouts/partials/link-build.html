@@ -1,0 +1,31 @@
+{{- $link := .link | default .ref -}}
+{{- $url := $link -}}
+{{- $parts := split $link ":" -}}
+{{- if ge (len $parts) 2 -}}
+  {{- $category := index $parts 0 -}}
+  {{- $path := index $parts 1 -}}
+  {{- $cat := index (index hugo.Data "link-groups") $category -}}
+  {{- if $cat -}}
+    {{- $pathParts := split $path "." -}}
+    {{- $groupName := index $pathParts 0 -}}
+    {{- $itemKey := index $pathParts 1 -}}
+    {{- $group := index $cat.groups $groupName -}}
+    {{- $item := dict -}}
+    {{- range $group.items -}}
+      {{- if eq .id $itemKey -}}
+        {{- $item = . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $query := $group.template -}}
+    {{- range $i, $k := $group.keys -}}
+      {{- $v := index $item.values $i -}}
+      {{- $query = replace $query (printf "{%s}" $k) (printf "%v" $v) -}}
+    {{- end -}}
+    {{- if eq $group.join "path" -}}
+      {{- $url = printf "%s%s" $cat.base $query -}}
+    {{- else -}}
+      {{- $url = printf "%s?%s" $cat.base $query -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $url -}}

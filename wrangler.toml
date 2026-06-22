@@ -1,0 +1,8 @@
+# Cloudflare Pages — set in dashboard or use wrangler pages deploy
+# Build command: npm ci && npm run build
+# Build output: public
+# Environment: HUGO_VERSION=0.163.3, NODE_VERSION=22
+
+name = "dashboard-deluxe-3"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "public"

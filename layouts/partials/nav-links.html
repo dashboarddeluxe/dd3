@@ -1,0 +1,10 @@
+{{- $showAll := .showAll -}}
+{{- $class := .class -}}
+{{- $sections := where .Site.RegularPages "Type" "dashboard" -}}
+{{- range $sections.ByWeight -}}
+  {{- if or $showAll (not .Params.hidden) -}}
+    <a href="#{{ .Title | urlize }}" class="{{ $class }}">
+      {{ .Params.link_name | default .Title }}
+    </a>
+  {{- end -}}
+{{- end -}}

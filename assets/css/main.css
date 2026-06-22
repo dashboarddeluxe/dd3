@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/inter/InterVariable.woff2") format("woff2");
+}
+
+@import "tailwindcss";
+@source "hugo_stats.json";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --container-content: 120rem;
+
+  --color-ground: var(--palette-ground);
+  --color-surface: var(--palette-surface);
+  --color-raised: var(--palette-raised);
+  --color-border: var(--palette-border);
+  --color-text: var(--palette-text);
+  --color-muted: var(--palette-muted);
+  --color-faint: var(--palette-faint);
+  --color-accent: var(--palette-accent);
+  --color-accent-hover: var(--palette-accent-hover);
+  --color-heading: var(--palette-heading);
+
+  --ease-fluid: cubic-bezier(0.3, 0.7, 0.4, 1);
+}
+
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  --palette-ground: oklch(5.5% 0.014 78);
+  --palette-surface: oklch(11.5% 0.018 78);
+  --palette-raised: oklch(16.5% 0.02 78);
+  --palette-border: oklch(48% 0.03 78 / 0.28);
+  --palette-text: oklch(91% 0.012 80);
+  --palette-muted: oklch(76% 0.014 78);
+  --palette-faint: oklch(63% 0.012 78);
+  --palette-accent: oklch(75% 0.17 250);
+  --palette-accent-hover: oklch(82% 0.15 252);
+  --palette-heading: oklch(98% 0.014 78);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --palette-ground: oklch(98.5% 0.004 78);
+  --palette-surface: oklch(100% 0.002 78);
+  --palette-raised: oklch(96% 0.008 78);
+  --palette-border: oklch(35% 0.02 78 / 0.14);
+  --palette-text: oklch(24% 0.02 78);
+  --palette-muted: oklch(42% 0.018 78);
+  --palette-faint: oklch(55% 0.015 78);
+  --palette-accent: oklch(48% 0.16 250);
+  --palette-accent-hover: oklch(40% 0.17 248);
+  --palette-heading: oklch(16% 0.022 78);
+}
+
+@custom-variant nav-active (&.is-active);
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-ground font-sans text-base text-text antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  ::selection {
+    background: color-mix(in oklch, var(--color-accent) 35%, transparent);
+  }
+}
+
+@layer components {
+  .site-header {
+    @apply fixed inset-x-0 top-0 z-50 border-b border-border bg-ground/90 backdrop-blur-md;
+  }
+
+  .nav-link {
+    @apply rounded-md font-medium text-muted transition-colors duration-150 ease-fluid
+      hover:text-accent-hover
+      focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/50
+      nav-active:font-semibold nav-active:text-accent;
+  }
+
+  .section-card {
+    @apply mb-5 overflow-hidden rounded-lg border border-border bg-surface;
+  }
+
+  .section-title {
+    @apply border-b border-border bg-raised px-3 py-2.5 text-2xl font-extrabold tracking-tight text-heading;
+    text-wrap: balance;
+  }
+
+  .section-body {
+    @apply grid grid-cols-1 px-3 py-2 lg:grid-cols-2;
+  }
+
+  .group-title {
+    @apply col-span-full mt-1 mb-2 border-b-2 border-accent/30 pb-1.5 text-lg font-extrabold tracking-tight text-heading lg:text-base xl:text-xl;
+  }
+
+  .link-row {
+    @apply min-h-6 py-2 leading-snug;
+  }
+
+  .link-row a {
+    @apply inline-flex min-h-6 min-w-6 items-center justify-center rounded-sm text-lg text-text underline-offset-4
+      transition-colors duration-150 ease-fluid
+      hover:text-accent-hover hover:underline
+      focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/50
+      lg:text-sm xl:text-xl;
+  }
+
+  .link-row a:first-child {
+    @apply font-bold;
+  }
+
+  .link-label {
+    @apply inline-flex min-h-6 items-center text-lg font-bold text-heading lg:text-sm xl:text-xl;
+  }
+
+  .link-sep {
+    @apply mx-1 text-faint select-none;
+  }
+
+  .search-input {
+    @apply w-full rounded-md border border-border bg-raised px-3 py-2 text-sm text-text
+      transition-colors duration-150 ease-fluid
+      focus:border-accent focus:ring-2 focus:ring-accent/25 focus:outline-none;
+
+    &::placeholder {
+      color: color-mix(in oklch, var(--color-text) 55%, transparent);
+    }
+  }
+
+  .search-status {
+    @apply mb-4 rounded-md border border-border bg-surface px-4 py-3 text-sm text-muted;
+  }
+
+  .search-hit {
+    border-radius: 0.125rem;
+    padding-inline: 0.1em;
+    background: color-mix(in oklch, var(--color-accent) 40%, transparent);
+    color: inherit;
+  }
+
+  .theme-toggle {
+    @apply flex shrink-0 items-center justify-center rounded-md border border-border text-heading
+      transition-colors duration-150 ease-fluid
+      hover:text-accent-hover
+      focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/50;
+  }
+
+  .theme-toggle [data-icon="sun"] {
+    display: none;
+  }
+
+  [data-theme="light"] .theme-toggle [data-icon="sun"] {
+    display: block;
+  }
+
+  [data-theme="light"] .theme-toggle [data-icon="moon"] {
+    display: none;
+  }
+}
+
+@media (pointer: coarse) {
+  .link-row {
+    @apply min-h-11 py-3;
+  }
+
+  .link-row a,
+  .link-label {
+    @apply min-h-11;
+  }
+}
+
+@utility touch-target {
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+}

@@ -1,0 +1,239 @@
+# Parameterized link rows — reference as bgg:complexity.very_light or expand with from: bgg:complexity
+# Each group: template ({placeholders}), keys (names), items (id, title, values array).
+# Add another top-level key (e.g. spotify:) to reuse the same format in other categories.
+
+bgg:
+  base: https://boardgamegeek.com/search/boardgame
+  groups:
+    complexity:
+      template: sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D={min}&floatrange%5Bavgweight%5D%5Bmax%5D={max}&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit
+      keys: [min, max]
+      items:
+        - id: very_light
+          title: Very Light
+          values: ["1", "1.49"]
+        - id: light
+          title: Light
+          values: ["1.5", "1.99"]
+        - id: medium_light
+          title: Medium Light
+          values: ["2", "2.49"]
+        - id: medium
+          title: Medium
+          values: ["2.5", "3.49"]
+        - id: heavy
+          title: Heavy
+          values: ["3.5", "5"]
+
+    duration:
+      template: sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2.5&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit&{extra}
+      keys: [extra]
+      items:
+        - id: 20_minutes
+          title: 20 Minutes
+          values: ["range%5Bplaytime%5D%5Bmax%5D=20"]
+        - id: 40_minutes
+          title: 40 Minutes
+          values: ["range%5Bleastplaytime%5D%5Bmin%5D=21&range%5Bplaytime%5D%5Bmax%5D=40"]
+        - id: 1_hour
+          title: 1 Hour
+          values: ["range%5Bleastplaytime%5D%5Bmin%5D=30&range%5Bplaytime%5D%5Bmax%5D=60"]
+
+    light20:
+      template: sort=rank&advsearch=1&q=&include%5Bdesignerid%5D=&include%5Bpublisherid%5D=&geekitemname=&range%5Byearpublished%5D%5Bmin%5D={ymin}&range%5Byearpublished%5D%5Bmax%5D={ymax}&range%5Bminage%5D%5Bmax%5D=&range%5Bnumvoters%5D%5Bmin%5D=&range%5Bnumweights%5D%5Bmin%5D=&range%5Bminplayers%5D%5Bmax%5D=&range%5Bmaxplayers%5D%5Bmin%5D=&range%5Bleastplaytime%5D%5Bmin%5D=&range%5Bplaytime%5D%5Bmax%5D=20&floatrange%5Bavgrating%5D%5Bmin%5D=&floatrange%5Bavgrating%5D%5Bmax%5D=&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&colfiltertype=&searchuser=&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit
+      keys: [ymin, ymax]
+      items:
+        - id: century_20th
+          title: 20th Century
+          values: ["1900", "1999"]
+        - id: y2000s
+          title: 2000s
+          values: ["2000", "2009"]
+        - id: y2010s
+          title: 2010s
+          values: ["2010", "2019"]
+        - id: y2020s
+          title: 2020s
+          values: ["2020", "2029"]
+
+    players:
+      template: sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D={n}&range%5Bmaxplayers%5D%5Bmin%5D={n}&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype={prt}&B1=Submit
+      keys: [n, prt]
+      items:
+        - id: p1
+          title: "1"
+          values: ["1", normal]
+        - id: p2
+          title: "2"
+          values: ["2", exclusive]
+        - id: p3
+          title: "3"
+          values: ["3", normal]
+        - id: p4
+          title: "4"
+          values: ["4", normal]
+        - id: p5
+          title: "5"
+          values: ["5", normal]
+        - id: p6
+          title: "6"
+          values: ["6", normal]
+        - id: p7
+          title: "7"
+          values: ["7", normal]
+        - id: p8
+          title: "8"
+          values: ["8", normal]
+        - id: p9
+          title: "9"
+          values: ["9", normal]
+        - id: p10
+          title: "10"
+          values: ["10", normal]
+        - id: p11
+          title: "11"
+          values: ["11", normal]
+        - id: p12
+          title: "12"
+          values: ["12", normal]
+
+    all:
+      template: sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D={ymin}&range%5Byearpublished%5D%5Bmax%5D={ymax}&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit
+      keys: [ymin, ymax]
+      items:
+        - id: before_1990
+          title: Before 1990
+          values: ["-999999999", "1989"]
+        - id: y1990s
+          title: 1990s
+          values: ["1990", "1999"]
+        - id: y2000s
+          title: 2000s
+          values: ["2000", "2009"]
+        - id: y2010s
+          title: 2010s
+          values: ["2010", "2019"]
+        - id: y2020s
+          title: 2020s
+          values: ["2020", "2029"]
+
+    light:
+      template: sort=rank&advsearch=1&range%5Byearpublished%5D%5Bmin%5D={ymin}&range%5Byearpublished%5D%5Bmax%5D={ymax}&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit
+      keys: [ymin, ymax]
+      items:
+        - id: before_1990
+          title: Before 1990
+          values: ["-999999999", "1989"]
+        - id: y1990s
+          title: 1990s
+          values: ["1990", "1999"]
+        - id: y2000s
+          title: 2000s
+          values: ["2000", "2009"]
+        - id: y2010s
+          title: 2010s
+          values: ["2010", "2019"]
+        - id: y2020s
+          title: 2020s
+          values: ["2020", "2029"]
+
+    presets:
+      template: "{query}"
+      keys: [query]
+      items:
+        - id: versatile
+          title: Versatile
+          values: ["sort=rank&advsearch=1&range%5Bminplayers%5D%5Bmax%5D=2&range%5Bmaxplayers%5D%5Bmin%5D=4&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=exclusive&B1=Submit"]
+        - id: card
+          title: Card Games
+          values: ["sort=rank&advsearch=1&floatrange%5Bavgweight%5D%5Bmin%5D=1&floatrange%5Bavgweight%5D%5Bmax%5D=2&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&propertyids%5B0%5D=1002&B1=Submit"]
+        - id: hotness
+          title: Hotness
+          values: ["sort=hot&advsearch=1&nosubtypes%5B0%5D=boardgameexpansion&playerrangetype=normal&B1=Submit"]
+
+nba_advanced:
+  base: https://www.nba.com/stats/players/advanced
+  groups:
+    leaders:
+      template: CF=GP_RANK*LE*300:MIN_RANK*LE*300&PerMode=PerGame&SeasonType=Regular%20Season&dir=A&sort={sort}
+      keys: [sort]
+      items:
+        - id: pie
+          title: Player Impact Estimate
+          values: [PIE]
+        - id: net
+          title: Net Rating
+          values: [NET_RATING]
+        - id: fantasy
+          title: Fantasy Points
+          values: [NBA_FANTASY_PTS]
+
+nba_spurs:
+  base: https://www.nba.com/stats/players/traditional
+  groups:
+    leaders:
+      template: CF=MIN*GE*15&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort={sort}
+      keys: [sort]
+      items:
+        - id: fantasy
+          title: Most Fantasy Points
+          values: [NBA_FANTASY_PTS]
+        - id: plus_minus
+          title: Plus Minus Player
+          values: [PLUS_MINUS]
+
+nba_spurs_defense:
+  base: https://www.nba.com/stats/players/defense
+  groups:
+    leaders:
+      template: CF=MIN*GE*15&Outcome=W&SeasonType=Regular%20Season&TeamID=1610612759&dir=-1&sort={sort}
+      keys: [sort]
+      items:
+        - id: def_rating
+          title: Best Defensive Rating
+          values: [DEF_RATING]
+
+amazon:
+  base: https://www.amazon.com/gp/new-releases/books
+  groups:
+    genres:
+      join: path
+      template: "{suffix}"
+      keys: [suffix]
+      items:
+        - id: hot
+          title: Hot New Releases
+          values: [""]
+        - id: business
+          title: Business & Money
+          values: ["/3/"]
+        - id: self_help
+          title: Self-Help
+          values: ["/4736/"]
+        - id: sci_fi
+          title: Science Fiction
+          values: ["/25/"]
+        - id: history
+          title: History
+          values: ["/9/"]
+
+nyt:
+  base: https://www.nytimes.com/books/best-sellers
+  groups:
+    lists:
+      join: path
+      template: "/{slug}/"
+      keys: [slug]
+      items:
+        - id: advice
+          title: Advice, How-To & Miscellaneous
+          values: [advice-how-to-and-miscellaneous]
+        - id: business
+          title: Business
+          values: [business-books]
+        - id: fiction
+          title: Fiction
+          values: [combined-print-and-e-book-fiction]
+        - id: nonfiction
+          title: Nonfiction
+          values: [combined-print-and-e-book-nonfiction]
