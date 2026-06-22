@@ -74,8 +74,8 @@ blocks:
   - title: "Fonts"
     row:
       - "Google Fonts | https://fonts.google.com/"
-      - "8+ Styles | https://fonts.google.com/?sort=popularity&stylecount=8"
-      - "Variable | https://fonts.google.com/?sort=popularity&vfonly=true"
+      - "8+ Styles | https://fonts.google.com/?sort=popularity&stylecount=8&lang=en_Latn"
+      - "Variable | https://fonts.google.com/?sort=popularity&lang=en_Latn&categoryFilters=Technology:%2FTechnology%2FVariable"
   - row:
       - "Font Identifier | https://fontsquirrel.com/matcherator"
   - row:
