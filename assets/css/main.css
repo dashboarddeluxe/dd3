@@ -126,15 +126,14 @@
 
   .link-row {
     @apply min-h-6 py-2 leading-snug;
-    text-wrap: balance;
   }
 
   .link-row a {
-    @apply inline rounded-sm text-base text-text underline-offset-4 break-words
+    @apply block rounded-sm text-base text-text underline-offset-4 break-words
       transition-colors duration-150 ease-fluid
       hover:text-accent-hover hover:underline
       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/50
-      lg:text-sm xl:text-lg;
+      lg:inline lg:text-sm xl:text-lg;
   }
 
   .link-row a:first-child {
@@ -146,11 +145,11 @@
   }
 
   .link-label {
-    @apply inline text-base font-bold text-heading break-words lg:text-sm xl:text-lg;
+    @apply block text-base font-bold text-heading break-words lg:inline lg:text-sm xl:text-lg;
   }
 
   .link-sep {
-    @apply mx-1 text-faint select-none;
+    @apply mx-1 text-faint select-none max-lg:hidden;
   }
 
   .search-input {

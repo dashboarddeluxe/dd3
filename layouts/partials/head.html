@@ -1,5 +1,9 @@
 <head>
-  <script src="/js/theme-init.js"></script>
+  {{ $themeInit := resources.Get "js/theme-init.js" | minify | fingerprint }}
+  <script
+    src="{{ $themeInit.RelPermalink }}"
+    {{ if not hugo.IsDevelopment }}integrity="{{ $themeInit.Data.Integrity }}" crossorigin="anonymous"{{ end }}
+  ></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#5c8fd6" />
