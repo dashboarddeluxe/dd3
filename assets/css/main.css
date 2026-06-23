@@ -126,6 +126,7 @@
 
   .link-row {
     @apply min-h-6 py-2 leading-snug;
+    text-wrap: balance;
   }
 
   .link-row a {
