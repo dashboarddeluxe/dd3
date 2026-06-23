@@ -63,8 +63,13 @@
 
 @layer base {
   html {
-    scroll-behavior: smooth;
     scroll-padding-top: 5rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
 
   body {
@@ -78,6 +83,12 @@
 }
 
 @layer components {
+  .skip-link {
+    @apply fixed top-4 left-4 z-100 translate-y-[-200%] rounded-md border border-border bg-raised px-4 py-2 text-sm font-medium text-heading
+      transition-transform duration-150 ease-fluid
+      focus:translate-y-0 focus:outline-2 focus:outline-offset-2 focus:outline-accent/50;
+  }
+
   .site-header {
     @apply fixed inset-x-0 top-0 z-50 border-b border-border bg-ground/90 backdrop-blur-md;
   }
@@ -122,6 +133,10 @@
     @apply font-bold;
   }
 
+  .link-row a.search-kbd-focus {
+    @apply text-accent-hover underline outline-2 outline-offset-2 outline-accent/50;
+  }
+
   .link-label {
     @apply inline-flex min-h-6 items-center text-lg font-bold text-heading lg:text-sm xl:text-xl;
   }
@@ -146,7 +161,6 @@
 
   .search-hit {
     border-radius: 0.125rem;
-    padding-inline: 0.1em;
     background: color-mix(in oklch, var(--color-accent) 40%, transparent);
     color: inherit;
   }

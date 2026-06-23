@@ -58,13 +58,13 @@ blocks:
   - row:
       - "Patterncooler | https://patterncooler.com/"
   - row:
-      - "Striped Backgrounds | http://stripedbgs.com/"
+      - "Striped Backgrounds | https://stripedbgs.com/"
   - row:
       - "Mesher | https://csshero.org/mesher/"
   - row:
       - "Hero Patterns | https://heropatterns.com/"
   - row:
-      - "The Pattern Library | http://thepatternlibrary.com/"
+      - "The Pattern Library | https://thepatternlibrary.com/"
   - row:
       - "Subtle Patterns | https://www.toptal.com/designers/subtlepatterns/"
   - row:
@@ -105,7 +105,7 @@ blocks:
     row:
       - "Land Book | https://land-book.com/"
   - row:
-      - "Dribble | https://dribbble.com/"
+      - "Dribbble | https://dribbble.com/"
   - row:
       - "Site Inspire | https://www.siteinspire.com/"
   - row:

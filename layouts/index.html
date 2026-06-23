@@ -1,5 +1,11 @@
 {{ define "main" }}
 {{ $showAll := .Site.Params.disableHiding }}
+<section id="recent-links" class="section-card hidden" data-recent-section aria-label="Recent links">
+  <h2 class="section-title">Recent</h2>
+  <div class="section-body">
+    <div class="link-row" data-link-row data-recent-row></div>
+  </div>
+</section>
 {{ $sections := where .Site.RegularPages "Type" "dashboard" }}
 {{ range $sections.ByWeight }}
   {{ if or $showAll (not .Params.hidden) }}

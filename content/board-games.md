@@ -59,7 +59,7 @@ blocks:
       - "PNP Board Games | https://www.boardgamer.ru/forum/index.php?action=unread | hidden"
   - row:
       - "steamworkshopdownloader.io | https://steamworkshopdownloader.io/ | hidden"
-      - "Steam Workshop Download | http://steamworkshop.download | hidden"
+      - "Steam Workshop Download | https://steamworkshop.download | hidden"
   - title: "Manila Stores"
     row:
       - "GamingLib | https://www.gaminglib.com/collections/all?sort_by=created-descending"

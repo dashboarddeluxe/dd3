@@ -8,8 +8,9 @@
     "prebuild": "node scripts/check-env.js",
     "dev": "node scripts/run-hugo.js server --cleanDestinationDir",
     "build": "node scripts/run-hugo.js --gc --minify --cleanDestinationDir",
-    "test": "node scripts/run-python.js scripts/validate-link-groups.py",
-    "validate-link-groups": "node scripts/run-python.js scripts/validate-link-groups.py"
+    "test": "node scripts/run-python.js scripts/validate-link-groups.py && node scripts/run-python.js scripts/validate-content-links.py",
+    "validate-link-groups": "node scripts/run-python.js scripts/validate-link-groups.py",
+    "validate-content-links": "node scripts/run-python.js scripts/validate-content-links.py"
   },
   "engines": {
     "node": ">=22"

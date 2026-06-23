@@ -1,0 +1,16 @@
+{
+  "name": "Dashboard Deluxe 3",
+  "short_name": "DD3",
+  "description": "Your centralized hub for quick access to websites and resources.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e0c0a",
+  "theme_color": "#5c8fd6",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

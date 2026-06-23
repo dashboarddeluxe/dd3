@@ -5,12 +5,14 @@ A personal link launcher: one scrollable page of categorized shortcuts to websit
 ## Features
 
 - **Single-page dashboard** — every category renders as a section on the home page; no per-category URLs.
-- **Keyboard search** — press `/` to filter links; `Esc` clears. Matches section titles, group headings, and link labels with inline highlighting.
+- **Keyboard search** — press `/` to filter; `↓`/`↑` to browse matches; `Enter` to open; `Esc` clears. Fuzzy matching handles typos and out-of-order letters (`gmial` → Gmail, `ytb` → YouTube). Matches section titles, group headings, and link labels with inline highlighting.
+- **Recent links** — last 10 clicked links appear at the top; stored in `localStorage`.
+- **Add to Home Screen** — web app manifest and `theme-color` for standalone mobile use.
 - **Category navigation** — header links jump to sections; active section tracks as you scroll. Mobile hamburger menu on small screens.
 - **Dark / light theme** — follows system preference on first visit; choice persists in `localStorage`. Toggle in the header.
 - **Hidden links** — mark individual links or whole categories as hidden; reveal everything with `disableHiding` in site config.
 - **Parameterized link groups** — reusable URL templates in YAML expand into full rows of links (BoardGameGeek filters, NBA stats, Amazon genres, etc.).
-- **Accessible** — focus-visible styles, `aria-live` search status, `prefers-reduced-motion` respected for scroll behavior.
+- **Accessible** — skip link, focus-visible styles, keyboard search navigation, `aria-live` match status, `prefers-reduced-motion` respected for scroll behavior.
 
 ## Project layout
 
@@ -137,7 +139,10 @@ Validate all groups resolve without leftover placeholders:
 ```bash
 npm test
 # or: npm run validate-link-groups
+#     npm run validate-content-links
 ```
+
+`npm test` runs both link-group and content markdown URL validation.
 
 Requires Python 3 (`scripts/run-python.js` finds `python` / `python3` / `py` on Windows).
 
@@ -146,9 +151,11 @@ Requires Python 3 (`scripts/run-python.js` finds `python` / `python3` / `py` on 
 | Key | Action |
 |-----|--------|
 | `/` | Focus the search field (when not already in an input) |
+| `↓` / `↑` | Browse visible links after filtering (from search or between links) |
+| `Enter` | Open the first match (from search) or the focused link |
 | `Esc` | Clear search and blur |
 
-Filtering is hierarchical: a section title match shows the whole section; a group heading match shows that group; otherwise only matching rows stay visible. Unmatched sections are hidden. A status message announces zero results (`aria-live="polite"`).
+Filtering is hierarchical: a section title match shows the whole section; a group heading match shows that group; otherwise only matching rows stay visible. Unmatched sections are hidden. A status message announces match counts and zero results (`aria-live="polite"`).
 
 Append `?debugSearch=1` to the URL to run client-side search assertions in the browser console.
 

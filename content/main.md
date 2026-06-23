@@ -39,8 +39,8 @@ blocks:
       - "Basic | https://mbasic.facebook.com"
       - "Basic Messenger | https://mbasic.facebook.com/messages/?ref_component=mbasic_home_header&amp;ref_page=%2Fwap%2Fhome.php&amp;refid=8"
   - row:
-      - "Twitter | https://twitter.com/home"
-      - "Trends | https://twitter.com/i/trends"
+      - "X | https://x.com/home"
+      - "Trends | https://x.com/i/trends"
       - "Reddit | https://www.reddit.com/"
       - "r/Philippines | https://www.reddit.com/r/Philippines/"
   - row:
@@ -99,15 +99,13 @@ blocks:
       - "SmartTubeNext | https://github.com/yuliskov/SmartTubeNext"
   - row:
       - "The House of Portable | https://thehouseofportable.com/?home=1 | hidden"
-  - title: "News"
+  - title: "News and Media"
     row:
       - "Google News | https://news.google.com/?hl=en-PH&gl=PH&ceid=PH:en"
       - "AllSides | https://www.allsides.com/unbiased-balanced-news"
-  - title: "Media"
-    row:
+  - row:
       - "Spotify | https://open.spotify.com/"
-  - title: "TV"
-    row:
+  - row:
       - "Sky Cable | https://www.mysky.com.ph/metromanila"
       - "Promos | https://www.mysky.com.ph/metromanila/promos"
       - "Service Advisories | https://www.mysky.com.ph/help-service-advisories"

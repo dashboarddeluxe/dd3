@@ -14,7 +14,7 @@ Dashboard Deluxe 3 is a personal link launcher: one scrollable page of categoriz
 
 ## Brand Personality
 
-**Utility, direct, familiar.** The interface should feel like a well-organized desk drawer — not a marketing site, not a social feed. Dark ground and amber accent signal a private tool used often, not shown off. Inter is a deliberate choice: readable, neutral, self-hosted.
+**Utility, direct, familiar.** The interface should feel like a well-organized desk drawer — not a marketing site, not a social feed. Dark ground and a cool blue accent signal a private tool used often, not shown off. Light mode uses the same palette inverted; theme follows system preference on first visit and persists after toggle. Inter is a deliberate choice: readable, neutral, self-hosted.
 
 ## Anti-references
 
@@ -26,11 +26,13 @@ Dashboard Deluxe 3 is a personal link launcher: one scrollable page of categoriz
 ## Design Principles
 
 1. **Speed over ceremony** — No page-load choreography; content is visible immediately.
-2. **Keyboard-first** — `/` to filter, `Esc` to clear; mouse is optional.
+2. **Keyboard-first** — `/` to filter, `Esc` to clear, `↓`/`↑` to browse matches, `Enter` to open; header links jump sections; mouse is optional.
 3. **Dense but scannable** — Many links per screen; hierarchy via section titles and group labels, not decoration.
 4. **Data drives UI** — New categories and link groups come from markdown/YAML, not new components.
-5. **Honest feedback** — Search, nav state, and empty results always tell the user what happened.
+5. **Honest feedback** — Search highlights matches, nav shows the active section while scrolling, and empty results always tell the user what happened.
 
 ## Accessibility & Inclusion
 
-Target WCAG 2.1 AA for text contrast and focus visibility. Full keyboard navigation for search and category jumps. Respect `prefers-reduced-motion` for scroll behavior. Screen-reader announcements for search filter results and zero-match states.
+Target WCAG 2.1 AA for text contrast and focus-visible rings on interactive elements.
+
+**Shipped:** skip-to-content link; keyboard search (`/` to focus, `Esc` to clear, `↓`/`↑` to browse matches, `Enter` to open); category jumps from the header; active-section tracking in nav; `aria-live` match-count and empty-result announcements; `prefers-reduced-motion` respected for programmatic section scroll and smooth anchor scroll.
