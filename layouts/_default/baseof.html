@@ -4,7 +4,7 @@
   <body class="flex min-h-dvh flex-col">
     <a href="#main-content" class="skip-link">Skip to links</a>
     {{ partial "header.html" . }}
-    <main id="main-content" class="mx-auto w-full max-w-content flex-1 px-4 pb-8 pt-20" tabindex="-1">
+    <main id="main-content" class="mx-auto w-full max-w-content flex-1 px-4 pb-8 pt-28 md:pt-20" tabindex="-1">
       <p id="search-status" class="search-status" role="status" aria-live="polite" hidden></p>
       {{ block "main" . }}{{ end }}
     </main>

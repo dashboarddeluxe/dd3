@@ -63,7 +63,13 @@
 
 @layer base {
   html {
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 7rem;
+  }
+
+  @media (min-width: 48rem) {
+    html {
+      scroll-padding-top: 5rem;
+    }
   }
 
   @media (prefers-reduced-motion: no-preference) {
@@ -74,6 +80,7 @@
 
   body {
     @apply bg-ground font-sans text-base text-text antialiased;
+    overflow-x: clip;
     font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 
@@ -105,16 +112,16 @@
   }
 
   .section-title {
-    @apply border-b border-border bg-raised px-3 py-2.5 text-2xl font-extrabold tracking-tight text-heading;
+    @apply border-b border-border bg-raised px-3 py-2.5 text-xl font-extrabold tracking-tight text-heading sm:px-4 sm:text-2xl;
     text-wrap: balance;
   }
 
   .section-body {
-    @apply grid grid-cols-1 px-3 py-2 lg:grid-cols-2;
+    @apply grid grid-cols-1 px-3 py-2 sm:px-4 lg:grid-cols-2;
   }
 
   .group-title {
-    @apply col-span-full mt-1 mb-2 border-b-2 border-accent/30 pb-1.5 text-lg font-extrabold tracking-tight text-heading lg:text-base xl:text-xl;
+    @apply col-span-full mt-1 mb-2 border-b-2 border-accent/30 pb-1.5 text-base font-extrabold tracking-tight text-heading lg:text-sm xl:text-lg;
   }
 
   .link-row {
@@ -122,11 +129,11 @@
   }
 
   .link-row a {
-    @apply inline-flex min-h-6 min-w-6 items-center justify-center rounded-sm text-lg text-text underline-offset-4
+    @apply inline rounded-sm text-base text-text underline-offset-4 break-words
       transition-colors duration-150 ease-fluid
       hover:text-accent-hover hover:underline
       focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/50
-      lg:text-sm xl:text-xl;
+      lg:text-sm xl:text-lg;
   }
 
   .link-row a:first-child {
@@ -138,7 +145,7 @@
   }
 
   .link-label {
-    @apply inline-flex min-h-6 items-center text-lg font-bold text-heading lg:text-sm xl:text-xl;
+    @apply inline text-base font-bold text-heading break-words lg:text-sm xl:text-lg;
   }
 
   .link-sep {
@@ -187,12 +194,12 @@
 
 @media (pointer: coarse) {
   .link-row {
-    @apply min-h-11 py-3;
+    @apply py-3;
   }
 
   .link-row a,
   .link-label {
-    @apply min-h-11;
+    @apply py-1.5;
   }
 }
 
