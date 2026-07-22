@@ -219,6 +219,22 @@ function groupBlocks(section) {
   return groups;
 }
 
+function rowHasContent(row) {
+  return rowItems(row).length > 0;
+}
+
+function hideEmptyGroups() {
+  if (document.body.hasAttribute("data-show-all")) return;
+  sections.forEach((section) => {
+    groupBlocks(section).forEach(({ title, rows }) => {
+      if (!title) return;
+      const hasContent = rows.some(rowHasContent);
+      title.classList.toggle("hidden", !hasContent);
+      rows.forEach((row) => row.classList.toggle("hidden", !rowHasContent(row)));
+    });
+  });
+}
+
 function updateSearchStatus(query) {
   if (!status) return;
   const q = query.trim();
@@ -254,6 +270,7 @@ function filterSection(section, q) {
       rows.forEach((row) => showRow(row, ""));
     });
     section.classList.remove("hidden");
+    hideEmptyGroups();
     return;
   }
 
@@ -384,6 +401,8 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
+
+hideEmptyGroups();
 
 // ponytail: self-check at ?debugSearch=1
 if (new URLSearchParams(location.search).has("debugSearch")) {

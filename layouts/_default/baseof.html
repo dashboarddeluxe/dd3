@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Site.Language.Locale }}">
   {{ partial "head.html" . }}
-  <body class="flex min-h-dvh flex-col">
+  <body class="flex min-h-dvh flex-col"{{ if .Site.Params.disableHiding }} data-show-all{{ end }}>
     <a href="#main-content" class="skip-link">Skip to links</a>
     <div
       id="scroll-progress"

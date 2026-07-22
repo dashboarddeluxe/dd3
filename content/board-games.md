@@ -70,7 +70,7 @@ blocks:
       - "Board Game Essentials | https://shopee.ph/boardgameessentials?page=0&sortBy=ctime | hidden"
   - title: "Board Game Stores"
     row:
-      - "Simple Game | https://shopee.ph/kinkong.ph?page=0&sortBy=ctime&tab=0"
+      - "Simple Game | https://shopee.ph/kinkong.ph?page=0&sortBy=ctime&tab=0 | hidden"
   - row:
-      - "Houmi Game | https://shopee.ph/houmi.ph?page=0&sortBy=ctime&tab=0"
+      - "Houmi Game | https://shopee.ph/houmi.ph?page=0&sortBy=ctime&tab=0 | hidden"
 ---
