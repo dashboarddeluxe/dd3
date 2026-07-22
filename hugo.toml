@@ -1,6 +1,6 @@
-baseURL = "https://dd-3.netlify.app/"
+baseURL = "https://dd2.netlify.app/"
 locale = "en-us"
-title = "Dashboard Deluxe 3"
+title = "Dashboard Deluxe 2"
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy", "term"]
 
