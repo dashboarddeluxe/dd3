@@ -1,4 +1,4 @@
-# Dashboard Deluxe 2
+# Dashboard Deluxe 3
 
 A personal link launcher: one scrollable page of categorized shortcuts to websites and resources. Built with [Hugo](https://gohugo.io/) and Tailwind CSS v4. All links live in markdown and YAML — no layout code changes needed to add or edit shortcuts.
 
