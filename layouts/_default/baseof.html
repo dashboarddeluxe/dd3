@@ -3,16 +3,31 @@
   {{ partial "head.html" . }}
   <body class="flex min-h-dvh flex-col">
     <a href="#main-content" class="skip-link">Skip to links</a>
+    <div
+      id="scroll-progress"
+      class="scroll-progress"
+      role="progressbar"
+      aria-label="Page scroll"
+      aria-valuemin="0"
+      aria-valuemax="100"
+      aria-valuenow="0"
+    ></div>
     {{ partial "header.html" . }}
     <main id="main-content" class="mx-auto w-full max-w-content flex-1 px-4 pb-8 pt-28 md:pt-20" tabindex="-1">
       <p id="search-status" class="search-status" role="status" aria-live="polite" hidden></p>
       {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
-    {{ $js := slice (resources.Get "js/theme.js") (resources.Get "js/nav.js") (resources.Get "js/search.js") (resources.Get "js/recent.js") | resources.Concat "js/site.js" | minify | fingerprint }}
-    <script
-      src="{{ $js.RelPermalink }}"
-      {{ if not hugo.IsDevelopment }}integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"{{ end }}
-    ></script>
+    <button type="button" id="back-to-top" class="back-to-top touch-target" aria-label="Back to top">
+      <svg class="back-to-top__ring" viewBox="0 0 40 40" aria-hidden="true">
+        <circle class="back-to-top__track" cx="20" cy="20" r="17" pathLength="1" fill="none" />
+        <circle class="back-to-top__fill" cx="20" cy="20" r="17" pathLength="1" fill="none" />
+      </svg>
+      <svg class="back-to-top__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 19V5M5 12l7-7 7 7" />
+      </svg>
+    </button>
+    {{ $js := slice (resources.Get "js/theme.js") (resources.Get "js/nav.js") (resources.Get "js/search.js") (resources.Get "js/recent.js") (resources.Get "js/scroll.js") | resources.Concat "js/site.js" | minify }}
+    <script>{{ $js.Content | safeJS }}</script>
   </body>
 </html>

@@ -17,10 +17,8 @@ Searching the codebase for fuzzy highlight logic and how spacing is handled.
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -50,39 +48,25 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/assets/js/search.js</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/assets/js/search.js</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The root cause is clear. Fuzzy subsequence highlighting wraps each matching character in a `<mark class="search-hit">` tag. This breaks word spacing.</details></think>
+The root cause is clear. Fuzzy subsequence highlighting wraps each matching character in a `<mark class="search-hit">` tag. This breaks word spacing.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -112,25 +96,12 @@ Additional data:
 ```
 Status: **completed**
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
-
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/assets/css/main.css</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/assets/css/main.css</summary>
 
 </details></tool-use>
 
@@ -141,14 +112,13 @@ Wrapping each matching character in its own `<mark>` tag causes spaces between w
 
 Reconsidering whether spaces actually collapse. Plain text between `<mark>` tags should preserve them. The real cause may be how browsers handle whitespace inside individual `<mark>` elements.
 
-Each character gets its own highlight box. Word spacing should still be preserved. The real issue may be that adjacent inline `<mark>` tags lose their space when they sit side by side.</details></think>
+Each character gets its own highlight box. Word spacing should still be preserved. The real issue may be that adjacent inline `<mark>` tags lose their space when they sit side by side.
+</details></think>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-
 
 Parameters:
 
@@ -159,26 +129,366 @@ Parameters:
   "pattern": "link-label|link-sep|data-link-row"
 }
 ```
-Status: **loading**
+Additional data:
 
-
-</details>
-</tool-use>
-
-<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
-<summary>Tool use: **ripgrep_raw_search**</summary>
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "link-label|link-sep|data-link-row",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/partials/link-item.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/partials/block.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/index.html"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 4
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/content/main.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/content/main.md</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "pattern": "word spacing|highlightSubsequence|highlight fuzzy"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "word spacing|highlightSubsequence|highlight fuzzy",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-23_02-05-54Z-highlight-fuzzy-word-spacing.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./assets/js/search.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-23_01-41-13Z-website-improvement-suggestions.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/layouts/partials/link-item.html</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/.specstory/history/2026-06-23_02-05-54Z-highlight-fuzzy-word-spacing.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Grouping consecutive highlighted characters into a single `<mark>` tag preserves word spacing. This is the standard fix.
+
+Checking whether `white-space` CSS on link rows is collapsing spaces between consecutive `<mark>` tags.
+
+Walking through the "bmsg" fuzzy match on "Basic Messenger" to trace how the algorithm skips characters and wraps matches in `<mark>` tags.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.css",
+  "pattern": "link-row|link-label"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "link-row|link-label",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "assets/css/main.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/assets/css/main.css</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The word spacing disappears because `<mark>` elements inside an `inline-flex` container become flex items. Flexbox centers each mark individually rather than preserving the original word spacing.
+
+Contiguous substring matching creates separate flex items for plain text and marked text. Each becomes its own centered flex child, so the words lose their natural flow and spacing.
+
+Fuzzy subsequence matching makes every matched character a separate `<mark>` flex item. Non-matched text sequences may also become separate flex items. This destroys word flow and spacing.
+
+Possible fixes include changing CSS so `.search-hit` does not act as a flex item inside flex containers, or grouping consecutive matched characters into single `<mark>` elements.
+
+The most robust fix is to wrap the highlighted text in an inner `<span>` that uses normal inline display, keeping the outer link as a flex container. Changing the link itself from `inline-flex` to `inline` would also work, though it might break touch target centering. Another option is to add an inner span in the template and only apply the highlight inside that span.
+
+The simplest fix is to wrap the highlighted text in a normal inline `<span class="search-text">` before injecting it into the anchor. The link keeps its `inline-flex` layout, but the inner span flows as normal text. Currently `setHighlight` writes directly into the anchor, so the marks become flex children and destroy word spacing.
+
+Contiguous highlighting tolerates a few flex items, but fuzzy matching generates too many marks to survive cleanly. Grouping consecutive matches into single `<mark>` tags would help, yet plain text between them would still split into separate flex items. Pure CSS fixes are impractical because the `<mark>` elements are direct children of the flex container. The chosen path is to wrap the highlighted HTML in an inner `<span>` inside `setHighlight`.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.css",
+  "pattern": "section-title|group-title"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "section-title|group-title",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/css/main.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The word spacing issue likely affects link rows rather than section or group titles.
+
+Wrapping all highlight HTML in a single span may preserve word spacing without grouping matched characters into separate mark tags.
+
+Both fixes will be applied together. Consecutive matched characters will be grouped into single mark tags. Highlight HTML will be wrapped in a span to preserve word spacing. A helper function may handle the span injection.
+</details></think>
+
+_**Agent (default)**_
+
+Identifying the issue: links use `inline-flex`, so per-character `<mark>` tags become separate flex items and break word spacing. Fixing by grouping consecutive highlights and wrapping highlighted HTML in an inline span.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/dd3/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/dd3/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Both highlight paths now use setInnerHighlight. Adding explicit CSS for search-text to ensure it renders as inline text inside flex anchors.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Running a quick Node script or Hugo build to test the highlight output.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/dd3 &amp;&amp; node -e &#34;
+function escapeHtml(s) {
+  return s.replaceAll(&#39;&amp;&#39;, &#39;&amp;amp;&#39;).replaceAll(&#39;&lt;&#39;, &#39;&amp;lt;&#39;).replaceAll(&#39;&gt;&#39;, &#39;&amp;gt;&#39;);
+}
+function highlightSubsequence(text, query) {
+  const lower = text.toLowerCase();
+  let html = &#39;&#39;;
+  let qi = 0;
+  let run = &#39;&#39;;
+  function flushRun() {
+    if (!run) return;
+    html += &#39;&lt;mark class=\&#34;search-hit\&#34;&gt;&#39; + escapeHtml(run) + &#39;&lt;/mark&gt;&#39;;
+    run = &#39;&#39;;
+  }
+  for (let i = 0; i &lt; text.length; i++) {
+    const ch = text[i];
+    if (qi &lt; query.length &amp;&amp; lower[i] === query[qi]) {
+      run += ch;
+      qi += 1;
+    } else {
+      flushRun();
+      html += escapeHtml(ch);
+    }
+  }
+  flushRun();
+  return html;
+}
+const tests = [
+  [&#39;Basic Messenger&#39;, &#39;bmsg&#39;],
+  [&#39;YouTube&#39;, &#39;ytb&#39;],
+  [&#39;Image Search&#39;, &#39;imgs&#39;],
+];
+for (const [text, q] of tests) {
+  const html = highlightSubsequence(text, q);
+  console.log(text, &#39;-&gt;&#39;, html);
+  console.log(&#39;  has per-char marks:&#39;, (html.match(/&lt;mark/g) || []).length, &#39;marks for&#39;, q.length, &#39;query chars&#39;);
+}
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/dd3 && node -e "
+function escapeHtml(s) {
+  return s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+}
+function highlightSubsequence(text, query) {
+  const lower = text.toLowerCase();
+  let html = '';
+  let qi = 0;
+  let run = '';
+  function flushRun() {
+    if (!run) return;
+    html += '<mark class=\"search-hit\">' + escapeHtml(run) + '</mark>';
+    run = '';
+  }
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (qi < query.length && lower[i] === query[qi]) {
+      run += ch;
+      qi += 1;
+    } else {
+      flushRun();
+      html += escapeHtml(ch);
+    }
+  }
+  flushRun();
+  return html;
+}
+const tests = [
+  ['Basic Messenger', 'bmsg'],
+  ['YouTube', 'ytb'],
+  ['Image Search', 'imgs'],
+];
+for (const [text, q] of tests) {
+  const html = highlightSubsequence(text, q);
+  console.log(text, '->', html);
+  console.log('  has per-char marks:', (html.match(/<mark/g) || []).length, 'marks for', q.length, 'query chars');
+}
+"
+
+```
+
+```
+Basic Messenger -> <mark class="search-hit">B</mark>asic <mark class="search-hit">M</mark>e<mark class="search-hit">s</mark>sen<mark class="search-hit">g</mark>er
+  has per-char marks: 4 marks for 4 query chars
+YouTube -> <mark class="search-hit">Y</mark>ou<mark class="search-hit">T</mark>u<mark class="search-hit">b</mark>e
+  has per-char marks: 3 marks for 3 query chars
+Image Search -> <mark class="search-hit">Im</mark>a<mark class="search-hit">g</mark>e <mark class="search-hit">S</mark>earch
+  has per-char marks: 3 marks for 4 query chars
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Consecutive characters group together. Spaces remain as plain text between marks.
+</details></think>
+
+_**Agent (default)**_
+
+Fuzzy search highlights were breaking word spacing because link labels use `inline-flex`, and wrapping each matched character in its own `<mark>` turned every letter into a separate flex item.
+
+Two changes in `search.js`:
+
+1. **Group consecutive matches** — `highlightSubsequence` now batches adjacent matched characters into one `<mark>` instead of one per letter.
+2. **Wrap highlights in an inline span** — `setInnerHighlight` wraps the HTML in `<span class="search-text">`, so the text flows normally inside the flex anchor while keeping touch-target sizing.
+
+For example, searching `ytb` on "YouTube" now renders as one inline text run with grouped highlights, preserving the space in multi-word labels like "Basic Messenger" or "Image Search".

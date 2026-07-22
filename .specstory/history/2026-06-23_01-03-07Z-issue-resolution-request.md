@@ -17,36 +17,22 @@ I'll inspect the open file around your cursor and related content to identify th
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/content/main.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/content/main.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/content/design.md</summary>
-
-</details>
-</tool-use>
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2**</summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/dd3/content/design.md</summary>
 
 </details></tool-use>
 
 _**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="read_lints">
-<details>
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
 <summary>Tool use: **read_lints**</summary>
-
 
 Parameters:
 
@@ -70,11 +56,215 @@ Result:
 ```
 Status: **completed**
 
+</details></tool-use>
 
-</details>
-</tool-use>
+_**Agent (default)**_
 
-<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
-<summary>Tool use: **read_lints**</summary>
+<think><details><summary>Thought Process</summary>
+A YAML structure issue appears around line 105 in main.md.
+
+The YAML lists multiple `row:` keys at the same indentation level instead of nesting them as separate list items. Other sections in design.md follow the correct pattern.
+
+The fix requires moving each `row:` entry to its own top-level list item, indented at the block level. This creates separate list items rather than nested keys under the same title block.
+</details></think>
+
+_**Agent (default)**_
+
+Checking how the dashboard schema expects blocks and whether validation fails on this file.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
+<summary>Tool use: **semantic_search_full**</summary>
+
+Parameters:
+
+```json
+{
+  "explanation": "",
+  "query": "How are dashboard blocks with title and row parsed from front matter?",
+  "topK": 10
+}
+```
+Result:
+
+```json
+{
+  "codeResults": [
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- $block := .block -}}"
+          },
+          {
+            "lineNumber": 2,
+            "text": "{{- $showAll := .showAll -}}"
+          },
+          {
+            "lineNumber": 3
+          },
+          {
+            "lineNumber": 4,
+            "text": "{{- if $block.title -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "  \u003ch3 class=\"group-title\"\u003e{{ $block.title }}\u003c/h3\u003e"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 7
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- $items := false -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "{{- if $block.from -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "  {{- $items = partial \"link-expand.html\" (dict \"from\" $block.from) -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "{{- else -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "  {{- $items = $block.row | default $block.links -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 14
+          },
+          {
+            "lineNumber": 15,
+            "text": "{{- if or $items $block.label -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "  \u003cdiv class=\"link-row\" data-link-row\u003e"
+          },
+          {
+            "lineNumber": 17,
+            "text": "    {{- $n := 0 -}}"
+          },
+          {
+            "lineNumber": 18,
+            "text": "    {{- if $block.label -}}"
+          },
+          {
+            "lineNumber": 19,
+            "text": "      {{- $p := partial \"link-parse.html\" (dict \"item\"
+… (output truncated)
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The README clarifies that a group heading (`<h3>`) appears above each row when a title precedes it.
+
+Multiple rows under one title require separate `row:` blocks, not duplicate keys. The example in main.md uses invalid duplicate `row:` keys.
+</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/dd3/content/main.md",
+  "pattern": "^\\s+row:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/dd3/content/main.md",
+  "pattern": "^\\s+row:",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "content/main.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/dd3 &amp;&amp; hugo 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/dd3 && hugo 2>&1
+```
+
+```
+Command 'hugo' not found, but can be installed with:
+apt install hugo
+
+```
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The issue is duplicate `row:` keys at the same level under the "News and Media" block item.
+</details></think>
+
+_**Agent (default)**_
+
+Duplicate `row:` keys under "News and Media" — YAML keeps only the last one, so Google News, AllSides, and Spotify are dropped. Splitting them into separate block items per the project's schema.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/dd3/content/main.md</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The problem was in the **News and Media** section: three `row:` keys were nested under one block. YAML only keeps the last duplicate key, so Google News, AllSides, and Spotify were being dropped — only the Sky Cable row survived.
+
+I split them to match the pattern used elsewhere in the file (e.g. E-Commerce, Apparel):
+
+- `- title: "News and Media"` with the first `row:` (Google News, AllSides)
+- Separate `- row:` blocks for Spotify and Sky Cable
+
+All links in that section should render correctly now.
