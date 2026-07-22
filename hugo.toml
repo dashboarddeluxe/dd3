@@ -1,4 +1,4 @@
-baseURL = "https://dd-4.netlify.app/"
+baseURL = "https://dd-3.netlify.app/"
 locale = "en-us"
 title = "Dashboard Deluxe 3"
 disableHugoGeneratorInject = true
@@ -6,7 +6,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Your centralized hub for quick access to websites and resources."
-  disableHiding = true
+  disableHiding = false
 
 [markup]
   [markup.goldmark]
