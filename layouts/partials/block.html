@@ -1,9 +1,7 @@
 {{- $block := .block -}}
 {{- $showAll := .showAll -}}
-
-{{- if $block.title -}}
-  <h3 class="group-title">{{ $block.title }}</h3>
-{{- end -}}
+{{- $blockHidden := $block.hidden | default false -}}
+{{- if not (and $blockHidden (not $showAll)) -}}
 
 {{- $items := false -}}
 {{- if $block.from -}}
@@ -12,7 +10,22 @@
   {{- $items = $block.row | default $block.links -}}
 {{- end -}}
 
-{{- if or $items $block.label -}}
+{{- $visible := slice -}}
+{{- if $items -}}
+  {{- range $items -}}
+    {{- $p := partial "link-parse.html" (dict "item" .) -}}
+    {{- if or $showAll (not $p.hidden) -}}
+      {{- $visible = $visible | append $p -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $titleOnly := and $block.title (not $items) (not $block.from) (not $block.label) -}}
+{{- if and $block.title (or $titleOnly (gt (len $visible) 0)) -}}
+  <h3 class="group-title">{{ $block.title }}</h3>
+{{- end -}}
+
+{{- if or $block.label (gt (len $visible) 0) -}}
   <div class="link-row" data-link-row>
     {{- $n := 0 -}}
     {{- if $block.label -}}
@@ -20,12 +33,11 @@
       {{- partial "link-item.html" (dict "p" $p "n" $n) -}}
       {{- $n = add $n 1 -}}
     {{- end -}}
-    {{- range $items -}}
-      {{- $p := partial "link-parse.html" (dict "item" .) -}}
-      {{- if or $showAll (not $p.hidden) -}}
-        {{- partial "link-item.html" (dict "p" $p "n" $n) -}}
-        {{- $n = add $n 1 -}}
-      {{- end -}}
+    {{- range $visible -}}
+      {{- partial "link-item.html" (dict "p" . "n" $n) -}}
+      {{- $n = add $n 1 -}}
     {{- end -}}
   </div>
+{{- end -}}
+
 {{- end -}}
