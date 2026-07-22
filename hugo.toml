@@ -6,7 +6,7 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Your centralized hub for quick access to websites and resources."
-  disableHiding = false
+  disableHiding = true
 
 [markup]
   [markup.goldmark]
